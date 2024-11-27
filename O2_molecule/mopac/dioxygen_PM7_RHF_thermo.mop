@@ -1,4 +1,4 @@
- AUX LARGE CHARGE=0 TRIPLET  PM7 OPEN(2,2)  PRECISE  GRAPHF ALLVEC RHF
+ AUX LARGE CHARGE=0 TRIPLET PM7 OPEN(2,2)  PRECISE  GRAPHF ALLVEC RHF
 dikyslík triplet
 
    O       -5.62655             1         1.32116             1         0.00000             1 
