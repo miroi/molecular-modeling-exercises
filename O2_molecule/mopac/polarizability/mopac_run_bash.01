@@ -1,0 +1,22 @@
+#!/bin/bash
+
+echo -e "\n We have MOPAC 22.1.1 on server \"`hostname`\"  \n"
+
+export PATH=/opt/mopac/bin:$PATH
+export LD_LIBRARY_PATH=/opt/mopac/bin:$LD_LIBRARY_PATH
+
+echo -e "\n PATH, LD_LIBRARY_PATH extended with /opt/mopac/bin "
+
+
+echo -e "\n MOPAC postion and lib dependencies :"; which mopac; ldd `which mopac`
+echo
+
+#mop_inp=dioxygen_PM7_RHF_thermo.mop
+#mop_inp=dioxygen_PM7_UHF_thermo.mop
+mop_inp=dioxygen_PM7_UHF_staticpolariz.mop
+
+echo -e "\n Running mopac with the input file = $mop_inp \n"  
+
+mopac $mop_inp
+
+exit 0

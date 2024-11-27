@@ -1,0 +1,8 @@
+ LARGE CHARGE=0 TRIPLET PM7 OPEN(2,2)  PRECISE UHF SPIN
+dioxygen UHF triplet
+
+   O       -5.62655             1         1.32116             1         0.00000             1 
+   O       -4.34840             1         1.22194             1         0.00000             1 
+
+OLDGEO PRECISE PM7 TRIPLET OPEN(2,2) UHF SPIN STATIC
+dioxygen UHF triplet
