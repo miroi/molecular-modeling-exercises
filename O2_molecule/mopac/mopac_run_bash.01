@@ -9,9 +9,9 @@ echo -e "\n running MOPAC 22.1.1 on server \"`hostname`\"  \n"
 echo "MOPAC postion and lib dependencies :"; which mopac; ldd `which mopac`
 echo
 
-mop_in=dioxygen_PM7_RHF_thermo.mop
+mop_inp=dioxygen_PM7_RHF_thermo.mop
 
-echo -e "\n Running mopac with input file = $mop_inp \n"  
+echo -e "\n Running mopac with the input file = $mop_inp \n"  
 
 mopac $mop_inp
 
