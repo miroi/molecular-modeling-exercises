@@ -7,7 +7,8 @@ basis
   O library cc-pvdz
 end
 dft
-  b3lyp
+  xc b3lyp
+  odft
   mult 3
 end
 task dft energy

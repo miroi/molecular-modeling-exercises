@@ -1,0 +1,14 @@
+title "O2 cc-pvdz dft"
+geometry  
+  O 0 0 0
+  O 0 0 1.2075
+end
+basis
+  O library cc-pvdz
+end
+dft
+  xc b3lyp
+  mult 3
+  rodft
+end
+task dft energy

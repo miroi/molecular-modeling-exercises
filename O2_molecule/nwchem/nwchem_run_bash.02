@@ -25,7 +25,7 @@ echo -e "\n Checking : which mpirun ? \c"; which mpirun
 
 # ... project name 
 #proj=O2.b3lyp_rhf_ccpvdz
-proj=O2.b3lyp_odft_ccpvdz
+proj=O2.b3lyp_rodft_ccpvdz
 ncpus=2
 echo -e "\n Launching NWChem project $proj on $ncpus CPU(s):"
 mpirun -np $ncpus $NWCHEM_EXECUTABLE  $THISDIR/$proj.nw >  $THISDIR/$proj.out
