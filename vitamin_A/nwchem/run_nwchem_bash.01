@@ -28,7 +28,7 @@ echo -e "\n Checking : which mpirun ? \c"; which mpirun
 proj=vitA.singlepoint_b3lyp_ccpvdz
 ncpus=4
 echo -e "\n Launching NWChem project $proj on  $ncpus CPU:"
-mpirun -np $ncpus $NWCHEM_EXECUTABLE  $THISDIR/$proj.nw >  $THISDIR/$proj.out
+mpirun -np $ncpus $NWCHEM_EXECUTABLE  $THISDIR/$proj.nw >  $THISDIR/$proj.n$ncpus-out
 
 echo -e "\n\n Working files in scratch dir $TMPDIR:"
 ls -lt $TMPDIR
