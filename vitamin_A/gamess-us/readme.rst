@@ -16,4 +16,5 @@ Fix
   
  containing: 
   C:\Users\miroi\Desktop\git-projects\molecular-modeling-exercises\vitamin_A\gamess-us>C:\Users\Public\gamess-64\rungms.bat  vitA_energy_b3lyp_ccpvdz.inp   2023.R1.intel 4   1>vitA_energy_b3lyp_ccpvdz.n4_out
- 
+
+ TOTAL WALL CLOCK TIME=        249.8 SECONDS
