@@ -64,7 +64,7 @@ basis cartesian
 end
 
 scf 
-  mult 1
+  singlet
 end
 
 task scf energy
