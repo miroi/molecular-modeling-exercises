@@ -59,7 +59,7 @@ geometry units angstroms print xyz autosym
    H        7.90990        0.41120        2.05730
 end
 
-basis 
+basis cartesian
   *  library cc-pVDZ file ./cc-pvdz.1.nw
 end
 
