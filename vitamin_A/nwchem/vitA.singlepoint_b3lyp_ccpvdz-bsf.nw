@@ -60,7 +60,7 @@ geometry units angstroms print xyz autosym
 end
 
 basis cartesian
-  * library cc-pVDZ file ../cc-pvdz.1.nw
+  * library cc-pVDZ file ./cc-pvdz.1.nw
 end
 
 dft

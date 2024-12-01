@@ -20,13 +20,17 @@ cd $TMPDIR
 echo -e "\nI am in newly created TMPDIR=$TMPDIR"
 echo -e "For control,  pwd=\c";pwd
 
+#copy basis set file to TMPDIR
+cp $THISDIR/cc-pvdz.1.nw   .
+echo -e "see basis set file in $TMPDIR ..."
+ls -lt
 
 echo -e "\n Checking : which mpirun ? \c"; which mpirun
 
 # ... project name 
 #proj=prop_ch3f
 #proj=vitA.singlepoint_b3lyp_ccpvdz
-proj= vitA.singlepoint_b3lyp_ccpvdz-bsf
+proj=vitA.singlepoint_b3lyp_ccpvdz-bsf
 ncpus=4
 echo -e "\n Launching NWChem project $proj on  $ncpus CPU:"
 mpirun -np $ncpus $NWCHEM_EXECUTABLE  $THISDIR/$proj.nw >  $THISDIR/$proj.n$ncpus-out
