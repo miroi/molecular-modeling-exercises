@@ -21,3 +21,7 @@ or C,O,H elements
 and  for nwchem (cc-pvdz.1.nw) and gamess-us (cc-pvdz.1.bas)
 
 
+B3LPY,BSE downloaded ccpvdz, 4 CPUs
+walltime/s            DFT energy/au     #AOcart / #shells
+GAMESS-US: 249.8    -854.8074507651    NAO=465 NSH=216
+NWCHEM   : 296.9    -855.401355827264  NAO=465 NSH=216

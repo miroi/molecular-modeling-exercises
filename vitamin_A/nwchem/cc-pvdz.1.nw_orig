@@ -9,11 +9,8 @@
 #     Version: 1  (Data from ccRepo/Grant Hill)
 #----------------------------------------------------------------------
 
-#
-# manually modified by Miro Ilias for reading by nwchem 7.0.2
-#
 
-basis "H_cc-pVDZ" SPHERICAL PRINT
+BASIS "ao basis" SPHERICAL PRINT
 #BASIS SET: (4s,1p) -> [2s,1p]
 H    S
       1.301000E+01           1.968500E-02           0.000000E+00
@@ -22,8 +19,6 @@ H    S
       1.220000E-01           5.012400E-01           1.000000E+00
 H    P
       7.270000E-01           1.0000000
-end
-basis "C_cc-pVDZ" SPHERICAL PRINT
 #BASIS SET: (9s,4p,1d) -> [3s,2p,1d]
 C    S
       6.665000E+03           6.920000E-04          -1.460000E-04           0.000000E+00
@@ -42,8 +37,6 @@ C    P
       1.517000E-01           4.688420E-01           1.000000E+00
 C    D
       5.500000E-01           1.0000000
-end
-basis "O_cc-pVDZ" SPHERICAL PRINT
 #BASIS SET: (9s,4p,1d) -> [3s,2p,1d]
 O    S
       1.172000E+04           7.100000E-04          -1.600000E-04           0.000000E+00
@@ -62,4 +55,4 @@ O    P
       2.753000E-01           4.605310E-01           1.000000E+00
 O    D
       1.185000E+00           1.0000000
-end
+END
