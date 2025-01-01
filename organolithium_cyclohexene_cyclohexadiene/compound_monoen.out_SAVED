@@ -1,0 +1,316 @@
+ *******************************************************************************
+ **                                                                           **
+ **                              MOPAC v23.0.3                                **
+ **                                                                           **
+ *******************************************************************************
+ **          Digital Object Identifier (DOI): 10.5281/zenodo.6511958          **
+ **    Visit the DOI location for information on how to cite this program.    **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Wed Jan  1 16:56:55 2025  *
+ *  PM7        - The PM7 Hamiltonian to be used
+ *  SINGLET    - SPIN STATE DEFINED AS A SINGLET
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = 0
+ *
+ *
+ *
+ *  PRECISE    - TIGHTER CRITERIA TO BE USED
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  LARGE      - EXPANDED OUTPUT TO BE PRINTED
+ *******************************************************************************
+ PRECISE LARGE CHARGE=0 SINGLET  PM7
+ Lithium cyclohex-2-en-1-ide
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C          0.48865000  *   1.45586000  *  -0.11216000  *
+     2       C          1.57731000  *   0.40044000  *  -0.32133000  *
+     3       C         -0.91959000  *   0.96933000  *  -0.24171000  *
+     4       C          1.18790000  *  -1.05970000  *  -0.05657000  *
+     5       C         -1.23326000  *  -0.42410000  *  -0.23839000  *
+     6       C         -0.28155000  *  -1.35588000  *  -0.11793000  *
+     7      Li         -0.76173000  *  -0.09001000  *   2.07681000  *
+     8       H          0.59910000  *   1.90191000  *   0.88497000  *
+     9       H          0.64816000  *   2.26985000  *  -0.82855000  *
+    10       H          1.93623000  *   0.47736000  *  -1.35443000  *
+    11       H          2.44476000  *   0.65332000  *   0.30286000  *
+    12       H         -1.69152000  *   1.67592000  *  -0.53397000  *
+    13       H          1.69888000  *  -1.69027000  *  -0.79605000  *
+    14       H          1.55907000  *  -1.37052000  *   0.92619000  *
+    15       H         -2.27370000  *  -0.71703000  *  -0.39163000  *
+    16       H         -0.56066000  *  -2.41516000  *  -0.17030000  *
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1         C          0.4887      1.4559     -0.1122
+     2         C          1.5773      0.4004     -0.3213
+     3         C         -0.9196      0.9693     -0.2417
+     4         C          1.1879     -1.0597     -0.0566
+     5         C         -1.2333     -0.4241     -0.2384
+     6         C         -0.2816     -1.3559     -0.1179
+     7        Li         -0.7617     -0.0900      2.0768
+     8         H          0.5991      1.9019      0.8850
+     9         H          0.6482      2.2698     -0.8286
+    10         H          1.9362      0.4774     -1.3544
+    11         H          2.4448      0.6533      0.3029
+    12         H         -1.6915      1.6759     -0.5340
+    13         H          1.6989     -1.6903     -0.7961
+    14         H          1.5591     -1.3705      0.9262
+    15         H         -2.2737     -0.7170     -0.3916
+    16         H         -0.5607     -2.4152     -0.1703
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: C6 H9 Li  =    16 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C1  
+
+
+ SINGLET STATE CALCULATION
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 17
+
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.023 TIME LEFT:  2.00D  GRAD.:   126.430 HEAT:  25.94801
+ CYCLE:     2 TIME:   0.027 TIME LEFT:  2.00D  GRAD.:   149.753 HEAT:  24.89092
+ CYCLE:     3 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:    53.290 HEAT:  19.63022
+ CYCLE:     4 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:    79.439 HEAT:  19.01767
+ CYCLE:     5 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:    25.465 HEAT:  17.22726
+ CYCLE:     6 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:    36.687 HEAT:  16.69026
+ CYCLE:     7 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:    33.456 HEAT:  15.87651
+ CYCLE:     8 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    40.824 HEAT:  15.68359
+ CYCLE:     9 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:    29.322 HEAT:  15.17156
+ CYCLE:    10 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:    27.563 HEAT:  14.99087
+ CYCLE:    11 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:    19.922 HEAT:  14.71678
+ CYCLE:    12 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:    25.264 HEAT:  14.64970
+ CYCLE:    13 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:    17.543 HEAT:  14.42543
+ CYCLE:    14 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:    19.060 HEAT:  14.34798
+ CYCLE:    15 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     8.669 HEAT:  14.15636
+ CYCLE:    16 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:    10.077 HEAT:  14.06815
+ CYCLE:    17 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     8.167 HEAT:  13.98398
+ CYCLE:    18 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     7.864 HEAT:  13.92130
+ CYCLE:    19 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     5.534 HEAT:  13.86602
+ CYCLE:    20 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     5.794 HEAT:  13.77121
+ CYCLE:    21 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     5.680 HEAT:  13.72898
+ CYCLE:    22 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     3.469 HEAT:  13.69638
+ CYCLE:    23 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     3.567 HEAT:  13.67050
+ CYCLE:    24 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     3.663 HEAT:  13.65199
+ CYCLE:    25 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     2.839 HEAT:  13.63427
+ CYCLE:    26 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     2.915 HEAT:  13.61374
+ CYCLE:    27 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     3.556 HEAT:  13.59431
+ CYCLE:    28 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     4.203 HEAT:  13.56172
+ CYCLE:    29 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     4.443 HEAT:  13.52407
+ CYCLE:    30 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     4.617 HEAT:  13.48052
+ CYCLE:    31 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     5.071 HEAT:  13.42788
+ CYCLE:    32 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     5.327 HEAT:  13.36940
+ CYCLE:    33 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     4.425 HEAT:  13.29725
+ CYCLE:    34 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     2.745 HEAT:  13.27181
+ CYCLE:    35 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     2.915 HEAT:  13.26041
+ CYCLE:    36 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     1.859 HEAT:  13.25306
+ CYCLE:    37 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     1.235 HEAT:  13.24890
+ CYCLE:    38 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     0.667 HEAT:  13.24455
+ CYCLE:    39 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     0.620 HEAT:  13.24256
+ CYCLE:    40 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     0.480 HEAT:  13.24189
+ CYCLE:    41 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     0.405 HEAT:  13.24125
+ CYCLE:    42 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     0.351 HEAT:  13.24087
+ CYCLE:    43 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     0.320 HEAT:  13.24059
+ CYCLE:    44 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     0.361 HEAT:  13.24031
+ CYCLE:    45 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     0.466 HEAT:  13.23990
+ CYCLE:    46 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     0.565 HEAT:  13.23935
+ CYCLE:    47 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     0.564 HEAT:  13.23851
+ CYCLE:    48 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     0.572 HEAT:  13.23763
+ CYCLE:    49 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     0.688 HEAT:  13.23647
+ CYCLE:    50 TIME:   0.023 TIME LEFT:  2.00D  GRAD.:     0.690 HEAT:  13.23547
+ CYCLE:    51 TIME:   0.039 TIME LEFT:  2.00D  GRAD.:     0.553 HEAT:  13.23423
+ CYCLE:    52 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:     0.410 HEAT:  13.23374
+ CYCLE:    53 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.691 HEAT:  13.23293
+ CYCLE:    54 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.443 HEAT:  13.23256
+ CYCLE:    55 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     0.293 HEAT:  13.23206
+ CYCLE:    56 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.290 HEAT:  13.23179
+ CYCLE:    57 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     0.203 HEAT:  13.23148
+ CYCLE:    58 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     0.150 HEAT:  13.23141
+ CYCLE:    59 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     0.087 HEAT:  13.23137
+ CYCLE:    60 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     0.045 HEAT:  13.23134
+
+     GRADIENT =  0.04471 IS LESS THAN CUTOFF =  0.05000
+
+
+
+ -------------------------------------------------------------------------------
+ PRECISE LARGE CHARGE=0 SINGLET  PM7
+ Lithium cyclohex-2-en-1-ide
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC v23.0.3 Windows
+                                                       Wed Jan  1 16:56:56 2025
+
+
+
+
+          FINAL HEAT OF FORMATION =         13.23134 KCAL/MOL =      55.35992 KJ/MOL
+
+
+          COSMO AREA              =        141.68 SQUARE ANGSTROMS
+          COSMO VOLUME            =        141.04 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          0.04471          =       0.01118 PER ATOM
+          IONIZATION POTENTIAL    =          6.446614 EV
+          HOMO LUMO ENERGIES (EV) =         -6.447  2.271
+          NO. OF FILLED LEVELS    =         17
+          MOLECULAR WEIGHT        =         88.0771         POINT GROUP:  C1  
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H    15    H    11     4.93559
+            H    16    H     9     4.31737
+            H    10   Li     7     3.56283
+
+
+          SCF CALCULATIONS        =         65
+ 
+          WALL-CLOCK TIME         =      0.676 SECONDS
+          COMPUTATION TIME        =      2.625 SECONDS
+
+
+
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C          0.47304724  *   1.45012953  *   0.00009805  *
+     2       C          1.50013676  *   0.37296367  *  -0.40852568  *
+     3       C         -0.93467888  *   0.96622493  *  -0.16323739  *
+     4       C          1.16990548  *  -1.04505538  *   0.10366944  *
+     5       C         -1.19840238  *  -0.37858763  *  -0.36608624  *
+     6       C         -0.28174657  *  -1.37276283  *  -0.06359734  *
+     7      Li         -0.61397363  *  -0.12561819  *   1.82436861  *
+     8       H          0.69633469  *   1.84855491  *   1.00927693  *
+     9       H          0.62117332  *   2.33306073  *  -0.66394584  *
+    10       H          1.51864481  *   0.33211984  *  -1.51817662  *
+    11       H          2.51386304  *   0.66906222  *  -0.09386080  *
+    12       H         -1.66722104  *   1.71954958  *  -0.39122007  *
+    13       H          1.76631378  *  -1.77207700  *  -0.49489170  *
+    14       H          1.54719236  *  -1.19224002  *   1.13471505  *
+    15       H         -2.19437758  *  -0.67185642  *  -0.72189862  *
+    16       H         -0.51449850  *  -2.41139078  *  -0.21580464  *
+
+                             CARTESIAN COORDINATES
+
+   1    C        0.473047242     1.450129525     0.000098049
+   2    C        1.500136756     0.372963674    -0.408525682
+   3    C       -0.934678877     0.966224928    -0.163237392
+   4    C        1.169905475    -1.045055376     0.103669444
+   5    C       -1.198402379    -0.378587635    -0.366086240
+   6    C       -0.281746565    -1.372762831    -0.063597335
+   7   Li       -0.613973630    -0.125618193     1.824368606
+   8    H        0.696334686     1.848554907     1.009276930
+   9    H        0.621173321     2.333060734    -0.663945843
+  10    H        1.518644807     0.332119842    -1.518176623
+  11    H        2.513863040     0.669062223    -0.093860798
+  12    H       -1.667221041     1.719549577    -0.391220072
+  13    H        1.766313779    -1.772076997    -0.494891698
+  14    H        1.547192358    -1.192240016     1.134715054
+  15    H       -2.194377579    -0.671856415    -0.721898620
+  16    H       -0.514498497    -2.411390778    -0.215804636
+
+
+           Empirical Formula: C6 H9 Li  =    16 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C1  
+
+
+                  EIGENVALUES  
+ -29.05739 -24.69950 -24.26648 -19.89956 -19.34259 -16.25576 -15.94488 -14.09372
+ -13.42068 -12.89711 -12.50191 -12.23057 -11.32333 -10.34075 -10.33926  -9.56201
+  -6.44661   2.27057   2.57352   4.70052   4.71870   4.74196   4.84917   5.04967
+   5.70638   5.99395   6.06845   6.17499   6.58699   6.78079   6.86463   7.27341
+   7.32427   7.36987   7.69129   8.12773   8.38967
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       
+    1          C          -0.210155        4.2102     1.04242     3.16774
+    2          C          -0.280232        4.2802     1.06009     3.22014
+    3          C          -0.639168        4.6392     1.04624     3.59292
+    4          C          -0.210005        4.2100     1.04241     3.16760
+    5          C           0.025749        3.9743     1.07632     2.89793
+    6          C          -0.640725        4.6407     1.04620     3.59453
+    7         Li           0.882449        0.1176     0.11670     0.00085
+    8          H           0.082210        0.9178     0.91779
+    9          H           0.129238        0.8708     0.87076
+   10          H           0.147450        0.8525     0.85255
+   11          H           0.111127        0.8889     0.88887
+   12          H           0.138370        0.8616     0.86163
+   13          H           0.129203        0.8708     0.87080
+   14          H           0.082191        0.9178     0.91781
+   15          H           0.113920        0.8861     0.88608
+   16          H           0.138375        0.8616     0.86162
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.    -0.557     0.140     7.033     7.056
+ HYBRID         0.352     0.072    -0.613     0.711
+ SUM           -0.205     0.213     6.420     6.426
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+     Atom    s        px        py        pz   
+    1  C   1.04242   1.01220   1.05678   1.09876
+    2  C   1.06009   1.05807   1.01040   1.15166
+    3  C   1.04624   1.04309   1.04026   1.50957
+    4  C   1.04241   1.04746   1.02956   1.09058
+    5  C   1.07632   1.04131   0.99258   0.86404
+    6  C   1.04620   1.00560   1.08190   1.50702
+    7 Li   0.11670   0.00008   0.00038   0.00039
+    8  H   0.91779
+    9  H   0.87076
+   10  H   0.85255
+   11  H   0.88887
+   12  H   0.86163
+   13  H   0.87080
+   14  H   0.91781
+   15  H   0.88608
+   16  H   0.86162
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.68 SECONDS
+
+ == MOPAC DONE ==
