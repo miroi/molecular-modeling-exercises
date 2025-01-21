@@ -1,6 +1,8 @@
+===========
 Molekula P4
 ===========
-biely fosfor
+
+white phosporus / biely fosfor
 
 https://www.molinstincts.com/structure/Phosphorus-tetramer-cstr-CT1002693774 
 https://pubchem.ncbi.nlm.nih.gov/compound/Tetraphosphorus
