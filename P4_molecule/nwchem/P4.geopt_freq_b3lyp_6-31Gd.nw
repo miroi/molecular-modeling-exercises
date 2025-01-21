@@ -1,0 +1,24 @@
+echo
+
+start molecule
+
+title "P4"
+charge 0
+
+geometry units angstroms print xyz autosym
+   P       -6.19695       -0.13481       -0.17820
+   P       -4.49112        1.25152       -0.04768
+   P       -4.14294       -0.92252       -0.08148
+   P       -4.84225        0.10887       -1.89697
+end
+
+basis
+  * library 6-31G*
+end
+
+dft
+  xc b3lyp
+  mult 1
+end
+
+task dft freq
