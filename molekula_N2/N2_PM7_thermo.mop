@@ -1,0 +1,9 @@
+ LARGE CHARGE=0 SINGLET PM7 PRECISE
+N2 
+
+   N       -7.21904             1         0.62894             1         0.00000             1 
+   N       -6.09911             1         0.61555             1         0.00000             1 
+
+OLDGEO CHARGE=0 SINGLET PRECISE PM7 THERMO
+N2
+

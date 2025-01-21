@@ -1,0 +1,8 @@
+ PRECISE LARGE CHARGE=0 SINGLET  PM7
+CO PM7
+
+   C       -3.03652             1         0.33021             1         0.00000             1 
+   O       -1.90850             1         0.34486             1         0.00000             1 
+
+OLDGEO CHARGE=0 SINGLET PRECISE PM7 THERMO 
+oxid uholnaty 

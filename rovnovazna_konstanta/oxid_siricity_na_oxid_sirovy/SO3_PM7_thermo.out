@@ -1,0 +1,600 @@
+ *******************************************************************************
+ **                                                                           **
+ **                              MOPAC v22.1.0                                **
+ **                                                                           **
+ *******************************************************************************
+ **          Digital Object Identifier (DOI): 10.5281/zenodo.6511958          **
+ **    Visit the DOI location for information on how to cite this program.    **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Sat Jan 27 16:40:19 2024  *
+ *  PM7        - The PM7 Hamiltonian to be used
+ *  SINGLET    - SPIN STATE DEFINED AS A SINGLET
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = 0
+ *
+ *
+ *
+ *  PRECISE    - TIGHTER CRITERIA TO BE USED
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  LARGE      - EXPANDED OUTPUT TO BE PRINTED
+ *******************************************************************************
+ PRECISE  LARGE CHARGE=0 SINGLET  PRECISE PM7
+ SO3
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       S         -3.65964000  *   1.11350000  *   0.00000000  *
+     2       O         -4.96222000  *   0.29562000  *   0.00000000  *
+     3       O         -2.30005000  *   0.39437000  *   0.00000000  *
+     4       O         -3.71665000  *   2.65051000  *   0.00000000  *
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1         S         -3.6596      1.1135      0.0000
+     2         O         -4.9622      0.2956      0.0000
+     3         O         -2.3001      0.3944      0.0000
+     4         O         -3.7167      2.6505      0.0000
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: O3 S  =     4 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   D3h 
+
+
+ SINGLET STATE CALCULATION
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 12
+
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:   210.583 HEAT: -78.25556
+ CYCLE:     2 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:    54.071 HEAT: -100.7451
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    19.632 HEAT: -101.2114
+ CYCLE:     4 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     7.140 HEAT: -101.3923
+ CYCLE:     5 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:    12.398 HEAT: -101.4231
+ CYCLE:     6 TIME:   0.004 TIME LEFT:  2.00D  GRAD.:     6.113 HEAT: -101.4396
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.369 HEAT: -101.4487
+ CYCLE:     8 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     0.093 HEAT: -101.4488
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.021 HEAT: -101.4488
+
+     GRADIENT =  0.02068 IS LESS THAN CUTOFF =  0.05000
+
+
+
+ -------------------------------------------------------------------------------
+ PRECISE  LARGE CHARGE=0 SINGLET  PRECISE PM7
+ SO3
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC v22.1.0 Windows
+                                                       Sat Jan 27 16:40:19 2024
+
+
+
+
+          FINAL HEAT OF FORMATION =       -101.44885 KCAL/MOL =    -424.46197 KJ/MOL
+
+
+          COSMO AREA              =         82.65 SQUARE ANGSTROMS
+          COSMO VOLUME            =         64.34 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          0.02068          =       0.01034 PER ATOM
+          IONIZATION POTENTIAL    =         12.209886 EV
+          HOMO LUMO ENERGIES (EV) =        -12.210 -0.749
+          NO. OF FILLED LEVELS    =         12
+          MOLECULAR WEIGHT        =         80.0582         POINT GROUP:  D3h 
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            O     4    O     3     2.46398
+            O     2    O     4     2.13377
+            S     1    O     3     0.00000
+
+
+          SCF CALCULATIONS        =         12
+ 
+          WALL-CLOCK TIME         =      0.121 SECONDS
+          COMPUTATION TIME        =      0.094 SECONDS
+
+
+
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       S         -3.65961852  *   1.11350547  *  -0.00000000  *
+     2       O         -4.86437339  *   0.35706476  *   0.00000000  *
+     3       O         -2.40215129  *   0.44835595  *   0.00000000  *
+     4       O         -3.71242572  *   2.53507154  *   0.00000000  *
+
+                             CARTESIAN COORDINATES
+
+   1    S       -3.659618523     1.113505475    -0.000000000
+   2    O       -4.864373392     0.357064760     0.000000000
+   3    O       -2.402151287     0.448355952     0.000000000
+   4    O       -3.712425723     2.535071538     0.000000000
+
+
+           Empirical Formula: O3 S  =     4 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   D3h 
+
+
+                  EIGENVALUES  
+ -31.32760 -29.29329 -29.29293 -19.35632 -15.88793 -15.65650 -15.65645 -13.42514
+ -13.42512 -12.86294 -12.86283 -12.20989  -0.74892   0.58999   3.10668   3.10703
+   3.73455   3.73460   4.67902   5.87175   5.87189
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       d-Pop       
+    1          S           2.381422        3.6186     1.13785     1.90336     0.57736
+    2          O          -0.793809        6.7938     1.89448     4.89933
+    3          O          -0.793806        6.7938     1.89449     4.89932
+    4          O          -0.793807        6.7938     1.89448     4.89932
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.     0.000     0.000    -0.000     0.000
+ HYBRID         0.000     0.000    -0.000     0.000
+ SUM            0.000     0.000    -0.000     0.000
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+     Atom    s        px        py        pz      x^2-y^2     xz        z^2       yz        xy
+    1  S   1.13785   0.65024   0.65024   0.60289   0.19809   0.08694   0.00728   0.08694   0.19810
+    2  O   1.89448   1.46708   1.69117   1.74107
+    3  O   1.89449   1.43401   1.72423   1.74108
+    4  O   1.89448   1.83628   1.32196   1.74108
+ *******************************************************************************
+ **                                                                           **
+ **                              MOPAC v22.1.0                                **
+ **                                                                           **
+ *******************************************************************************
+ **          Digital Object Identifier (DOI): 10.5281/zenodo.6511958          **
+ **    Visit the DOI location for information on how to cite this program.    **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Sat Jan 27 16:40:19 2024  *
+ *  PM7        - The PM7 Hamiltonian to be used
+ *  SINGLET    - SPIN STATE DEFINED AS A SINGLET
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = 0
+ *
+ *
+ *
+ *  OLDGEO     - PREVIOUS GEOMETRY TO BE USED
+ *  PRECISE    - TIGHTER CRITERIA TO BE USED
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  THERMO     - THERMODYNAMIC QUANTITIES TO BE CALCULATED
+ *******************************************************************************
+OLDGEO CHARGE=0 SINGLET PRECISE PM7 THERMO
+ SO3
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       S         -3.65961852  *   1.11350547  *  -0.00000000  *
+     2       O         -4.86437339  *   0.35706476  *   0.00000000  *
+     3       O         -2.40215129  *   0.44835595  *   0.00000000  *
+     4       O         -3.71242572  *   2.53507154  *   0.00000000  *
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1         S         -3.6596      1.1135     -0.0000
+     2         O         -4.8644      0.3571      0.0000
+     3         O         -2.4022      0.4484      0.0000
+     4         O         -3.7124      2.5351      0.0000
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: O3 S  =     4 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   D3h 
+
+
+ SINGLET STATE CALCULATION
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 12
+
+
+
+          HEAT OF FORMATION =    -101.448846 KCALS/MOLE
+
+
+          CARTESIAN COORDINATE DERIVATIVES
+
+   NUMBER  ATOM         X            Y            Z
+
+     1       S     -0.011639     0.001722     0.000000
+     2       O      0.001934    -0.004394    -0.000000
+     3       O      0.001543     0.014796    -0.000000
+     4       O      0.008160    -0.012125    -0.000000
+ 
+
+
+          GRADIENT NORM =   0.02442
+
+          MOLECULAR WEIGHT =   80.06
+
+
+
+          ROTATIONAL CONSTANTS IN CM(-1)
+
+          A =    0.34712764   B =    0.34709384   C =    0.17355537
+
+
+
+           PRINCIPAL MOMENTS OF INERTIA IN UNITS OF 10**(-40)*GRAM-CM**2
+
+          A =       80.6411   B =       80.6489   C =      161.2900
+
+
+          ORIENTATION OF MOLECULE IN FORCE CALCULATION
+
+    NO.       ATOM         X         Y         Z
+
+     1          S      -0.0000    0.0000    0.0000
+     2          O       1.4225    0.0000    0.0000
+     3          O      -0.7113    1.2320    0.0000
+     4          O      -0.7112   -1.2320   -0.0000
+
+
+    FIRST DERIVATIVES WILL BE USED IN THE CALCULATION OF SECOND DERIVATIVES
+
+          ESTIMATED TIME TO COMPLETE CALCULATION =        0.56 SECONDS
+
+    FOR POINT-GROUP D3h  THERE ARE  12 UNIQUE SYMMETRY FUNCTIONS.
+
+ STEP:   1 TIME =     0.05 SECS, INTEGRAL =      0.05 TIME LEFT: 172799.95
+ STEP:   2 TIME =     0.03 SECS, INTEGRAL =      0.08 TIME LEFT: 172799.92
+ STEP:   3 TIME =     0.04 SECS, INTEGRAL =      0.12 TIME LEFT: 172799.88
+ STEP:   4 TIME =     0.03 SECS, INTEGRAL =      0.15 TIME LEFT: 172799.85
+ STEP:   5 TIME =     0.05 SECS, INTEGRAL =      0.20 TIME LEFT: 172799.80
+ STEP:   6 TIME =     0.04 SECS, INTEGRAL =      0.23 TIME LEFT: 172799.77
+ STEP:   7                       INTEGRAL =      0.23 TIME LEFT: 172799.77
+ STEP:   8                       INTEGRAL =      0.23 TIME LEFT: 172799.77
+ STEP:   9                       INTEGRAL =      0.23 TIME LEFT: 172799.77
+ STEP:  10                       INTEGRAL =      0.23 TIME LEFT: 172799.77
+ STEP:  11                       INTEGRAL =      0.23 TIME LEFT: 172799.77
+ STEP:  12                       INTEGRAL =      0.23 TIME LEFT: 172799.77
+
+(To convert to Hartree/Bohr^2, multiply by (10^(-21) x N x a0^2)/(4.184 x 627.51) =  0.0642)
+
+
+           FORCE MATRIX IN MILLIDYNES/ANGSTROM
+
+
+                  S  1       O  2       O  3       O  4
+ ------------------------------------------------------
+     S    1  19.174131
+     O    2   8.065148   8.821282
+     O    3   8.026584   0.743354   8.821282
+     O    4   8.026557   0.743477   0.743354   8.821282
+
+
+          HEAT OF FORMATION =    -101.448846 KCALS/MOLE
+
+          ZERO POINT ENERGY       6.909 KCAL/MOL
+
+
+           NORMAL COORDINATE ANALYSIS (Total motion = 1 Angstrom)
+
+
+   Root No.       1         2         3         4         5         6
+
+                 1 A2"     1 E'      1 E'      1 A1'     2 E'      2 E'  
+
+                 440.7     453.9     453.9    1011.9    1236.4    1236.4
+  
+           1   -0.0000   -0.0471   -0.1440   -0.0000    0.1175    0.2713
+           2   -0.0000   -0.1444    0.0469   -0.0000    0.2547   -0.1252
+           3    0.3329   -0.0000   -0.0000   -0.0000    0.0000    0.0000
+           4    0.0000   -0.0534   -0.1633    0.3333   -0.1512   -0.3490
+           5    0.0000    0.3567   -0.1159    0.0000   -0.0127    0.0062
+           6   -0.2224    0.0000   -0.0000    0.0000   -0.0000    0.0000
+           7    0.0000    0.2992    0.1526   -0.1667    0.0942   -0.1644
+           8    0.0000    0.0398    0.2356    0.2887   -0.1860    0.2676
+           9   -0.2224    0.0000    0.0000    0.0000   -0.0000   -0.0000
+          10    0.0000   -0.1515    0.2991   -0.1667   -0.1785   -0.0303
+          11    0.0000   -0.1071   -0.2137   -0.2887   -0.3118   -0.0230
+          12   -0.2224   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000
+
+
+           MASS-WEIGHTED COORDINATE ANALYSIS (NORMAL COORDINATES)
+
+
+   Root No.       1         2         3         4         5         6
+
+                 1 A2"     1 E'      1 E'      1 A1'     2 E'      2 E'  
+
+                 440.7     453.9     453.9    1011.9    1236.4    1236.4
+  
+           1   -0.0000   -0.1278   -0.3699   -0.0000    0.2878    0.6030
+           2   -0.0000   -0.3699    0.1278   -0.0000    0.6030   -0.2878
+           3    0.7743   -0.0000   -0.0000    0.0000    0.0000    0.0000
+           4    0.0000   -0.1024   -0.2963    0.5774   -0.2615   -0.5478
+           5    0.0000    0.6454   -0.2230    0.0000   -0.0212    0.0101
+           6   -0.3653    0.0000   -0.0000    0.0000   -0.0000    0.0000
+           7    0.0000    0.5494    0.2691   -0.2887    0.1551   -0.2617
+           8    0.0000    0.0800    0.4288    0.5000   -0.3073    0.4267
+           9   -0.3654    0.0000    0.0000    0.0000   -0.0000   -0.0000
+          10    0.0000   -0.2661    0.5509   -0.2887   -0.3010   -0.0440
+          11    0.0000   -0.2018   -0.3867   -0.5000   -0.5250   -0.0294
+          12   -0.3654   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000
+
+
+          DESCRIPTION OF VIBRATIONS
+
+
+ VIBRATION          1    1A2"        ATOM PAIR     ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY           440.67         S 1 -- O 3         +33.3% ( 73.3%)      0.0%
+ TRANSITION DIPOLE   6.4623         S 1 -- O 4         +33.3% ( 73.3%)      0.0%
+ TRAVEL (Ang.)       0.1112         S 1 -- O 2         +33.3% ( 73.3%)      0.0%
+ REDUCED MASS       12.3792
+ EFFECTIVE MASS     24.9650
+ FORCE CONSTANT      1.4164
+
+ VIBRATION          3    1E'         ATOM PAIR     ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY           453.90         S 1 -- O 4         +50.9% ( 96.4%)      0.0%
+ TRANSITION DIPOLE   3.0969         S 1 -- O 3         +30.7% ( 74.9%)      0.7%
+ TRAVEL (Ang.)       0.1660         S 1 -- O 2         +18.5% ( 58.1%)      4.2%
+ REDUCED MASS        5.3890
+ EFFECTIVE MASS     19.5022
+ FORCE CONSTANT      0.6542
+
+ VIBRATION          4    1A1'        ATOM PAIR     ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1011.86         S 1 -- O 2         +33.3% ( 54.9%)    100.0%
+ TRANSITION DIPOLE   0.0000         S 1 -- O 3         +33.3% ( 54.9%)    100.0%
+ TRAVEL (Ang.)       0.1118         S 1 -- O 4         +33.3% ( 54.9%)    100.0%
+ REDUCED MASS        5.3331
+ EFFECTIVE MASS     15.9994
+ FORCE CONSTANT      3.2172
+
+ VIBRATION          6    2E'         ATOM PAIR     ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1236.40         S 1 -- O 2         +45.1% ( 80.5%)     93.7%
+ TRANSITION DIPOLE   7.2757         S 1 -- O 3         +40.0% ( 75.8%)     87.8%
+ TRAVEL (Ang.)       0.0786         S 1 -- O 4         +14.9% ( 46.2%)      2.0%
+ REDUCED MASS        8.8354
+ EFFECTIVE MASS     22.5114
+ FORCE CONSTANT      7.9578
+
+      SYMMETRY NUMBER FOR POINT-GROUP D3h =  6
+
+
+          SYSTEM IS A GROUND STATE
+
+
+
+ SO3
+
+
+          MOLECULE IS NOT LINEAR
+
+          THERE ARE  6 GENUINE VIBRATIONS IN THIS SYSTEM
+          THIS THERMODYNAMICS CALCULATION IS LIMITED TO
+          MOLECULES WHICH HAVE NO INTERNAL ROTATIONS
+
+
+
+
+                    CALCULATED THERMODYNAMIC PROPERTIES
+                                          *
+   TEMP. (K)   PARTITION FUNCTION   H.O.F.    ENTHALPY  HEAT CAPACITY ENTROPY
+                                   KCAL/MOL   CAL/MOLE    CAL/K/MOL  CAL/K/MOL
+
+
+ 298.00  VIB.     0.1457D+01                   537.0687     4.8122     2.5505
+         ROT.     0.6089D+04                   888.2803     2.9808    20.2979
+         INT.     0.8874D+04                  1425.3490     7.7930    22.8484
+         TRA.     0.6925D+27                  1480.4672     4.9680    39.0528
+         TOT.                     -101.449    2905.8162    12.7610    61.9012
+
+ 200.00  VIB.     0.1129D+01                   161.2462     2.7789     1.0481
+         ROT.     0.3348D+04                   596.1613     2.9808    19.1092
+         INT.     0.3781D+04                   757.4074     5.7597    20.1574
+         TRA.     0.3808D+27                   993.6021     4.9680    37.0717
+         TOT.                     -102.604    1751.0096    10.7277    57.2290
+
+ 210.00  VIB.     0.1153D+01                   190.1932     3.0095     1.1893
+         ROT.     0.3602D+04                   625.9693     2.9808    19.2547
+         INT.     0.4155D+04                   816.1625     5.9903    20.4440
+         TRA.     0.4097D+27                  1043.2822     4.9680    37.3140
+         TOT.                     -102.495    1859.4448    10.9583    57.7580
+
+ 220.00  VIB.     0.1180D+01                   221.4160     3.2341     1.3345
+         ROT.     0.3863D+04                   655.7774     2.9808    19.3933
+         INT.     0.4556D+04                   877.1934     6.2149    20.7279
+         TRA.     0.4393D+27                  1092.9623     4.9680    37.5452
+         TOT.                     -102.385    1970.1558    11.1829    58.2730
+
+ 230.00  VIB.     0.1208D+01                   254.8564     3.4530     1.4832
+         ROT.     0.4129D+04                   685.5855     2.9808    19.5258
+         INT.     0.4987D+04                   940.4419     6.4339    21.0090
+         TRA.     0.4696D+27                  1142.6424     4.9680    37.7660
+         TOT.                     -102.272    2083.0844    11.4019    58.7750
+
+ 240.00  VIB.     0.1238D+01                   290.4591     3.6666     1.6346
+         ROT.     0.4401D+04                   715.3935     2.9808    19.6527
+         INT.     0.5449D+04                  1005.8526     6.6474    21.2873
+         TRA.     0.5005D+27                  1192.3226     4.9680    37.9774
+         TOT.                     -102.156    2198.1752    11.6154    59.2648
+
+ 250.00  VIB.     0.1271D+01                   328.1717     3.8751     1.7886
+         ROT.     0.4679D+04                   745.2016     2.9808    19.7744
+         INT.     0.5945D+04                  1073.3733     6.8559    21.5629
+         TRA.     0.5321D+27                  1242.0027     4.9680    38.1802
+         TOT.                     -102.039    2315.3759    11.8239    59.7432
+
+ 260.00  VIB.     0.1305D+01                   367.9448     4.0788     1.9445
+         ROT.     0.4963D+04                   775.0097     2.9808    19.8913
+         INT.     0.6477D+04                  1142.9544     7.0596    21.8358
+         TRA.     0.5644D+27                  1291.6828     4.9680    38.3751
+         TOT.                     -101.920    2434.6372    12.0276    60.2109
+
+ 270.00  VIB.     0.1342D+01                   409.7314     4.2778     2.1022
+         ROT.     0.5252D+04                   804.8177     2.9808    20.0038
+         INT.     0.7048D+04                  1214.5491     7.2586    22.1060
+         TRA.     0.5972D+27                  1341.3629     4.9680    38.5626
+         TOT.                     -101.799    2555.9120    12.2266    60.6686
+
+ 280.00  VIB.     0.1381D+01                   453.4866     4.4725     2.2613
+         ROT.     0.5546D+04                   834.6258     2.9808    20.1122
+         INT.     0.7660D+04                  1288.1124     7.4533    22.3735
+         TRA.     0.6307D+27                  1391.0430     4.9680    38.7433
+         TOT.                     -101.676    2679.1554    12.4213    61.1168
+
+ 290.00  VIB.     0.1423D+01                   499.1669     4.6629     2.4216
+         ROT.     0.5846D+04                   864.4339     2.9808    20.2168
+         INT.     0.8316D+04                  1363.6007     7.6437    22.6384
+         TRA.     0.6648D+27                  1440.7231     4.9680    38.9176
+         TOT.                     -101.550    2804.3238    12.6117    61.5560
+
+ 300.00  VIB.     0.1466D+01                   546.7299     4.8491     2.5828
+         ROT.     0.6151D+04                   894.2419     2.9808    20.3178
+         INT.     0.9018D+04                  1440.9719     7.8299    22.9007
+         TRA.     0.6995D+27                  1490.4032     4.9680    39.0860
+         TOT.                     -101.423    2931.3751    12.7979    61.9867
+
+ 310.00  VIB.     0.1512D+01                   596.1343     5.0311     2.7448
+         ROT.     0.6461D+04                   924.0500     2.9808    20.4156
+         INT.     0.9770D+04                  1520.1843     8.0119    23.1604
+         TRA.     0.7348D+27                  1540.0833     4.9680    39.2489
+         TOT.                     -101.294    3060.2676    12.9799    62.4093
+
+ 320.00  VIB.     0.1561D+01                   647.3390     5.2091     2.9074
+         ROT.     0.6776D+04                   953.8580     2.9808    20.5102
+         INT.     0.1057D+05                  1601.1971     8.1899    23.4176
+         TRA.     0.7706D+27                  1589.7634     4.9680    39.4066
+         TOT.                     -101.164    3190.9605    13.1579    62.8242
+
+ 330.00  VIB.     0.1611D+01                   700.3034     5.3831     3.0703
+         ROT.     0.7096D+04                   983.6661     2.9808    20.6019
+         INT.     0.1144D+05                  1683.9695     8.3639    23.6723
+         TRA.     0.8070D+27                  1639.4435     4.9680    39.5595
+         TOT.                     -101.031    3323.4130    13.3319    63.2318
+
+ 340.00  VIB.     0.1665D+01                   754.9869     5.5530     3.2336
+         ROT.     0.7421D+04                  1013.4742     2.9808    20.6909
+         INT.     0.1236D+05                  1768.4611     8.5338    23.9245
+         TRA.     0.8440D+27                  1689.1236     4.9680    39.7078
+         TOT.                     -100.897    3457.5847    13.5018    63.6323
+
+ 350.00  VIB.     0.1721D+01                   811.3493     5.7188     3.3969
+         ROT.     0.7751D+04                  1043.2822     2.9808    20.7773
+         INT.     0.1334D+05                  1854.6315     8.6996    24.1743
+         TRA.     0.8815D+27                  1738.8037     4.9680    39.8518
+         TOT.                     -100.761    3593.4353    13.6677    64.0261
+
+ 360.00  VIB.     0.1780D+01                   869.3503     5.8807     3.5603
+         ROT.     0.8085D+04                  1073.0903     2.9808    20.8613
+         INT.     0.1439D+05                  1942.4406     8.8615    24.4216
+         TRA.     0.9195D+27                  1788.4838     4.9680    39.9918
+         TOT.                     -100.624    3730.9244    13.8295    64.4134
+
+ 370.00  VIB.     0.1841D+01                   928.9497     6.0385     3.7236
+         ROT.     0.8425D+04                  1102.8984     2.9808    20.9430
+         INT.     0.1551D+05                  2031.8480     9.0193    24.6666
+         TRA.     0.9581D+27                  1838.1639     4.9680    40.1279
+         TOT.                     -100.485    3870.0120    13.9873    64.7945
+
+ 380.00  VIB.     0.1905D+01                   990.1073     6.1924     3.8867
+         ROT.     0.8768D+04                  1132.7064     2.9808    21.0225
+         INT.     0.1671D+05                  2122.8138     9.1732    24.9091
+         TRA.     0.9972D+27                  1887.8440     4.9680    40.2604
+         TOT.                     -100.344    4010.6578    14.1412    65.1696
+
+ 390.00  VIB.     0.1973D+01                  1052.7834     6.3422     4.0495
+         ROT.     0.9117D+04                  1162.5145     2.9808    21.0999
+         INT.     0.1798D+05                  2215.2979     9.3230    25.1494
+         TRA.     0.1037D+28                  1937.5242     4.9680    40.3895
+         TOT.                     -100.202    4152.8220    14.2910    65.5388
+
+ 400.00  VIB.     0.2043D+01                  1116.9381     6.4881     4.2119
+         ROT.     0.9470D+04                  1192.3226     2.9808    21.1754
+         INT.     0.1935D+05                  2309.2607     9.4689    25.3873
+         TRA.     0.1077D+28                  1987.2043     4.9680    40.5152
+         TOT.                     -100.058    4296.4649    14.4369    65.9025
+
+   *: NOTE: HEATS OF FORMATION ARE RELATIVE TO THE
+            ELEMENTS IN THEIR STANDARD STATE AT 298K
+              (=  Standard Enthalpy of Formation).
+
+            Hvib:  Zero-point energy is not included.
+                   frequencies of less than zero cm-1 are not included.
+            Hrot = (3/2)RT
+            Htra = (3/2)RT + pV = (5/2)RT
+
+            Heat capacity is Cp, not Cv
+
+          For more information, see: HTTP://OpenMOPAC.net/Manual/thermochemistry.html
+
+
+           FORCE CONSTANT IN CARTESIAN COORDINATES (Millidynes/A)
+
+    ATOM   CHEMICAL       X               Y               Z
+   NUMBER   SYMBOL  FORCE CONSTANT  FORCE CONSTANT  FORCE CONSTANT
+
+      1       S       13.485883       13.485883        2.199199
+      2       O        8.718534        0.913046        0.245933
+      3       O        2.864499        6.767081        0.245933
+      4       O        2.864337        6.767243        0.245933
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.50 SECONDS
+
+ == MOPAC DONE ==

@@ -1,0 +1,8 @@
+ LARGE CHARGE=0 SINGLET  PM7 PRECISE ALLVEC GRAPHF 
+molekula H2
+
+   H       0.0             1         0.0             1         0.00000             1 
+   H       0.0             1         0.0             1         0.800               1 
+
+OLDGEO CHARGE=0 SINGLET PRECISE PM7 THERMO 
+molekula H2

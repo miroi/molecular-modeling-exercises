@@ -1,0 +1,189 @@
+ *******************************************************************************
+ **                                                                           **
+ **                              MOPAC v22.1.0                                **
+ **                                                                           **
+ *******************************************************************************
+ **          Digital Object Identifier (DOI): 10.5281/zenodo.6511958          **
+ **    Visit the DOI location for information on how to cite this program.    **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Sun Jan 21 14:17:57 2024  *
+ *  PM7        - The PM7 Hamiltonian to be used
+ *  DOUBLET    - SPIN STATE DEFINED AS A DOUBLET
+ *  RHF        - RESTRICTED HARTREE-FOCK CALCULATION
+ *  NOOPT      - DO NOT OPTIMIZE ANY COORDINATES
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = 0
+ *
+ *
+ *
+ *  PRECISE    - TIGHTER CRITERIA TO BE USED
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  LARGE      - EXPANDED OUTPUT TO BE PRINTED
+ *  GRAPH      - GENERATE FILE FOR GRAPHICS
+ *  ALLVEC     - PRINT ALL EIGENVECTORS
+ *******************************************************************************
+ LARGE CHARGE=0 DOUBLET NOOPT PM7 GRAPHF ALLVEC RHF PRECISE
+ Atom Cl
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1      Cl          0.00000000      0.00000000      0.00000000   
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1        Cl          0.0000      0.0000      0.0000
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: Cl  =     1 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   R3  
+
+
+ DOUBLET STATE CALCULATION
+
+      THERE ARE    3 DOUBLY FILLED LEVELS
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 3
+
+
+                       NO. OF SINGLY OCCUPIED LEVELS =    1
+
+ -------------------------------------------------------------------------------
+ LARGE CHARGE=0 DOUBLET NOOPT PM7 GRAPHF ALLVEC RHF PRECISE
+ Atom Cl
+
+
+
+     NO PARAMETERS MARKED FOR OPTIMIZATION, SO 1SCF WAS USED  
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC v22.1.0 Windows
+                                                       Sun Jan 21 14:17:57 2024
+
+
+
+
+          FINAL HEAT OF FORMATION =         28.98521 KCAL/MOL =     121.27413 KJ/MOL
+
+
+          COSMO AREA              =         52.81 SQUARE ANGSTROMS
+          COSMO VOLUME            =         36.09 CUBIC ANGSTROMS
+
+          IONIZATION POTENTIAL    =         12.309919 EV          STATE:   1 DOUBLET ????
+          HOMO (SOMO) LUMO (EV)   =      -11.724 ( -8.081) 68.234
+          NO. OF FILLED LEVELS    =          3
+          AND NO. OF OPEN LEVELS  =          1
+          MOLECULAR WEIGHT        =         35.4530         POINT GROUP:  R3  
+
+
+          SCF CALCULATIONS        =          1
+ 
+          WALL-CLOCK TIME         =      0.043 SECONDS
+          COMPUTATION TIME        =      0.016 SECONDS
+
+
+
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1      Cl          0.00000000      0.00000000      0.00000000   
+
+                             CARTESIAN COORDINATES
+
+   1   Cl        0.000000000     0.000000000     0.000000000
+
+
+           Empirical Formula: Cl  =     1 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   R3  
+
+
+                EIGENVECTORS  
+
+
+   Root No.       1         2         3         4         5         6         7         8
+
+                 1 s(g)    2 ????    3 ????    4 ????    5 ????    6 ????    7 ????    8 ????
+
+               -24.646   -11.724   -11.724    -8.081    68.234    68.370    68.370    68.778
+  
+  S  Cl    1    1.0000   -0.0000   -0.0000   -0.0000    0.0012    0.0000    0.0000    0.0000
+  Px Cl    1    0.0000    1.0000   -0.0001    0.0000    0.0000   -0.0000    0.0000   -0.0000
+  Py Cl    1    0.0000    0.0001    1.0000    0.0001    0.0000    0.0000   -0.0000   -0.0000
+  Pz Cl    1    0.0000   -0.0000   -0.0001    1.0000    0.0000   -0.0000    0.0000    0.0000
+  x2 Cl    1    0.0000   -0.0000    0.0000   -0.0000   -0.0000    0.0000   -0.0001    1.0000
+  xz Cl    1   -0.0000   -0.0000    0.0000   -0.0000    0.0000    1.0000   -0.0001   -0.0000
+  z2 Cl    1   -0.0012   -0.0000   -0.0000    0.0000    1.0000   -0.0000   -0.0001   -0.0000
+  yz Cl    1   -0.0000    0.0000   -0.0000    0.0000    0.0001    0.0001    1.0000    0.0001
+  xy Cl    1   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0001    0.0000    0.0000
+
+
+   Root No.       9
+
+                 9 ????
+
+                68.778
+  
+  S  Cl    1    0.0000
+  Px Cl    1    0.0000
+  Py Cl    1    0.0000
+  Pz Cl    1    0.0000
+  x2 Cl    1   -0.0000
+  xz Cl    1   -0.0001
+  z2 Cl    1    0.0000
+  yz Cl    1   -0.0000
+  xy Cl    1    1.0000
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       d-Pop       
+    1         Cl          -0.000000        7.0000     2.00000     5.00000     0.00000
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.     0.000     0.000     0.000     0.000
+ HYBRID         0.000     0.000     0.000     0.000
+ SUM            0.000     0.000     0.000     0.000
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+     Atom    s        px        py        pz      x^2-y^2     xz        z^2       yz        xy
+    1 Cl   2.00000   2.00000   2.00000   1.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+
+           DATA FOR GRAPH WRITTEN TO DISK
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.08 SECONDS
+
+ == MOPAC DONE ==

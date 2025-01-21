@@ -1,0 +1,14 @@
+ AUX LARGE CHARGE=0 SINGLET  PRECISE PM6
+monomer kyseliny octovej
+
+   C       -7.66211             1         1.62009             1        -0.12426             1 
+   C       -6.20696             1         1.86407             1         0.10281             1 
+   H       -8.04897             1         2.36631             1        -0.82400             1 
+   H       -8.20466             1         1.71127             1         0.81987             1 
+   H       -7.80833             1         0.62762             1        -0.55763             1 
+   O       -5.53630             1         2.75814             1        -0.38324             1 
+   O       -5.66031             1         0.96443             1         0.94117             1 
+   H       -4.72067             1         1.23662             1         1.00266             1 
+
+OLDGEO PRECISE PM6 THERMO
+monomer kyseliny octovej

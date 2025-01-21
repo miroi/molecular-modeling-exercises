@@ -1,0 +1,8 @@
+<molecule>
+ <atomArray>
+  <atom id="a1" elementType="H" x3="-5.206407" y3="2.844810" z3="0.000000"/>
+  <atom id="a2" elementType="H" x3="-5.085804" y3="0.593467" z3="-0.000000"/>
+  <atom id="a3" elementType="Cl" x3="-3.416094" y3="2.923331" z3="-0.000000"/>
+  <atom id="a4" elementType="Cl" x3="-3.316773" y3="0.837711" z3="-0.000000"/>
+ </atomArray>
+</molecule>

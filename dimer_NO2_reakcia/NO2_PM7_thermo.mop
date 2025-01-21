@@ -1,0 +1,9 @@
+ LARGE PRECISE CHARGE=0 DOUBLET PM7 RHF
+NO2
+
+   N       -2.29070             1         2.01203             1         0.00000             1 
+   O       -3.25365             1         2.93800             1         0.00000             1 
+   O       -2.81007             1         0.78121             1         0.00000             1 
+
+OLDGEO PRECISE PM7 THERMO DOUBLET RHF
+NO2

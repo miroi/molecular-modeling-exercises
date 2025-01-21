@@ -1,0 +1,9 @@
+ LARGE CHARGE=0 SINGLET PM7 PRECISE
+HCl
+
+   H       -7.21904             1         0.62894             1         0.00000             1 
+   Cl      -6.09911             1         0.61555             1         0.00000             1 
+
+OLDGEO CHARGE=0 SINGLET PRECISE PM7 THERMO
+HCl
+

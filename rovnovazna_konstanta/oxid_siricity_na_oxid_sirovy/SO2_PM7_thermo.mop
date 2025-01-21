@@ -1,0 +1,9 @@
+ PRECISE LARGE CHARGE=0 SINGLET   PM7
+SO2
+
+   S       -3.63553             1         0.93769             1         0.00000             1 
+   O       -4.92327             1         0.03996             1         0.00000             1 
+   O       -2.30601             1         0.10309             1        -0.00000             1 
+
+OLDGEO CHARGE=0 SINGLET PRECISE PM7 THERMO 
+SO2

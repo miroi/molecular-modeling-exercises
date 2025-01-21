@@ -1,0 +1,196 @@
+ *******************************************************************************
+ **                                                                           **
+ **                              MOPAC v22.1.0                                **
+ **                                                                           **
+ *******************************************************************************
+ **          Digital Object Identifier (DOI): 10.5281/zenodo.6511958          **
+ **    Visit the DOI location for information on how to cite this program.    **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Sun Jan 21 14:35:47 2024  *
+ *  PM7        - The PM7 Hamiltonian to be used
+ *  DOUBLET    - SPIN STATE DEFINED AS A DOUBLET
+ *  RHF        - RESTRICTED HARTREE-FOCK CALCULATION
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = 0
+ *
+ *
+ *
+ *  PRECISE    - TIGHTER CRITERIA TO BE USED
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  LARGE      - EXPANDED OUTPUT TO BE PRINTED
+ *******************************************************************************
+ PRECISE LARGE CHARGE=0 DOUBLET RHF PM7
+ CH3 radical, RHF, PM7
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C         -2.69650000  *   1.19435000  *   0.00000000  *
+     2       H         -1.58710000  *   1.19435000  *   0.00000000  *
+     3       H         -3.06630000  *   0.19978000  *  -0.32381000  *
+     4       H         -3.06630000  *   1.97206000  *  -0.69942000  *
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1         C         -2.6965      1.1944      0.0000
+     2         H         -1.5871      1.1944      0.0000
+     3         H         -3.0663      0.1998     -0.3238
+     4         H         -3.0663      1.9721     -0.6994
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: C H3  =     4 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C3v 
+
+
+ DOUBLET STATE CALCULATION
+
+      THERE ARE    3 DOUBLY FILLED LEVELS
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 3
+
+
+                       NO. OF SINGLY OCCUPIED LEVELS =    1
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:   109.250 HEAT:  42.74094
+ CYCLE:     2 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:    68.510 HEAT:  32.91917
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    41.252 HEAT:  29.23328
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    35.454 HEAT:  28.95356
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.498 HEAT:  28.37393
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.929 HEAT:  28.32038
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.819 HEAT:  28.29286
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.774 HEAT:  28.29000
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.312 HEAT:  28.28942
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.036 HEAT:  28.28934
+
+     GRADIENT =  0.03639 IS LESS THAN CUTOFF =  0.05000
+
+
+
+ -------------------------------------------------------------------------------
+ PRECISE LARGE CHARGE=0 DOUBLET RHF PM7
+ CH3 radical, RHF, PM7
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC v22.1.0 Windows
+                                                       Sun Jan 21 14:35:47 2024
+
+
+
+
+          FINAL HEAT OF FORMATION =         28.28934 KCAL/MOL =     118.36259 KJ/MOL
+
+
+          COSMO AREA              =         53.18 SQUARE ANGSTROMS
+          COSMO VOLUME            =         35.93 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          0.03639          =       0.01820 PER ATOM
+          IONIZATION POTENTIAL    =          9.939768 EV          STATE:   1 DOUBLET A2"
+          HOMO (SOMO) LUMO (EV)   =      -14.333 ( -4.714)  6.266
+          NO. OF FILLED LEVELS    =          3
+          AND NO. OF OPEN LEVELS  =          1
+          MOLECULAR WEIGHT        =         15.0347         POINT GROUP:  D3h 
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H     4    H     2     1.82972
+            H     3    H     2     1.58439
+            C     1    H     2     0.00008
+
+
+          SCF CALCULATIONS        =         11
+ 
+          WALL-CLOCK TIME         =      0.074 SECONDS
+          COMPUTATION TIME        =      0.047 SECONDS
+
+
+
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C         -2.63916627  *   1.16076446  *  -0.15862647  *
+     2       H         -1.63816261  *   1.23023482  *   0.17151005  *
+     3       H         -3.13961604  *   0.23080528  *  -0.13500094  *
+     4       H         -3.13984200  *   2.02108987  *  -0.51214783  *
+
+                             CARTESIAN COORDINATES
+
+   1    C       -2.639166265     1.160764460    -0.158626470
+   2    H       -1.638162608     1.230234822     0.171510045
+   3    H       -3.139616037     0.230805280    -0.135000943
+   4    H       -3.139841998     2.021089870    -0.512147826
+
+
+           Empirical Formula: C H3  =     4 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   D3h 
+
+
+                  EIGENVALUES  
+ -23.56315 -14.33355 -14.33255  -4.71366   6.26646   6.26702   6.66366
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       
+    1          C          -0.406911        4.4069     1.13530     3.27161
+    2          H           0.135642        0.8644     0.86436
+    3          H           0.135627        0.8644     0.86437
+    4          H           0.135643        0.8644     0.86436
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.    -0.000    -0.000     0.000     0.000
+ HYBRID        -0.000    -0.000     0.000     0.000
+ SUM           -0.000    -0.000     0.000     0.000
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+     Atom    s        px        py        pz   
+    1  C   1.13530   1.12196   1.13063   1.01902
+    2  H   0.86436
+    3  H   0.86437
+    4  H   0.86436
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.08 SECONDS
+
+ == MOPAC DONE ==

@@ -1,0 +1,173 @@
+ *******************************************************************************
+ **                                                                           **
+ **                              MOPAC v22.1.0                                **
+ **                                                                           **
+ *******************************************************************************
+ **          Digital Object Identifier (DOI): 10.5281/zenodo.6511958          **
+ **    Visit the DOI location for information on how to cite this program.    **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Sun Jan 21 14:14:42 2024  *
+ *  PM7        - The PM7 Hamiltonian to be used
+ *  SINGLET    - SPIN STATE DEFINED AS A SINGLET
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = 0
+ *
+ *
+ *
+ *  PRECISE    - TIGHTER CRITERIA TO BE USED
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  LARGE      - EXPANDED OUTPUT TO BE PRINTED
+ *******************************************************************************
+  LARGE CHARGE=0 SINGLET  PM7 PRECISE
+ Cl2, PM7
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1      Cl         -5.76495000  *   1.00884000  *   0.00000000  *
+     2      Cl         -3.67710000  *   1.03366000  *   0.00000000  *
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1        Cl         -5.7649      1.0088      0.0000
+     2        Cl         -3.6771      1.0337      0.0000
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: Cl2  =     2 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   D*h 
+
+
+ SINGLET STATE CALCULATION
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 7
+
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.004 TIME LEFT:  2.00D  GRAD.:    75.509 HEAT:  8.040543
+ CYCLE:     2 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:     0.127 HEAT:  4.933790
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.040 HEAT:  4.933776
+
+     GRADIENT =  0.03995 IS LESS THAN CUTOFF =  0.05000
+
+
+
+ -------------------------------------------------------------------------------
+ LARGE CHARGE=0 SINGLET  PM7 PRECISE
+ Cl2, PM7
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC v22.1.0 Windows
+                                                       Sun Jan 21 14:14:42 2024
+
+
+
+
+          FINAL HEAT OF FORMATION =          4.93378 KCAL/MOL =      20.64292 KJ/MOL
+
+
+          COSMO AREA              =         77.58 SQUARE ANGSTROMS
+          COSMO VOLUME            =         60.56 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          0.03995          =       0.02825 PER ATOM
+          IONIZATION POTENTIAL    =         11.379432 EV
+          HOMO LUMO ENERGIES (EV) =        -11.379 -2.173
+          NO. OF FILLED LEVELS    =          7
+          MOLECULAR WEIGHT        =         70.9060         POINT GROUP:  D*h 
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+           Cl     2   Cl     1     1.98135
+           Cl     2   Cl     1     0.00000
+           Cl     1   Cl     2     0.00000
+
+
+          SCF CALCULATIONS        =          4
+ 
+          WALL-CLOCK TIME         =      0.051 SECONDS
+          COMPUTATION TIME        =      0.047 SECONDS
+
+
+
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1      Cl         -5.71163765  *   1.01001730  *   0.00000000  *
+     2      Cl         -3.73041234  *   1.03248270  *   0.00000000  *
+
+                             CARTESIAN COORDINATES
+
+   1   Cl       -5.711637654     1.010017301     0.000000000
+   2   Cl       -3.730412345     1.032482699     0.000000000
+
+
+           Empirical Formula: Cl2  =     2 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   D*h 
+
+
+                  EIGENVALUES  
+ -27.14314 -24.44468 -14.57762 -13.21395 -13.21395 -11.37943 -11.37943  -2.17309
+  67.27382  67.42580  67.42580  67.59644  67.59644  67.61414  67.99256  67.99256
+  69.25196  69.25196
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       d-Pop       
+    1         Cl          -0.000000        7.0000     1.99220     5.00461     0.00319
+    2         Cl           0.000000        7.0000     1.99220     5.00461     0.00319
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.     0.000     0.000    -0.000     0.000
+ HYBRID        -0.000    -0.000     0.000     0.000
+ SUM            0.000     0.000     0.000     0.000
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+     Atom    s        px        py        pz      x^2-y^2     xz        z^2       yz        xy
+    1 Cl   1.99220   1.00754   1.99847   1.99860   0.00029   0.00140   0.00010   0.00000   0.00140
+    2 Cl   1.99220   1.00754   1.99847   1.99860   0.00029   0.00140   0.00010   0.00000   0.00140
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.06 SECONDS
+
+ == MOPAC DONE ==

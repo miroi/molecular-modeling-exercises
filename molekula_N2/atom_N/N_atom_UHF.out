@@ -1,0 +1,190 @@
+ *******************************************************************************
+ **                                                                           **
+ **                              MOPAC v22.1.0                                **
+ **                                                                           **
+ *******************************************************************************
+ **          Digital Object Identifier (DOI): 10.5281/zenodo.6511958          **
+ **    Visit the DOI location for information on how to cite this program.    **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Sun Dec 31 22:24:39 2023  *
+ *  PM7        - The PM7 Hamiltonian to be used
+ *  QUARTET    - SPIN STATE DEFINED AS A QUARTET
+ *  UHF        - UNRESTRICTED HARTREE-FOCK CALCULATION
+ *  NOOPT      - DO NOT OPTIMIZE ANY COORDINATES
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = 0
+ *
+ *
+ *
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  AUX        - OUTPUT AUXILIARY INFORMATION
+ *  LARGE      - EXPANDED OUTPUT TO BE PRINTED
+ *  GRAPH      - GENERATE FILE FOR GRAPHICS
+ *  ALLVEC     - PRINT ALL EIGENVECTORS
+ *******************************************************************************
+ AUX LARGE CHARGE=0 QUARTET UHF NOOPT PM7 GRAPHF ALLVEC
+ N atom
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       N          0.00000000      0.00000000      0.00000000   
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1         N          0.0000      0.0000      0.0000
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: N  =     1 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   R3  
+
+
+ QUARTET STATE CALCULATION
+
+
+          UHF CALCULATION, NO. OF ALPHA ELECTRONS =    4
+                           NO. OF BETA  ELECTRONS =    1
+
+ -------------------------------------------------------------------------------
+ AUX LARGE CHARGE=0 QUARTET UHF NOOPT PM7 GRAPHF ALLVEC
+ N atom
+
+
+
+     NO PARAMETERS MARKED FOR OPTIMIZATION, SO 1SCF WAS USED  
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC v22.1.0 Windows
+                                                       Sun Dec 31 22:24:39 2023
+
+
+
+
+          FINAL HEAT OF FORMATION =        113.00000 KCAL/MOL =     472.79200 KJ/MOL
+
+
+          COSMO AREA              =         42.08 SQUARE ANGSTROMS
+          COSMO VOLUME            =         25.67 CUBIC ANGSTROMS
+
+          IONIZATION POTENTIAL    =         14.093314 EV
+          ALPHA SOMO LUMO (EV)    =        -14.093
+          BETA  SOMO LUMO (EV)    =        -21.026  0.027
+          NO. OF ALPHA ELECTRONS  =          4
+          NO. OF BETA  ELECTRONS  =          1
+          MOLECULAR WEIGHT        =         14.0067         POINT GROUP:  R3  
+
+
+          SCF CALCULATIONS        =          1
+ 
+          WALL-CLOCK TIME         =      0.039 SECONDS
+          COMPUTATION TIME        =      0.031 SECONDS
+
+
+
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       N          0.00000000      0.00000000      0.00000000   
+
+                             CARTESIAN COORDINATES
+
+   1    N        0.000000000     0.000000000     0.000000000
+
+
+           Empirical Formula: N  =     1 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   R3  
+
+
+          ALPHA EIGENVECTORS  
+
+
+   Root No.       1         2         3         4
+
+                 1 s(g)    1 p(u)    1 p(u)    1 p(u)
+
+               -29.958   -14.093   -14.093   -14.093
+  
+  S   N    1    1.0000   -0.0000   -0.0000    0.0000
+  Px  N    1    0.0000    1.0000   -0.0000    0.0000
+  Py  N    1    0.0000    0.0000    1.0000    0.0000
+  Pz  N    1    0.0000    0.0000    0.0000    1.0000
+
+
+           BETA EIGENVECTORS  
+
+
+   Root No.       1         2         3         4
+
+                 1 s(g)    1 p(u)    1 p(u)    1 p(u)
+
+               -21.026     0.027     0.027     0.027
+  
+  S   N    1    1.0000    0.0000    0.0000    0.0000
+  Px  N    1   -0.0000    1.0000    0.0000    0.0000
+  Py  N    1   -0.0000   -0.0000    1.0000    0.0000
+  Pz  N    1    0.0000    0.0000    0.0000    1.0000
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       
+    1          N           0.000000        5.0000     2.00000     3.00000
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.     0.000     0.000     0.000     0.000
+ HYBRID        -0.000    -0.000     0.000     0.000
+ SUM           -0.000    -0.000     0.000     0.000
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+     Atom    s        px        py        pz   
+    1  N   2.00000   1.00000   1.00000   1.00000
+
+
+                    (SZ)    =    1.500000
+                    (S**2)  =    3.750000
+
+
+          ATOMIC ORBITAL SPIN POPULATIONS
+
+    Atom   Total    s     px     py     pz   
+         Atomic
+    1  N  3.0000  0.000  1.000  1.000  1.000
+
+           DATA FOR GRAPH WRITTEN TO DISK
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.06 SECONDS
+
+ == MOPAC DONE ==

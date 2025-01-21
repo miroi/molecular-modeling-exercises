@@ -1,0 +1,174 @@
+ *******************************************************************************
+ **                                                                           **
+ **                              MOPAC v22.1.0                                **
+ **                                                                           **
+ *******************************************************************************
+ **          Digital Object Identifier (DOI): 10.5281/zenodo.6511958          **
+ **    Visit the DOI location for information on how to cite this program.    **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Sun Jan 28 20:14:55 2024  *
+ *  PM7        - The PM7 Hamiltonian to be used
+ *  SINGLET    - SPIN STATE DEFINED AS A SINGLET
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = 0
+ *
+ *
+ *
+ *  PRECISE    - TIGHTER CRITERIA TO BE USED
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  LARGE      - EXPANDED OUTPUT TO BE PRINTED
+ *******************************************************************************
+ PRECISE LARGE CHARGE=0 SINGLET  PM7
+ HF molekula
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       F         -4.35461000  *   1.08835000  *  -0.04427000  *
+     2       H         -4.42468000  *   0.29877000  *   0.54129000  *
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1         F         -4.3546      1.0883     -0.0443
+     2         H         -4.4247      0.2988      0.5413
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: H F  =     2 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C*v 
+
+
+ SINGLET STATE CALCULATION
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 4
+
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   126.063 HEAT: -57.55604
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   108.618 HEAT: -60.10458
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    25.286 HEAT: -61.80492
+ CYCLE:     4 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     3.976 HEAT: -61.93261
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.184 HEAT: -61.93567
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.001 HEAT: -61.93568
+
+     GRADIENT =  0.00075 IS LESS THAN CUTOFF =  0.05000
+
+
+
+ -------------------------------------------------------------------------------
+ PRECISE LARGE CHARGE=0 SINGLET  PM7
+ HF molekula
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC v22.1.0 Windows
+                                                       Sun Jan 28 20:14:55 2024
+
+
+
+
+          FINAL HEAT OF FORMATION =        -61.93568 KCAL/MOL =    -259.13887 KJ/MOL
+
+
+          COSMO AREA              =         39.27 SQUARE ANGSTROMS
+          COSMO VOLUME            =         22.95 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          0.00075          =       0.00053 PER ATOM
+          IONIZATION POTENTIAL    =         15.795639 EV
+          HOMO LUMO ENERGIES (EV) =        -15.796  4.730
+          NO. OF FILLED LEVELS    =          4
+          MOLECULAR WEIGHT        =         20.0063         POINT GROUP:  C*v 
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H     2    F     1     0.89566
+            H     2    F     1     0.00000
+            F     1    H     2     0.00000
+
+
+          SCF CALCULATIONS        =          8
+ 
+          WALL-CLOCK TIME         =      0.039 SECONDS
+          COMPUTATION TIME        =      0.047 SECONDS
+
+
+
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       F         -4.35657343  *   1.05690789  *  -0.01117581  *
+     2       H         -4.42271657  *   0.33021212  *   0.50819581  *
+
+                             CARTESIAN COORDINATES
+
+   1    F       -4.356573434     1.056907885    -0.011175812
+   2    H       -4.422716567     0.330212116     0.508195813
+
+
+           Empirical Formula: H F  =     2 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C*v 
+
+
+                  EIGENVALUES  
+ -40.58491 -17.55691 -15.79564 -15.79564   4.72957
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       
+    1          F          -0.290305        7.2903     1.95449     5.33581
+    2          H           0.290305        0.7097     0.70969
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.    -0.092    -1.013     0.724     1.249
+ HYBRID        -0.015    -0.166     0.119     0.205
+ SUM           -0.107    -1.180     0.843     1.454
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+     Atom    s        px        py        pz   
+    1  F   1.95449   1.99638   1.56277   1.77666
+    2  H   0.70969
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.05 SECONDS
+
+ == MOPAC DONE ==

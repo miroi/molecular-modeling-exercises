@@ -1,0 +1,11 @@
+ PRECISE LARGE CHARGE=1 SINGLET  PM7
+amonium(+), PM7
+
+   N       -6.34271             1         0.39328             1         0.02713             1 
+   H       -5.30373             1         0.29072             1        -0.00149             1 
+   H       -6.65468             1         0.99905             1        -0.76440             1 
+   H       -6.62452             1         0.83100             1         0.93256             1 
+   H       -6.78791             1        -0.54764             1        -0.05813             1 
+
+OLDGEO CHARGE=1 SINGLET PRECISE PM7 THERMO
+amonium(+), PM7

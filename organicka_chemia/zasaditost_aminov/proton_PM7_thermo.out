@@ -1,0 +1,329 @@
+ *******************************************************************************
+ **                                                                           **
+ **                              MOPAC v22.1.0                                **
+ **                                                                           **
+ *******************************************************************************
+ **          Digital Object Identifier (DOI): 10.5281/zenodo.6511958          **
+ **    Visit the DOI location for information on how to cite this program.    **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Fri Jan 26 10:53:37 2024  *
+ *  PM7        - The PM7 Hamiltonian to be used
+ *  NOOPT      - DO NOT OPTIMIZE ANY COORDINATES
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = +1
+ *
+ *
+ *
+ *  PRECISE    - TIGHTER CRITERIA TO BE USED
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  LARGE      - EXPANDED OUTPUT TO BE PRINTED
+ *******************************************************************************
+ PRECISE LARGE CHARGE=1 NOOPT PM7
+ H(+)
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       H          0.00000000      0.00000000      0.00000000   
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1         H          0.0000      0.0000      0.0000
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: H  =     1 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   R3  
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 0
+
+
+ -------------------------------------------------------------------------------
+ PRECISE LARGE CHARGE=1 NOOPT PM7
+ H(+)
+
+
+
+     NO PARAMETERS MARKED FOR OPTIMIZATION, SO 1SCF WAS USED  
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC v22.1.0 Windows
+                                                       Fri Jan 26 10:53:37 2024
+
+
+
+
+          FINAL HEAT OF FORMATION =        307.38485 KCAL/MOL =    1286.09820 KJ/MOL
+
+
+          COSMO AREA              =         21.24 SQUARE ANGSTROMS
+          COSMO VOLUME            =          9.20 CUBIC ANGSTROMS
+
+          NO. OF FILLED LEVELS    =          0
+          MOLECULAR WEIGHT        =          1.0079         POINT GROUP:  R3  
+
+
+          SCF CALCULATIONS        =          0
+ 
+          WALL-CLOCK TIME         =      0.031 SECONDS
+          COMPUTATION TIME        =      0.031 SECONDS
+
+
+
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       H          0.00000000      0.00000000      0.00000000   
+
+                             CARTESIAN COORDINATES
+
+   1    H        0.000000000     0.000000000     0.000000000
+
+
+           Empirical Formula: H  =     1 atoms
+
+ *******************************************************************************
+ **                                                                           **
+ **                              MOPAC v22.1.0                                **
+ **                                                                           **
+ *******************************************************************************
+ **          Digital Object Identifier (DOI): 10.5281/zenodo.6511958          **
+ **    Visit the DOI location for information on how to cite this program.    **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Fri Jan 26 10:53:37 2024  *
+ *  PM7        - The PM7 Hamiltonian to be used
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = +1
+ *
+ *
+ *
+ *  OLDGEO     - PREVIOUS GEOMETRY TO BE USED
+ *  PRECISE    - TIGHTER CRITERIA TO BE USED
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  THERMO     - THERMODYNAMIC QUANTITIES TO BE CALCULATED
+ *******************************************************************************
+OLDGEO CHARGE=1  PRECISE PM7 THERMO
+ H(+), PM7
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       H          0.00000000      0.00000000      0.00000000   
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1         H          0.0000      0.0000      0.0000
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: H  =     1 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   R3  
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 0
+
+
+      SYMMETRY NUMBER FOR POINT-GROUP R3  =  1
+
+
+                    CALCULATED THERMODYNAMIC PROPERTIES
+                                          *
+   TEMP. (K)   PARTITION FUNCTION   H.O.F.    ENTHALPY  HEAT CAPACITY ENTROPY
+                                   KCAL/MOL   CAL/MOLE    CAL/K/MOL  CAL/K/MOL
+
+
+ 298.00  VIB.     0.1000D+01                     0.0000     0.0000     0.0000
+         ROT.     0.0000D+00                     0.0000     0.0000     0.0000
+         INT.     0.0000D+00                     0.0000     0.0000     0.0000
+         TRA.     0.9783D+24                  1480.4672     4.9680    26.0120
+         TOT.                      307.385    1480.4672     4.9680    26.0120
+
+ 200.00  VIB.     0.1000D+01                     0.0000     0.0000     0.0000
+         ROT.     0.0000D+00                     0.0000     0.0000     0.0000
+         INT.     0.0000D+00                     0.0000     0.0000     0.0000
+         TRA.     0.5379D+24                   993.6021     4.9680    24.0309
+         TOT.                      306.898     993.6021     4.9680    24.0309
+
+ 210.00  VIB.     0.1000D+01                     0.0000     0.0000     0.0000
+         ROT.     0.0000D+00                     0.0000     0.0000     0.0000
+         INT.     0.0000D+00                     0.0000     0.0000     0.0000
+         TRA.     0.5787D+24                  1043.2822     4.9680    24.2733
+         TOT.                      306.948    1043.2822     4.9680    24.2733
+
+ 220.00  VIB.     0.1000D+01                     0.0000     0.0000     0.0000
+         ROT.     0.0000D+00                     0.0000     0.0000     0.0000
+         INT.     0.0000D+00                     0.0000     0.0000     0.0000
+         TRA.     0.6205D+24                  1092.9623     4.9680    24.5044
+         TOT.                      306.997    1092.9623     4.9680    24.5044
+
+ 230.00  VIB.     0.1000D+01                     0.0000     0.0000     0.0000
+         ROT.     0.0000D+00                     0.0000     0.0000     0.0000
+         INT.     0.0000D+00                     0.0000     0.0000     0.0000
+         TRA.     0.6633D+24                  1142.6424     4.9680    24.7252
+         TOT.                      307.047    1142.6424     4.9680    24.7252
+
+ 240.00  VIB.     0.1000D+01                     0.0000     0.0000     0.0000
+         ROT.     0.0000D+00                     0.0000     0.0000     0.0000
+         INT.     0.0000D+00                     0.0000     0.0000     0.0000
+         TRA.     0.7070D+24                  1192.3226     4.9680    24.9367
+         TOT.                      307.097    1192.3226     4.9680    24.9367
+
+ 250.00  VIB.     0.1000D+01                     0.0000     0.0000     0.0000
+         ROT.     0.0000D+00                     0.0000     0.0000     0.0000
+         INT.     0.0000D+00                     0.0000     0.0000     0.0000
+         TRA.     0.7517D+24                  1242.0027     4.9680    25.1395
+         TOT.                      307.146    1242.0027     4.9680    25.1395
+
+ 260.00  VIB.     0.1000D+01                     0.0000     0.0000     0.0000
+         ROT.     0.0000D+00                     0.0000     0.0000     0.0000
+         INT.     0.0000D+00                     0.0000     0.0000     0.0000
+         TRA.     0.7972D+24                  1291.6828     4.9680    25.3343
+         TOT.                      307.196    1291.6828     4.9680    25.3343
+
+ 270.00  VIB.     0.1000D+01                     0.0000     0.0000     0.0000
+         ROT.     0.0000D+00                     0.0000     0.0000     0.0000
+         INT.     0.0000D+00                     0.0000     0.0000     0.0000
+         TRA.     0.8437D+24                  1341.3629     4.9680    25.5218
+         TOT.                      307.246    1341.3629     4.9680    25.5218
+
+ 280.00  VIB.     0.1000D+01                     0.0000     0.0000     0.0000
+         ROT.     0.0000D+00                     0.0000     0.0000     0.0000
+         INT.     0.0000D+00                     0.0000     0.0000     0.0000
+         TRA.     0.8910D+24                  1391.0430     4.9680    25.7025
+         TOT.                      307.295    1391.0430     4.9680    25.7025
+
+ 290.00  VIB.     0.1000D+01                     0.0000     0.0000     0.0000
+         ROT.     0.0000D+00                     0.0000     0.0000     0.0000
+         INT.     0.0000D+00                     0.0000     0.0000     0.0000
+         TRA.     0.9391D+24                  1440.7231     4.9680    25.8768
+         TOT.                      307.345    1440.7231     4.9680    25.8768
+
+ 300.00  VIB.     0.1000D+01                     0.0000     0.0000     0.0000
+         ROT.     0.0000D+00                     0.0000     0.0000     0.0000
+         INT.     0.0000D+00                     0.0000     0.0000     0.0000
+         TRA.     0.9881D+24                  1490.4032     4.9680    26.0453
+         TOT.                      307.395    1490.4032     4.9680    26.0453
+
+ 310.00  VIB.     0.1000D+01                     0.0000     0.0000     0.0000
+         ROT.     0.0000D+00                     0.0000     0.0000     0.0000
+         INT.     0.0000D+00                     0.0000     0.0000     0.0000
+         TRA.     0.1038D+25                  1540.0833     4.9680    26.2082
+         TOT.                      307.444    1540.0833     4.9680    26.2082
+
+ 320.00  VIB.     0.1000D+01                     0.0000     0.0000     0.0000
+         ROT.     0.0000D+00                     0.0000     0.0000     0.0000
+         INT.     0.0000D+00                     0.0000     0.0000     0.0000
+         TRA.     0.1089D+25                  1589.7634     4.9680    26.3659
+         TOT.                      307.494    1589.7634     4.9680    26.3659
+
+ 330.00  VIB.     0.1000D+01                     0.0000     0.0000     0.0000
+         ROT.     0.0000D+00                     0.0000     0.0000     0.0000
+         INT.     0.0000D+00                     0.0000     0.0000     0.0000
+         TRA.     0.1140D+25                  1639.4435     4.9680    26.5188
+         TOT.                      307.544    1639.4435     4.9680    26.5188
+
+ 340.00  VIB.     0.1000D+01                     0.0000     0.0000     0.0000
+         ROT.     0.0000D+00                     0.0000     0.0000     0.0000
+         INT.     0.0000D+00                     0.0000     0.0000     0.0000
+         TRA.     0.1192D+25                  1689.1236     4.9680    26.6671
+         TOT.                      307.594    1689.1236     4.9680    26.6671
+
+ 350.00  VIB.     0.1000D+01                     0.0000     0.0000     0.0000
+         ROT.     0.0000D+00                     0.0000     0.0000     0.0000
+         INT.     0.0000D+00                     0.0000     0.0000     0.0000
+         TRA.     0.1245D+25                  1738.8037     4.9680    26.8111
+         TOT.                      307.643    1738.8037     4.9680    26.8111
+
+ 360.00  VIB.     0.1000D+01                     0.0000     0.0000     0.0000
+         ROT.     0.0000D+00                     0.0000     0.0000     0.0000
+         INT.     0.0000D+00                     0.0000     0.0000     0.0000
+         TRA.     0.1299D+25                  1788.4838     4.9680    26.9510
+         TOT.                      307.693    1788.4838     4.9680    26.9510
+
+ 370.00  VIB.     0.1000D+01                     0.0000     0.0000     0.0000
+         ROT.     0.0000D+00                     0.0000     0.0000     0.0000
+         INT.     0.0000D+00                     0.0000     0.0000     0.0000
+         TRA.     0.1353D+25                  1838.1639     4.9680    27.0872
+         TOT.                      307.743    1838.1639     4.9680    27.0872
+
+ 380.00  VIB.     0.1000D+01                     0.0000     0.0000     0.0000
+         ROT.     0.0000D+00                     0.0000     0.0000     0.0000
+         INT.     0.0000D+00                     0.0000     0.0000     0.0000
+         TRA.     0.1409D+25                  1887.8440     4.9680    27.2196
+         TOT.                      307.792    1887.8440     4.9680    27.2196
+
+ 390.00  VIB.     0.1000D+01                     0.0000     0.0000     0.0000
+         ROT.     0.0000D+00                     0.0000     0.0000     0.0000
+         INT.     0.0000D+00                     0.0000     0.0000     0.0000
+         TRA.     0.1465D+25                  1937.5242     4.9680    27.3487
+         TOT.                      307.842    1937.5242     4.9680    27.3487
+
+ 400.00  VIB.     0.1000D+01                     0.0000     0.0000     0.0000
+         ROT.     0.0000D+00                     0.0000     0.0000     0.0000
+         INT.     0.0000D+00                     0.0000     0.0000     0.0000
+         TRA.     0.1521D+25                  1987.2043     4.9680    27.4745
+         TOT.                      307.892    1987.2043     4.9680    27.4745
+
+   *: NOTE: HEATS OF FORMATION ARE RELATIVE TO THE
+            ELEMENTS IN THEIR STANDARD STATE AT 298K
+              (=  Standard Enthalpy of Formation).
+
+            Hvib:  Zero-point energy is not included.
+                   frequencies of less than zero cm-1 are not included.
+            Hrot = (3/2)RT
+            Htra = (3/2)RT + pV = (5/2)RT
+
+            Heat capacity is Cp, not Cv
+
+          For more information, see: HTTP://OpenMOPAC.net/Manual/thermochemistry.html
+
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.10 SECONDS
+
+ == MOPAC DONE ==

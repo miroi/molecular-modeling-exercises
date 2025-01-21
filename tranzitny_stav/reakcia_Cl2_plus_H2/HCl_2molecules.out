@@ -1,0 +1,173 @@
+ *******************************************************************************
+ **                                                                           **
+ **                              MOPAC v22.1.1                                **
+ **                                                                           **
+ *******************************************************************************
+ **          Digital Object Identifier (DOI): 10.5281/zenodo.6511958          **
+ **    Visit the DOI location for information on how to cite this program.    **
+ *******************************************************************************
+
+                              PM6 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Mon Feb 19 19:58:08 2024  *
+ *  PM6        - The PM6 Hamiltonian to be used
+ *  SINGLET    - SPIN STATE DEFINED AS A SINGLET
+ *  NOOPT      - DO NOT OPTIMIZE ANY COORDINATES
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = 0
+ *
+ *
+ *
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  AUX        - OUTPUT AUXILIARY INFORMATION
+ *  LARGE      - EXPANDED OUTPUT TO BE PRINTED
+ *******************************************************************************
+ AUX LARGE CHARGE=0 SINGLET NOOPT PM6
+ ClH and ClH
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       H         -5.20641000      2.84481000      0.00000000   
+     2       H         -5.08580000      0.59347000      0.00000000   
+     3      Cl         -3.41609000      2.92333000      0.00000000   
+     4      Cl         -3.31677000      0.83771000      0.00000000   
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1         H         -5.2064      2.8448      0.0000
+     2         H         -5.0858      0.5935      0.0000
+     3        Cl         -3.4161      2.9233      0.0000
+     4        Cl         -3.3168      0.8377      0.0000
+
+ General Reference for PM6:
+ "Optimization of Parameters for Semiempirical Methods V: Modification of NDDO Approximations
+ and Application to 70 Elements", J. J. P. Stewart, J. Mol. Mod., 13, 1173-1213 (2007)
+ URL: https://link.springer.com/article/10.1007/s00894-007-0233-4
+
+           Empirical Formula: H2 Cl2  =     4 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C2v 
+
+
+ SINGLET STATE CALCULATION
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 8
+
+
+ -------------------------------------------------------------------------------
+ AUX LARGE CHARGE=0 SINGLET NOOPT PM6
+ ClH and ClH
+
+
+
+     NO PARAMETERS MARKED FOR OPTIMIZATION, SO 1SCF WAS USED  
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM6 CALCULATION
+                                                       MOPAC v22.1.1 Windows
+                                                       Mon Feb 19 19:58:08 2024
+
+
+
+
+          FINAL HEAT OF FORMATION =         97.35447 KCAL/MOL =     407.33112 KJ/MOL
+
+
+          COSMO AREA              =         88.74 SQUARE ANGSTROMS
+          COSMO VOLUME            =         71.15 CUBIC ANGSTROMS
+
+          IONIZATION POTENTIAL    =          7.598013 EV
+          HOMO LUMO ENERGIES (EV) =         -7.598 -1.069
+          NO. OF FILLED LEVELS    =          8
+          MOLECULAR WEIGHT        =         72.9218         POINT GROUP:  C2v 
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+           Cl     3    H     2     2.86639
+           Cl     4    H     1     2.70510
+            H     1    H     2     0.00000
+
+
+          SCF CALCULATIONS        =          1
+ 
+          WALL-CLOCK TIME         =      0.062 SECONDS
+          COMPUTATION TIME        =      0.203 SECONDS
+
+
+
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       H         -5.20641000      2.84481000      0.00000000   
+     2       H         -5.08580000      0.59347000      0.00000000   
+     3      Cl         -3.41609000      2.92333000      0.00000000   
+     4      Cl         -3.31677000      0.83771000      0.00000000   
+
+                             CARTESIAN COORDINATES
+
+   1    H       -5.206410000     2.844810000     0.000000000
+   2    H       -5.085800000     0.593470000     0.000000000
+   3   Cl       -3.416090000     2.923330000     0.000000000
+   4   Cl       -3.316770000     0.837710000     0.000000000
+
+
+           Empirical Formula: H2 Cl2  =     4 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C2v 
+
+
+                  EIGENVALUES  
+ -26.08978 -25.75670 -14.58734 -14.37707 -12.33406 -11.95917 -10.06319  -7.59801
+  -1.06896  -0.13854  89.88748  90.21771  90.26237  90.76518  91.73012  91.91795
+  92.02603  92.72009  92.91298  93.76829
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       d-Pop       
+    1          H           0.334540        0.6655     0.66546
+    2          H           0.292545        0.7075     0.70746
+    3         Cl          -0.301919        7.3019     1.99653     5.30071     0.00468
+    4         Cl          -0.325166        7.3252     1.99797     5.32247     0.00473
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.    -5.378    -0.143     0.000     5.380
+ HYBRID         0.198    -0.034     0.000     0.201
+ SUM           -5.180    -0.177     0.000     5.183
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+     Atom    s        px        py        pz      x^2-y^2     xz        z^2       yz        xy
+    1  H   0.66546
+    2  H   0.70746
+    3 Cl   1.99653   1.34138   1.96049   1.99884   0.00176   0.00005   0.00061   0.00112   0.00113
+    4 Cl   1.99797   1.40273   1.92090   1.99883   0.00155   0.00005   0.00070   0.00111   0.00132
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.08 SECONDS
+
+ == MOPAC DONE ==

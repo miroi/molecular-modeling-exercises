@@ -1,0 +1,189 @@
+ *******************************************************************************
+ **                                                                           **
+ **                              MOPAC v22.1.1                                **
+ **                                                                           **
+ *******************************************************************************
+ **          Digital Object Identifier (DOI): 10.5281/zenodo.6511958          **
+ **    Visit the DOI location for information on how to cite this program.    **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Sun Mar  3 14:35:01 2024  *
+ *  PM7        - The PM7 Hamiltonian to be used
+ *  DOUBLET    - SPIN STATE DEFINED AS A DOUBLET
+ *  RHF        - RESTRICTED HARTREE-FOCK CALCULATION
+ *  NOOPT      - DO NOT OPTIMIZE ANY COORDINATES
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = 0
+ *
+ *
+ *
+ *  PRECISE    - TIGHTER CRITERIA TO BE USED
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  LARGE      - EXPANDED OUTPUT TO BE PRINTED
+ *  GRAPH      - GENERATE FILE FOR GRAPHICS
+ *  ALLVEC     - PRINT ALL EIGENVECTORS
+ *******************************************************************************
+ PRECISE LARGE CHARGE=0 DOUBLET NOOPT PM7 GRAPHF ALLVEC RHF
+ Atom Au
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1      Au          0.00000000      0.00000000      0.00000000   
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1        Au          0.0000      0.0000      0.0000
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: Au  =     1 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   R3  
+
+
+ DOUBLET STATE CALCULATION
+
+      THERE ARE    5 DOUBLY FILLED LEVELS
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 5
+
+
+                       NO. OF SINGLY OCCUPIED LEVELS =    1
+
+ -------------------------------------------------------------------------------
+ PRECISE LARGE CHARGE=0 DOUBLET NOOPT PM7 GRAPHF ALLVEC RHF
+ Atom Au
+
+
+
+     NO PARAMETERS MARKED FOR OPTIMIZATION, SO 1SCF WAS USED  
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC v22.1.1 Windows
+                                                       Sun Mar  3 14:35:01 2024
+
+
+
+
+          FINAL HEAT OF FORMATION =         88.00000 KCAL/MOL =     368.19200 KJ/MOL
+
+
+          COSMO AREA              =         47.29 SQUARE ANGSTROMS
+          COSMO VOLUME            =         30.58 CUBIC ANGSTROMS
+
+          IONIZATION POTENTIAL    =          9.990073 EV          STATE:   1 DOUBLET S(g)
+          HOMO (SOMO) LUMO (EV)   =      -11.684 ( -5.750) 68.925
+          NO. OF FILLED LEVELS    =          5
+          AND NO. OF OPEN LEVELS  =          1
+          MOLECULAR WEIGHT        =        196.9665         POINT GROUP:  R3  
+
+
+          SCF CALCULATIONS        =          1
+ 
+          WALL-CLOCK TIME         =      0.062 SECONDS
+          COMPUTATION TIME        =      0.031 SECONDS
+
+
+
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1      Au          0.00000000      0.00000000      0.00000000   
+
+                             CARTESIAN COORDINATES
+
+   1   Au        0.000000000     0.000000000     0.000000000
+
+
+           Empirical Formula: Au  =     1 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   R3  
+
+
+                EIGENVECTORS  
+
+
+   Root No.       1         2         3         4         5         6         7         8
+
+                 1 d(g)    1 d(g)    1 d(g)    1 d(g)    1 d(g)    1 s(g)    1 p(u)    1 p(u)
+
+               -11.684   -11.684   -11.684   -11.684   -11.684    -5.750    68.925    68.925
+  
+  S  Au    1   -0.0000   -0.0000    0.0000   -0.0000   -0.0000    1.0000    0.0000    0.0000
+  Px Au    1   -0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000    1.0000   -0.0000
+  Py Au    1    0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    1.0000
+  Pz Au    1   -0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0001    0.0003
+  x2 Au    1    1.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000   -0.0000   -0.0000
+  xz Au    1    0.0000    1.0000    0.0001   -0.0000   -0.0000    0.0000    0.0000   -0.0000
+  z2 Au    1    0.0000   -0.0001    1.0000   -0.0001    0.0000   -0.0000    0.0000    0.0000
+  yz Au    1    0.0000    0.0000    0.0001    1.0000    0.0000    0.0000   -0.0000    0.0000
+  xy Au    1    0.0000    0.0000   -0.0000   -0.0000    1.0000    0.0000    0.0000    0.0000
+
+
+   Root No.       9
+
+                 1 p(u)
+
+                68.925
+  
+  S  Au    1    0.0000
+  Px Au    1   -0.0001
+  Py Au    1   -0.0003
+  Pz Au    1    1.0000
+  x2 Au    1    0.0000
+  xz Au    1   -0.0000
+  z2 Au    1    0.0000
+  yz Au    1    0.0000
+  xy Au    1    0.0000
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       d-Pop       
+    1         Au          -0.000000       11.0000     1.00000     0.00000    10.00000
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.     0.000     0.000     0.000     0.000
+ HYBRID        -0.000    -0.000    -0.000     0.000
+ SUM           -0.000    -0.000    -0.000     0.000
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+     Atom    s        px        py        pz      x^2-y^2     xz        z^2       yz        xy
+    1 Au   1.00000   0.00000   0.00000   0.00000   2.00000   2.00000   2.00000   2.00000   2.00000
+
+           DATA FOR GRAPH WRITTEN TO DISK
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.09 SECONDS
+
+ == MOPAC DONE ==

@@ -1,0 +1,4767 @@
+ *******************************************************************************
+ **                                                                           **
+ **                              MOPAC v22.1.1                                **
+ **                                                                           **
+ *******************************************************************************
+ **          Digital Object Identifier (DOI): 10.5281/zenodo.6511958          **
+ **    Visit the DOI location for information on how to cite this program.    **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Mon Feb 19 21:08:55 2024  *
+ *  PM7        - The PM7 Hamiltonian to be used
+ *  GEO-OK     - OVERRIDE INTERATOMIC DISTANCE AND OTHER SAFETY CHECKS
+ *  GEO_DAT    - DATA SET GEOMETRY IS IN FILE "H2_F2-singlepoint.arc"
+ *  GEO_REF    - REFERENCE GEOMETRY IS IN FILE "HF_2molecules.arc"
+ *               (NO BIAS TOWARDS THE REFERENCE GEOMETRY WILL BE APPLIED)
+ *  PRECISE    - TIGHTER CRITERIA TO BE USED
+ *  SADDLE     - TRANSITION STATE TO BE OPTIMIZED
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *******************************************************************************
+GEO_DAT="H2_F2-singlepoint.arc" GEO_REF="HF_2molecules.arc" SADDLE  GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       H         -5.56273000  *   2.12227000  *   0.00000000  *
+     2       H         -5.52131000  *   1.00918000  *   0.00000000  *
+     3       F         -3.41609000  *   2.92333000  *   0.00000000  *
+     4       F         -3.31677000  *   0.83771000  *   0.00000000  *
+ 
+
+           The two systems have different chain letters, so all chain letters changed to "X"
+
+                        After docking
+
+                     Atoms that move a lot
+
+                     Atom Label             GEO_REF Coordinates       Movement    Integral
+
+            (          1          X    )  -5.206   2.845   0.000        0.63         0.63
+            (          2          X    )  -5.086   0.593   0.000        0.58         1.21
+            (          3          X    )  -3.416   2.923   0.000        0.23         1.45
+            (          4          X    )  -3.317   0.838   0.000        0.18         1.63
+
+     Residues that move a lot and their (Movement in Angstroms, per atom)
+
+
+   Difference between GEO_DAT and GEO_REF: 1.629 = total,  0.4074 = Average,  0.4545 = RMS, in Angstroms
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: H2 F2  =     4 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   Cs  
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 8
+
+
+
+  CARTESIAN GEOMETRY OF FIRST SYSTEM
+
+
+   1    H         -5.20641       2.84481       0.00000
+   2    H         -5.08580       0.59347       0.00000
+   3    F         -3.41609       2.92333       0.00000
+   4    F         -3.31677       0.83771       0.00000
+
+
+  CARTESIAN GEOMETRY OF SECOND SYSTEM
+
+
+   1    H         -5.35418       2.22726       0.00000
+   2    H         -5.34130       1.11347       0.00000
+   3    F         -3.18771       2.97303      -0.00000
+   4    F         -3.14188       0.88555      -0.00000
+
+
+   "DISTANCE":     0.909061
+
+
+  REACTION COORDINATE VECTOR
+
+
+   1    H          0.14777       0.61755       0.00000
+   2    H          0.25550      -0.52000      -0.00000
+   3    F         -0.22838      -0.04970       0.00000
+   4    F         -0.17489      -0.04784       0.00000
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       0.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     0.200
+
+
+          FOR POINT    1 SECOND STRUCTURE
+ DISTANCE A - B      0.909061
+ HEAT                0.607356
+ GRADIENT NORM     260.136931
+ DIRECTION COSINE   -0.000000
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   1.24410287 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.44075011 +1  109.3198192 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.26504522 +1  103.8989388 +1   -0.0242436 +1     2     1     3
+ 
+ TIME=     0.06
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT    2 FIRST  STRUCTURE
+ DISTANCE A - B      0.899970
+ HEAT              -34.308975
+ GRADIENT NORM      59.302256
+ DIRECTION COSINE    0.783678
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.77301439 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   2.07433079 +1  101.6902918 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.43523799 +1   76.9681405 +1   -1.7100996 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT    3 FIRST  STRUCTURE
+ DISTANCE A - B      0.890971
+ HEAT              -33.794140
+ GRADIENT NORM      59.522811
+ DIRECTION COSINE    0.998387
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.77357809 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   2.06335028 +1  101.7145703 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.43385069 +1   76.9117215 +1   -0.7853363 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT    4 FIRST  STRUCTURE
+ DISTANCE A - B      0.882061
+ HEAT              -33.260243
+ GRADIENT NORM      61.788046
+ DIRECTION COSINE    0.999927
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.77419198 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   2.05296635 +1  101.7984085 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.43494483 +1   76.8558730 +1    0.1382113 +1     3     1     2
+ 
+ TIME=     0.05
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       0.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT    5 SECOND STRUCTURE
+ DISTANCE A - B      0.882061
+ HEAT              -19.438426
+ GRADIENT NORM     260.338661
+ DIRECTION COSINE    0.963536
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   1.09337308 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.26908250 +1  108.7467474 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.19835194 +1  104.4608301 +1   -0.0063596 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT    6 FIRST  STRUCTURE
+ DISTANCE A - B      0.873240
+ HEAT              -32.910248
+ GRADIENT NORM      55.369584
+ DIRECTION COSINE    0.998901
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.76910333 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   2.01687626 +1  101.7695176 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.42858200 +1   78.6783759 +1   -0.1251049 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT    7 FIRST  STRUCTURE
+ DISTANCE A - B      0.864508
+ HEAT              -32.423430
+ GRADIENT NORM      57.199761
+ DIRECTION COSINE    0.999878
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.76973003 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   2.01077517 +1  101.7366678 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.42932377 +1   78.4546335 +1    0.0426669 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT    8 FIRST  STRUCTURE
+ DISTANCE A - B      0.855863
+ HEAT              -31.925115
+ GRADIENT NORM      58.655159
+ DIRECTION COSINE    0.999993
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.76991463 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   2.00216897 +1  101.7378056 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.42971984 +1   78.3884551 +1    0.1111719 +1     3     1     2
+ 
+ TIME=     0.04
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       0.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT    9 SECOND STRUCTURE
+ DISTANCE A - B      0.855863
+ HEAT              -19.643996
+ GRADIENT NORM     262.136233
+ DIRECTION COSINE    0.998337
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   1.09014987 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.24248357 +1  108.5356932 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.22108425 +1  104.8047998 +1   -0.0108550 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   10 FIRST  STRUCTURE
+ DISTANCE A - B      0.847304
+ HEAT              -31.444986
+ GRADIENT NORM      60.537874
+ DIRECTION COSINE    0.998795
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.77072052 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.98416162 +1  101.5971705 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.43058384 +1   79.1577994 +1    0.3439025 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   11 FIRST  STRUCTURE
+ DISTANCE A - B      0.838831
+ HEAT              -30.931719
+ GRADIENT NORM      61.571094
+ DIRECTION COSINE    0.999771
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.77038656 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.97506793 +1  101.5792243 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.43061165 +1   79.1371745 +1    0.2701312 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   12 FIRST  STRUCTURE
+ DISTANCE A - B      0.830443
+ HEAT              -30.408758
+ GRADIENT NORM      63.258269
+ DIRECTION COSINE    0.999988
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.77081144 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.96637740 +1  101.5629115 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.43120471 +1   79.1124946 +1    0.2875728 +1     3     1     2
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       0.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   13 SECOND STRUCTURE
+ DISTANCE A - B      0.830443
+ HEAT              -19.674341
+ GRADIENT NORM     262.189091
+ DIRECTION COSINE    0.999395
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   1.08830132 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.24277823 +1  108.0025609 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.21911179 +1  105.3603300 +1   -0.3362593 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   14 FIRST  STRUCTURE
+ DISTANCE A - B      0.822138
+ HEAT              -29.879105
+ GRADIENT NORM      64.830827
+ DIRECTION COSINE    0.999449
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.77109341 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.95764288 +1  101.5101902 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.43169346 +1   79.1138658 +1    0.4913495 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   15 FIRST  STRUCTURE
+ DISTANCE A - B      0.813917
+ HEAT              -29.340086
+ GRADIENT NORM      66.549021
+ DIRECTION COSINE    0.999988
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.77154082 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.94911227 +1  101.4661284 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.43230121 +1   79.1053321 +1    0.5384230 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   16 FIRST  STRUCTURE
+ DISTANCE A - B      0.805778
+ HEAT              -28.792218
+ GRADIENT NORM      68.285994
+ DIRECTION COSINE    0.999989
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.77199924 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.94070081 +1  101.4313426 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.43291840 +1   79.0889182 +1    0.5586281 +1     3     1     2
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       0.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   17 SECOND STRUCTURE
+ DISTANCE A - B      0.805778
+ HEAT              -19.716689
+ GRADIENT NORM     262.363357
+ DIRECTION COSINE    0.999559
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   1.08112369 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.23482320 +1  108.0285724 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.22172714 +1  105.4896563 +1   -0.4687484 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   18 FIRST  STRUCTURE
+ DISTANCE A - B      0.797720
+ HEAT              -28.239346
+ GRADIENT NORM      69.682503
+ DIRECTION COSINE    0.999633
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.77205387 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.93160082 +1  101.3996057 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.43322525 +1   79.1211449 +1    0.5211991 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   19 FIRST  STRUCTURE
+ DISTANCE A - B      0.789743
+ HEAT              -27.677217
+ GRADIENT NORM      71.473414
+ DIRECTION COSINE    0.999982
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.77254809 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.92296092 +1  101.3725403 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.43390440 +1   79.1345712 +1    0.5456075 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   20 FIRST  STRUCTURE
+ DISTANCE A - B      0.781845
+ HEAT              -27.106341
+ GRADIENT NORM      73.265649
+ DIRECTION COSINE    0.999987
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.77304235 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.91453015 +1  101.3520771 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.43456941 +1   79.1335539 +1    0.5637920 +1     3     1     2
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       0.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   21 SECOND STRUCTURE
+ DISTANCE A - B      0.781845
+ HEAT              -19.727195
+ GRADIENT NORM     262.477430
+ DIRECTION COSINE    0.999716
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   1.07873023 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.23441340 +1  107.6876548 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.22007783 +1  105.8661716 +1   -0.2857277 +1     2     1     3
+ 
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   22 FIRST  STRUCTURE
+ DISTANCE A - B      0.774027
+ HEAT              -26.529372
+ GRADIENT NORM      74.919109
+ DIRECTION COSINE    0.999758
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.77335656 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.90615145 +1  101.3059458 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.43511568 +1   79.1450725 +1    0.4270758 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   23 FIRST  STRUCTURE
+ DISTANCE A - B      0.766287
+ HEAT              -25.943333
+ GRADIENT NORM      76.742478
+ DIRECTION COSINE    0.999987
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.77387490 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.89802061 +1  101.2683657 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.43580270 +1   79.1434709 +1    0.4336881 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   24 FIRST  STRUCTURE
+ DISTANCE A - B      0.758624
+ HEAT              -25.348912
+ GRADIENT NORM      78.579304
+ DIRECTION COSINE    0.999989
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.77438629 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.89002756 +1  101.2416099 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.43650885 +1   79.1311376 +1    0.4393364 +1     3     1     2
+ 
+ TIME=     0.03
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       0.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   25 SECOND STRUCTURE
+ DISTANCE A - B      0.758624
+ HEAT              -19.738779
+ GRADIENT NORM     262.332741
+ DIRECTION COSINE    0.999782
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   1.07495073 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.22980169 +1  107.7468499 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.22280862 +1  105.9384978 +1   -0.3411247 +1     2     1     3
+ 
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   26 FIRST  STRUCTURE
+ DISTANCE A - B      0.751038
+ HEAT              -24.748482
+ GRADIENT NORM      80.202515
+ DIRECTION COSINE    0.999824
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.77462526 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.88153309 +1  101.2232449 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.43703382 +1   79.1523099 +1    0.4041480 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   27 FIRST  STRUCTURE
+ DISTANCE A - B      0.743527
+ HEAT              -24.139537
+ GRADIENT NORM      82.093933
+ DIRECTION COSINE    0.999984
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.77517460 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.87343307 +1  101.2099830 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.43780388 +1   79.1553194 +1    0.4222243 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   28 FIRST  STRUCTURE
+ DISTANCE A - B      0.736092
+ HEAT              -23.522533
+ GRADIENT NORM      83.979695
+ DIRECTION COSINE    0.999988
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.77572291 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.86552155 +1  101.2032099 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.43855349 +1   79.1451242 +1    0.4349630 +1     3     1     2
+ 
+ TIME=     0.03
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       0.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   29 SECOND STRUCTURE
+ DISTANCE A - B      0.736092
+ HEAT              -19.747123
+ GRADIENT NORM     262.356128
+ DIRECTION COSINE    0.999860
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   1.07173129 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.22874910 +1  107.6047015 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.22162077 +1  106.1598851 +1   -0.3655823 +1     2     1     3
+ 
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   30 FIRST  STRUCTURE
+ DISTANCE A - B      0.728731
+ HEAT              -22.899478
+ GRADIENT NORM      85.666139
+ DIRECTION COSINE    0.999886
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.77603286 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.85753087 +1  101.1859738 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.43911872 +1   79.1456417 +1    0.4109726 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   31 FIRST  STRUCTURE
+ DISTANCE A - B      0.721444
+ HEAT              -22.268479
+ GRADIENT NORM      87.591405
+ DIRECTION COSINE    0.999986
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.77659870 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.84984398 +1  101.1765290 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.43992394 +1   79.1328516 +1    0.4254912 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   32 FIRST  STRUCTURE
+ DISTANCE A - B      0.714229
+ HEAT              -21.629891
+ GRADIENT NORM      89.512133
+ DIRECTION COSINE    0.999990
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.77716746 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.84229127 +1  101.1742508 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.44071125 +1   79.1107653 +1    0.4354058 +1     3     1     2
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       0.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   33 SECOND STRUCTURE
+ DISTANCE A - B      0.714229
+ HEAT              -19.755331
+ GRADIENT NORM     262.348181
+ DIRECTION COSINE    0.999895
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   1.06855971 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.22592507 +1  107.5817457 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.22241634 +1  106.2743346 +1   -0.3774122 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   34 FIRST  STRUCTURE
+ DISTANCE A - B      0.707087
+ HEAT              -20.985618
+ GRADIENT NORM      91.238822
+ DIRECTION COSINE    0.999915
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.77749409 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.83447976 +1  101.1693995 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.44133044 +1   79.1089864 +1    0.4031171 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   35 FIRST  STRUCTURE
+ DISTANCE A - B      0.700016
+ HEAT              -20.333769
+ GRADIENT NORM      93.202910
+ DIRECTION COSINE    0.999987
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.77808761 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.82698037 +1  101.1709698 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.44218135 +1   79.0940797 +1    0.4155563 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   36 FIRST  STRUCTURE
+ DISTANCE A - B      0.693016
+ HEAT              -19.674728
+ GRADIENT NORM      95.159341
+ DIRECTION COSINE    0.999990
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.77868208 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.81961385 +1  101.1788827 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.44301294 +1   79.0702226 +1    0.4254526 +1     3     1     2
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       0.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   37 SECOND STRUCTURE
+ DISTANCE A - B      0.693016
+ HEAT              -19.762570
+ GRADIENT NORM     262.463481
+ DIRECTION COSINE    0.999929
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   1.06536469 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.22444197 +1  107.5282610 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.22142507 +1  106.4012943 +1   -0.3744941 +1     2     1     3
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   38 SECOND STRUCTURE
+ DISTANCE A - B      0.686086
+ HEAT              -17.947601
+ GRADIENT NORM     261.046079
+ DIRECTION COSINE    0.999997
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   1.05886544 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.23122525 +1  107.4592592 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.22849479 +1  106.5876909 +1   -0.3460675 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   39 FIRST  STRUCTURE
+ DISTANCE A - B      0.679225
+ HEAT              -19.017429
+ GRADIENT NORM      96.856679
+ DIRECTION COSINE    0.999948
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.77878890 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.81212116 +1  101.1770950 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.44379455 +1   79.0644312 +1    0.3890842 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   40 FIRST  STRUCTURE
+ DISTANCE A - B      0.672433
+ HEAT              -18.353028
+ GRADIENT NORM      98.843625
+ DIRECTION COSINE    0.999987
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.77941173 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.80500383 +1  101.1730291 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.44469495 +1   79.0472453 +1    0.3907413 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   41 FIRST  STRUCTURE
+ DISTANCE A - B      0.665708
+ HEAT              -17.681995
+ GRADIENT NORM     100.814657
+ DIRECTION COSINE    0.999990
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.78001659 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.79799315 +1  101.1775074 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.44557936 +1   79.0214870 +1    0.3951286 +1     3     1     2
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       0.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   42 SECOND STRUCTURE
+ DISTANCE A - B      0.665708
+ HEAT              -17.952840
+ GRADIENT NORM     261.355335
+ DIRECTION COSINE    0.999957
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   1.05656658 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.22991325 +1  107.4360301 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.22737973 +1  106.6368471 +1   -0.3445092 +1     2     1     3
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   43 SECOND STRUCTURE
+ DISTANCE A - B      0.659051
+ HEAT              -16.216600
+ GRADIENT NORM     260.066586
+ DIRECTION COSINE    0.999994
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   1.05111391 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.23612112 +1  107.4275808 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.23438124 +1  106.7054500 +1   -0.3122437 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   44 FIRST  STRUCTURE
+ DISTANCE A - B      0.652461
+ HEAT              -17.012795
+ GRADIENT NORM     102.565768
+ DIRECTION COSINE    0.999966
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.78022903 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.79087008 +1  101.1847073 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.44640372 +1   79.0065352 +1    0.3486232 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   45 FIRST  STRUCTURE
+ DISTANCE A - B      0.645936
+ HEAT              -16.337195
+ GRADIENT NORM     104.558707
+ DIRECTION COSINE    0.999988
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.78086466 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.78406270 +1  101.1911530 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.44734141 +1   78.9823214 +1    0.3498270 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   46 FIRST  STRUCTURE
+ DISTANCE A - B      0.639477
+ HEAT              -15.655581
+ GRADIENT NORM     106.537844
+ DIRECTION COSINE    0.999991
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.78148374 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.77734772 +1  101.2051967 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.44826953 +1   78.9511680 +1    0.3514869 +1     3     1     2
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       0.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   47 SECOND STRUCTURE
+ DISTANCE A - B      0.639477
+ HEAT              -16.221803
+ GRADIENT NORM     260.346839
+ DIRECTION COSINE    0.999969
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   1.04858413 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.23498829 +1  107.4095050 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.23314129 +1  106.7676820 +1   -0.3170589 +1     2     1     3
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   48 SECOND STRUCTURE
+ DISTANCE A - B      0.633082
+ HEAT              -14.560743
+ GRADIENT NORM     258.970498
+ DIRECTION COSINE    0.999994
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   1.04316609 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.24096347 +1  107.4000923 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.23989095 +1  106.8439035 +1   -0.2896901 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   49 FIRST  STRUCTURE
+ DISTANCE A - B      0.626751
+ HEAT              -14.976479
+ GRADIENT NORM     108.286052
+ DIRECTION COSINE    0.999978
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.78166866 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.77053250 +1  101.2214570 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.44915212 +1   78.9291275 +1    0.3118364 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   50 FIRST  STRUCTURE
+ DISTANCE A - B      0.620484
+ HEAT              -14.291576
+ GRADIENT NORM     110.284745
+ DIRECTION COSINE    0.999989
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.78231740 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.76402933 +1  101.2346932 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.45013624 +1   78.8998873 +1    0.3138497 +1     3     1     2
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   51 SECOND STRUCTURE
+ DISTANCE A - B      0.614279
+ HEAT              -12.955978
+ GRADIENT NORM     257.493632
+ DIRECTION COSINE    0.999986
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   1.03511090 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.24750424 +1  107.4004641 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.24426372 +1  107.0043497 +1   -0.1204400 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   52 FIRST  STRUCTURE
+ DISTANCE A - B      0.608136
+ HEAT              -13.610099
+ GRADIENT NORM     112.128945
+ DIRECTION COSINE    0.999978
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.78252610 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.75782887 +1  101.2514483 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.45123572 +1   78.8518150 +1    0.1544021 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   53 FIRST  STRUCTURE
+ DISTANCE A - B      0.602055
+ HEAT              -12.922517
+ GRADIENT NORM     114.078982
+ DIRECTION COSINE    0.999993
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.78315937 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.75168742 +1  101.2629216 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.45217886 +1   78.8097698 +1    0.1503183 +1     3     1     2
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   54 SECOND STRUCTURE
+ DISTANCE A - B      0.596034
+ HEAT              -11.406421
+ GRADIENT NORM     257.266991
+ DIRECTION COSINE    0.999970
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   1.03259138 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.25244618 +1  107.3146133 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.24922553 +1  106.9172226 +1   -0.1204465 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   55 FIRST  STRUCTURE
+ DISTANCE A - B      0.590074
+ HEAT              -12.236910
+ GRADIENT NORM     116.027599
+ DIRECTION COSINE    0.999956
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.78377809 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.74561847 +1  101.2843062 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.45316620 +1   78.7674946 +1    0.1574015 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   56 FIRST  STRUCTURE
+ DISTANCE A - B      0.584173
+ HEAT              -11.546616
+ GRADIENT NORM     117.990805
+ DIRECTION COSINE    0.999992
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.78441275 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.73957840 +1  101.3120876 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.45417980 +1   78.7249555 +1    0.1668244 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   57 FIRST  STRUCTURE
+ DISTANCE A - B      0.578331
+ HEAT              -10.851790
+ GRADIENT NORM     119.942103
+ DIRECTION COSINE    0.999993
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.78505490 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.73356830 +1  101.3437923 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.45517300 +1   78.6820992 +1    0.1686401 +1     3     1     2
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       0.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   58 SECOND STRUCTURE
+ DISTANCE A - B      0.578331
+ HEAT              -11.413690
+ GRADIENT NORM     257.215796
+ DIRECTION COSINE    0.999968
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   1.02851690 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.25084969 +1  107.3913919 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.24877392 +1  106.9918361 +1   -0.1439417 +1     2     1     3
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   59 SECOND STRUCTURE
+ DISTANCE A - B      0.572548
+ HEAT               -9.930321
+ GRADIENT NORM     255.412948
+ DIRECTION COSINE    0.999994
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   1.02196354 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.25626265 +1  107.3979573 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.25495728 +1  107.1354190 +1   -0.1400479 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   60 FIRST  STRUCTURE
+ DISTANCE A - B      0.566823
+ HEAT              -10.161696
+ GRADIENT NORM     121.558112
+ DIRECTION COSINE    0.999992
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.78489504 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.72721035 +1  101.3910392 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.45623254 +1   78.6551399 +1    0.1527339 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   61 FIRST  STRUCTURE
+ DISTANCE A - B      0.561154
+ HEAT               -9.467010
+ GRADIENT NORM     123.551320
+ DIRECTION COSINE    0.999989
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.78558023 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.72133175 +1  101.4176154 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.45733383 +1   78.6233385 +1    0.1629758 +1     3     1     2
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   62 SECOND STRUCTURE
+ DISTANCE A - B      0.555543
+ HEAT               -8.499799
+ GRADIENT NORM     254.320838
+ DIRECTION COSINE    0.999991
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   1.01756424 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.26117244 +1  107.4094912 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.26035651 +1  107.1205390 +1   -0.1698892 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   63 FIRST  STRUCTURE
+ DISTANCE A - B      0.549987
+ HEAT               -8.775352
+ GRADIENT NORM     125.473836
+ DIRECTION COSINE    0.999988
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.78601738 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.71550354 +1  101.4579450 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.45854836 +1   78.5877824 +1    0.1600917 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   64 FIRST  STRUCTURE
+ DISTANCE A - B      0.544487
+ HEAT               -8.079854
+ GRADIENT NORM     127.439723
+ DIRECTION COSINE    0.999991
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.78669098 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.70983954 +1  101.4913990 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.45965769 +1   78.5492818 +1    0.1748145 +1     3     1     2
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   65 SECOND STRUCTURE
+ DISTANCE A - B      0.539043
+ HEAT               -7.118333
+ GRADIENT NORM     253.430228
+ DIRECTION COSINE    0.999983
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   1.01189925 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.26626983 +1  107.2672347 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.26404198 +1  107.2907522 +1   -0.1598532 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   66 FIRST  STRUCTURE
+ DISTANCE A - B      0.533652
+ HEAT               -7.388746
+ GRADIENT NORM     129.239094
+ DIRECTION COSINE    0.999995
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.78698600 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.70439183 +1  101.5029301 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.46079813 +1   78.5093002 +1    0.1914083 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   67 FIRST  STRUCTURE
+ DISTANCE A - B      0.528316
+ HEAT               -6.694084
+ GRADIENT NORM     131.173104
+ DIRECTION COSINE    0.999992
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.78763667 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.69905568 +1  101.5158497 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.46192184 +1   78.4703590 +1    0.1914360 +1     3     1     2
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   68 SECOND STRUCTURE
+ DISTANCE A - B      0.523032
+ HEAT               -5.783820
+ GRADIENT NORM     251.762561
+ DIRECTION COSINE    0.999986
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   1.00679078 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.27099372 +1  107.3968268 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.26997824 +1  107.2452483 +1   -0.1518226 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   69 FIRST  STRUCTURE
+ DISTANCE A - B      0.517802
+ HEAT               -6.003121
+ GRADIENT NORM     133.085864
+ DIRECTION COSINE    0.999978
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.78797363 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.69358454 +1  101.5708116 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.46332729 +1   78.4293363 +1    0.1558250 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   70 FIRST  STRUCTURE
+ DISTANCE A - B      0.512624
+ HEAT               -5.308942
+ GRADIENT NORM     135.033006
+ DIRECTION COSINE    0.999991
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.78866130 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.68828930 +1  101.6105285 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.46450916 +1   78.3877792 +1    0.1578982 +1     3     1     2
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   71 SECOND STRUCTURE
+ DISTANCE A - B      0.507498
+ HEAT               -4.495506
+ GRADIENT NORM     251.142556
+ DIRECTION COSINE    0.999985
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   1.00121537 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.27608066 +1  107.2113499 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.27239893 +1  107.4424727 +1   -0.1512548 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   72 FIRST  STRUCTURE
+ DISTANCE A - B      0.502423
+ HEAT               -4.620157
+ GRADIENT NORM     136.786461
+ DIRECTION COSINE    0.999996
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.78894128 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.68339225 +1  101.6167137 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.46568872 +1   78.3353231 +1    0.1818601 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   73 FIRST  STRUCTURE
+ DISTANCE A - B      0.497399
+ HEAT               -3.928542
+ GRADIENT NORM     138.664066
+ DIRECTION COSINE    0.999994
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.78958153 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.67848106 +1  101.6271717 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.46683147 +1   78.2914200 +1    0.1822630 +1     3     1     2
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   74 SECOND STRUCTURE
+ DISTANCE A - B      0.492425
+ HEAT               -3.250890
+ GRADIENT NORM     249.684450
+ DIRECTION COSINE    0.999986
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.99634509 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.27979471 +1  107.3490646 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.27827352 +1  107.3677588 +1   -0.1260220 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   75 FIRST  STRUCTURE
+ DISTANCE A - B      0.487500
+ HEAT               -3.241465
+ GRADIENT NORM     140.512365
+ DIRECTION COSINE    0.999993
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.78990723 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.67326347 +1  101.6883600 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.46824477 +1   78.2533349 +1    0.1385218 +1     3     1     2
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   76 SECOND STRUCTURE
+ DISTANCE A - B      0.482625
+ HEAT               -2.036881
+ GRADIENT NORM     248.233223
+ DIRECTION COSINE    0.999990
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.99146983 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.28399070 +1  107.3880492 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.28341159 +1  107.3921570 +1   -0.1149669 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   77 FIRST  STRUCTURE
+ DISTANCE A - B      0.477799
+ HEAT               -2.558943
+ GRADIENT NORM     142.370511
+ DIRECTION COSINE    0.999998
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.79021748 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.66818512 +1  101.7506671 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.46974155 +1   78.2142845 +1    0.1101137 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   78 FIRST  STRUCTURE
+ DISTANCE A - B      0.473021
+ HEAT               -1.874146
+ GRADIENT NORM     144.270559
+ DIRECTION COSINE    0.999991
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.79090580 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.66331922 +1  101.7944438 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.47101155 +1   78.1736900 +1    0.1163968 +1     3     1     2
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   79 SECOND STRUCTURE
+ DISTANCE A - B      0.468291
+ HEAT               -0.865184
+ GRADIENT NORM     247.089989
+ DIRECTION COSINE    0.999992
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.98734567 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.28804034 +1  107.4138063 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.28800401 +1  107.3792811 +1   -0.1130083 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   80 FIRST  STRUCTURE
+ DISTANCE A - B      0.463608
+ HEAT               -1.194365
+ GRADIENT NORM     146.096841
+ DIRECTION COSINE    0.999993
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.79127291 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.65846283 +1  101.8553651 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.47246158 +1   78.1300915 +1    0.1054613 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   81 FIRST  STRUCTURE
+ DISTANCE A - B      0.458972
+ HEAT               -0.512707
+ GRADIENT NORM     147.971257
+ DIRECTION COSINE    0.999992
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.79195513 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.65378252 +1  101.9011109 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.47375688 +1   78.0866222 +1    0.1108701 +1     3     1     2
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   82 SECOND STRUCTURE
+ DISTANCE A - B      0.454382
+ HEAT                0.266074
+ GRADIENT NORM     245.987440
+ DIRECTION COSINE    0.999991
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.98269449 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.29184001 +1  107.4426342 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.29227515 +1  107.3873671 +1   -0.1127828 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   83 FIRST  STRUCTURE
+ DISTANCE A - B      0.449838
+ HEAT                0.163385
+ GRADIENT NORM     149.728777
+ DIRECTION COSINE    0.999995
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.79223414 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.64909445 +1  101.9635189 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.47521305 +1   78.0395926 +1    0.1042923 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   84 FIRST  STRUCTURE
+ DISTANCE A - B      0.445340
+ HEAT                0.841061
+ GRADIENT NORM     151.579178
+ DIRECTION COSINE    0.999992
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.79291334 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.64459551 +1  102.0089475 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.47653835 +1   77.9948756 +1    0.1086564 +1     3     1     2
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   85 SECOND STRUCTURE
+ DISTANCE A - B      0.440887
+ HEAT                1.359030
+ GRADIENT NORM     244.874598
+ DIRECTION COSINE    0.999992
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.97844827 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.29565185 +1  107.4642173 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.29648924 +1  107.3925142 +1   -0.1083777 +1     2     1     3
+ 
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   86 FIRST  STRUCTURE
+ DISTANCE A - B      0.436478
+ HEAT                1.513051
+ GRADIENT NORM     153.342523
+ DIRECTION COSINE    0.999994
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.79321934 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.64009946 +1  102.0705758 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.47806734 +1   77.9476439 +1    0.1020486 +1     3     1     2
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   87 SECOND STRUCTURE
+ DISTANCE A - B      0.432113
+ HEAT                2.425386
+ GRADIENT NORM     243.560401
+ DIRECTION COSINE    0.999992
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.97461514 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.29966067 +1  107.4725147 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.30095675 +1  107.4108258 +1   -0.0903327 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   88 FIRST  STRUCTURE
+ DISTANCE A - B      0.427792
+ HEAT                2.179551
+ GRADIENT NORM     155.173705
+ DIRECTION COSINE    0.999996
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.79359293 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.63576483 +1  102.1283380 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.47974836 +1   77.9035923 +1    0.0723820 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   89 FIRST  STRUCTURE
+ DISTANCE A - B      0.423514
+ HEAT                2.847235
+ GRADIENT NORM     156.982647
+ DIRECTION COSINE    0.999992
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.79426338 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.63154269 +1  102.1698493 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.48112911 +1   77.8600454 +1    0.0853014 +1     3     1     2
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   90 SECOND STRUCTURE
+ DISTANCE A - B      0.419279
+ HEAT                3.454787
+ GRADIENT NORM     242.494574
+ DIRECTION COSINE    0.999992
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.97076798 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.30335929 +1  107.4912585 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.30495181 +1  107.4073974 +1   -0.0805909 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   91 FIRST  STRUCTURE
+ DISTANCE A - B      0.415086
+ HEAT                3.508947
+ GRADIENT NORM     158.727743
+ DIRECTION COSINE    0.999993
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.79458926 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.62735527 +1  102.2299053 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.48274549 +1   77.8116498 +1    0.0820003 +1     3     1     2
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   92 SECOND STRUCTURE
+ DISTANCE A - B      0.410935
+ HEAT                4.459080
+ GRADIENT NORM     241.219447
+ DIRECTION COSINE    0.999991
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.96712738 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.30720162 +1  107.4991653 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.30919281 +1  107.4230402 +1   -0.0727615 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   93 FIRST  STRUCTURE
+ DISTANCE A - B      0.406826
+ HEAT                4.164825
+ GRADIENT NORM     160.520652
+ DIRECTION COSINE    0.999996
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.79494894 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.62331329 +1  102.2875558 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.48450627 +1   77.7658598 +1    0.0500434 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   94 FIRST  STRUCTURE
+ DISTANCE A - B      0.402758
+ HEAT                4.821438
+ GRADIENT NORM     162.283761
+ DIRECTION COSINE    0.999993
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.79561488 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.61935837 +1  102.3284713 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.48593542 +1   77.7216402 +1    0.0668605 +1     3     1     2
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   95 SECOND STRUCTURE
+ DISTANCE A - B      0.398730
+ HEAT                5.428710
+ GRADIENT NORM     240.171480
+ DIRECTION COSINE    0.999992
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.96354081 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.31078633 +1  107.5152170 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.31301485 +1  107.4188474 +1   -0.0643012 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   96 FIRST  STRUCTURE
+ DISTANCE A - B      0.394743
+ HEAT                5.471798
+ GRADIENT NORM     164.003959
+ DIRECTION COSINE    0.999992
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.79595091 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.61545584 +1  102.3886255 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.48764425 +1   77.6724007 +1    0.0624110 +1     3     1     2
+ 
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   97 SECOND STRUCTURE
+ DISTANCE A - B      0.390795
+ HEAT                6.374725
+ GRADIENT NORM     238.946037
+ DIRECTION COSINE    0.999991
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.96012415 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.31447287 +1  107.5209688 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.31704559 +1  107.4319001 +1   -0.0576609 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   98 FIRST  STRUCTURE
+ DISTANCE A - B      0.386887
+ HEAT                6.116370
+ GRADIENT NORM     165.743159
+ DIRECTION COSINE    0.999996
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.79626647 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.61169215 +1  102.4454871 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.48948603 +1   77.6250133 +1   -0.0477906 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT   99 FIRST  STRUCTURE
+ DISTANCE A - B      0.383018
+ HEAT                6.760636
+ GRADIENT NORM     167.464830
+ DIRECTION COSINE    0.999993
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.79694529 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.60799388 +1  102.4866387 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.49096615 +1   77.5804536 +1    0.0176654 +1     3     1     2
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  100 SECOND STRUCTURE
+ DISTANCE A - B      0.379188
+ HEAT                7.288144
+ GRADIENT NORM     237.918611
+ DIRECTION COSINE    0.999992
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.95674742 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.31793607 +1  107.5351510 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.32070711 +1  107.4280519 +1   -0.0351161 +1     2     1     3
+ 
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  101 FIRST  STRUCTURE
+ DISTANCE A - B      0.375396
+ HEAT                7.398711
+ GRADIENT NORM     169.139391
+ DIRECTION COSINE    0.999992
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.79725485 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.60435577 +1  102.5483333 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.49276354 +1   77.5297735 +1    0.0371405 +1     3     1     2
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  102 SECOND STRUCTURE
+ DISTANCE A - B      0.371642
+ HEAT                8.179434
+ GRADIENT NORM     236.745536
+ DIRECTION COSINE    0.999991
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.95352089 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.32146360 +1  107.5403803 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.32454545 +1  107.4383719 +1   -0.0341973 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  103 FIRST  STRUCTURE
+ DISTANCE A - B      0.367926
+ HEAT                8.030470
+ GRADIENT NORM     170.843403
+ DIRECTION COSINE    0.999996
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.79759174 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.60085859 +1  102.6063123 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.49468164 +1   77.4816187 +1   -0.0117481 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  104 FIRST  STRUCTURE
+ DISTANCE A - B      0.364247
+ HEAT                8.662021
+ GRADIENT NORM     172.503354
+ DIRECTION COSINE    0.999994
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.79824492 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.59739977 +1  102.6468469 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.49620502 +1   77.4365775 +1    0.0194167 +1     3     1     2
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  105 SECOND STRUCTURE
+ DISTANCE A - B      0.360604
+ HEAT                9.040312
+ GRADIENT NORM     235.818550
+ DIRECTION COSINE    0.999993
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.94991012 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.32465352 +1  107.5530426 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.32791508 +1  107.4494333 +1   -0.0253859 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  106 FIRST  STRUCTURE
+ DISTANCE A - B      0.356998
+ HEAT                9.286696
+ GRADIENT NORM     174.080566
+ DIRECTION COSINE    0.999998
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.79846686 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.59398458 +1  102.7076191 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.49802778 +1   77.3852495 +1    0.0327398 +1     3     1     2
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  107 SECOND STRUCTURE
+ DISTANCE A - B      0.353428
+ HEAT                9.880404
+ GRADIENT NORM     234.740743
+ DIRECTION COSINE    0.999988
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.94750502 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.32837909 +1  107.5451900 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.33135044 +1  107.4394284 +1   -0.0274467 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  108 FIRST  STRUCTURE
+ DISTANCE A - B      0.349894
+ HEAT                9.905133
+ GRADIENT NORM     175.789985
+ DIRECTION COSINE    0.999996
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.79890549 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.59088204 +1  102.7622254 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.50005943 +1   77.3313067 +1   -0.0309082 +1     3     1     2
+ 
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  109 SECOND STRUCTURE
+ DISTANCE A - B      0.346395
+ HEAT               10.699608
+ GRADIENT NORM     233.583535
+ DIRECTION COSINE    0.999986
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.94415259 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.33165352 +1  107.5566383 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.33498656 +1  107.4595309 +1    0.0167956 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  110 FIRST  STRUCTURE
+ DISTANCE A - B      0.342931
+ HEAT               10.516711
+ GRADIENT NORM     177.394069
+ DIRECTION COSINE    0.999999
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.79914943 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.58773834 +1  102.8229606 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.50209071 +1   77.2798516 +1   -0.0057952 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  111 FIRST  STRUCTURE
+ DISTANCE A - B      0.339502
+ HEAT               11.127734
+ GRADIENT NORM     178.966901
+ DIRECTION COSINE    0.999994
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.79978935 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.58461563 +1  102.8604912 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.50365748 +1   77.2344277 +1   -0.0047663 +1     3     1     2
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  112 SECOND STRUCTURE
+ DISTANCE A - B      0.336107
+ HEAT               11.492679
+ GRADIENT NORM     233.626743
+ DIRECTION COSINE    0.999963
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.94270895 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.33413087 +1  107.5009662 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.33745132 +1  107.4041085 +1    0.0166487 +1     2     1     3
+ 
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  113 FIRST  STRUCTURE
+ DISTANCE A - B      0.332746
+ HEAT               11.731792
+ GRADIENT NORM     180.495255
+ DIRECTION COSINE    0.999967
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80039673 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.58151684 +1  102.9009203 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.50520214 +1   77.1904110 +1   -0.0026147 +1     3     1     2
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  114 SECOND STRUCTURE
+ DISTANCE A - B      0.329418
+ HEAT               12.264683
+ GRADIENT NORM     231.510603
+ DIRECTION COSINE    0.999964
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.93914620 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.33790341 +1  107.5626509 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.34220247 +1  107.4401329 +1    0.0108234 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  115 FIRST  STRUCTURE
+ DISTANCE A - B      0.326124
+ HEAT               12.328539
+ GRADIENT NORM     182.114456
+ DIRECTION COSINE    0.999995
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80052454 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.57860727 +1  102.9653459 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.50764256 +1   77.1467245 +1   -0.0085182 +1     3     1     2
+ 
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  116 SECOND STRUCTURE
+ DISTANCE A - B      0.322863
+ HEAT               13.018023
+ GRADIENT NORM     230.347943
+ DIRECTION COSINE    0.999981
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.93601346 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.34176038 +1  107.5588060 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.34499768 +1  107.4766273 +1    0.0033524 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  117 FIRST  STRUCTURE
+ DISTANCE A - B      0.319634
+ HEAT               12.918873
+ GRADIENT NORM     183.580875
+ DIRECTION COSINE    0.999999
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80067880 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.57640700 +1  102.9911183 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.50969015 +1   77.0639597 +1    0.0041520 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  118 FIRST  STRUCTURE
+ DISTANCE A - B      0.316438
+ HEAT               13.508854
+ GRADIENT NORM     185.581728
+ DIRECTION COSINE    0.999949
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80203214 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.57401906 +1  103.0301477 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.51204055 +1   77.0256899 +1    0.0040749 +1     3     1     2
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  119 SECOND STRUCTURE
+ DISTANCE A - B      0.313273
+ HEAT               13.745654
+ GRADIENT NORM     229.294529
+ DIRECTION COSINE    0.999955
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.93404774 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.34577178 +1  107.5188645 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.34761840 +1  107.4955478 +1   -0.0065909 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  120 FIRST  STRUCTURE
+ DISTANCE A - B      0.310141
+ HEAT               14.091212
+ GRADIENT NORM     186.820333
+ DIRECTION COSINE    0.999980
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80183610 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.57132834 +1  103.1000036 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.51396970 +1   76.9534311 +1    0.0023263 +1     3     1     2
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  121 SECOND STRUCTURE
+ DISTANCE A - B      0.307039
+ HEAT               14.455260
+ GRADIENT NORM     228.371112
+ DIRECTION COSINE    0.999990
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.93093394 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.34840911 +1  107.5481374 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.35093803 +1  107.4939078 +1   -0.0024551 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  122 FIRST  STRUCTURE
+ DISTANCE A - B      0.303969
+ HEAT               14.666663
+ GRADIENT NORM     188.201457
+ DIRECTION COSINE    0.999998
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80196993 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.56860845 +1  103.1682170 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.51603757 +1   76.9015914 +1   -0.0099563 +1     3     1     2
+ 
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  123 SECOND STRUCTURE
+ DISTANCE A - B      0.300929
+ HEAT               15.148029
+ GRADIENT NORM     227.454733
+ DIRECTION COSINE    0.999985
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.92878532 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.35141393 +1  107.5478801 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.35406869 +1  107.4805656 +1    0.0082728 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  124 FIRST  STRUCTURE
+ DISTANCE A - B      0.297920
+ HEAT               15.235784
+ GRADIENT NORM     190.046857
+ DIRECTION COSINE    0.999957
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80323809 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.56639751 +1  103.2059882 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.51830701 +1   76.8641553 +1   -0.0099160 +1     3     1     2
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  125 SECOND STRUCTURE
+ DISTANCE A - B      0.294941
+ HEAT               15.824333
+ GRADIENT NORM     226.214328
+ DIRECTION COSINE    0.999919
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.92743686 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.35550196 +1  107.5160086 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.35688784 +1  107.4798587 +1    0.0123614 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  126 FIRST  STRUCTURE
+ DISTANCE A - B      0.291991
+ HEAT               15.796957
+ GRADIENT NORM     191.183625
+ DIRECTION COSINE    0.999978
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80281576 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.56447756 +1  103.2557516 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.52048092 +1   76.7670441 +1    0.0000000 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  127 FIRST  STRUCTURE
+ DISTANCE A - B      0.289071
+ HEAT               16.357772
+ GRADIENT NORM     192.949620
+ DIRECTION COSINE    0.999965
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80406197 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.56235097 +1  103.2927274 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.52270586 +1   76.7304030 +1    0.0000000 +1     3     1     2
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  128 SECOND STRUCTURE
+ DISTANCE A - B      0.286181
+ HEAT               16.476369
+ GRADIENT NORM     225.196515
+ DIRECTION COSINE    0.999940
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.92432335 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.35824062 +1  107.5497125 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.36000897 +1  107.4881590 +1   -0.0031609 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  129 FIRST  STRUCTURE
+ DISTANCE A - B      0.283319
+ HEAT               16.910077
+ GRADIENT NORM     193.967245
+ DIRECTION COSINE    0.999983
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80361265 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.55955034 +1  103.3800152 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.52468884 +1   76.6788238 +1   -0.0054805 +1     3     1     2
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  130 SECOND STRUCTURE
+ DISTANCE A - B      0.280486
+ HEAT               17.113240
+ GRADIENT NORM     224.438396
+ DIRECTION COSINE    0.999985
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.92162838 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.36067061 +1  107.5623678 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.36297850 +1  107.4897838 +1    0.0044408 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  131 FIRST  STRUCTURE
+ DISTANCE A - B      0.277681
+ HEAT               17.455536
+ GRADIENT NORM     195.211133
+ DIRECTION COSINE    0.999998
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80372136 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.55725725 +1  103.4429133 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.52681931 +1   76.6251333 +1   -0.0031382 +1     3     1     2
+ 
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  132 SECOND STRUCTURE
+ DISTANCE A - B      0.274904
+ HEAT               17.735185
+ GRADIENT NORM     223.555853
+ DIRECTION COSINE    0.999979
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.91968109 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.36354598 +1  107.5555730 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.36586800 +1  107.4846193 +1    0.0042294 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  133 FIRST  STRUCTURE
+ DISTANCE A - B      0.272155
+ HEAT               17.994391
+ GRADIENT NORM     196.827900
+ DIRECTION COSINE    0.999959
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80488096 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.55528543 +1  103.4789534 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.52896457 +1   76.5893388 +1   -0.0031403 +1     3     1     2
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  134 SECOND STRUCTURE
+ DISTANCE A - B      0.269433
+ HEAT               18.342484
+ GRADIENT NORM     222.520232
+ DIRECTION COSINE    0.999917
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.91837896 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.36701925 +1  107.5287901 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.36854369 +1  107.4786342 +1    0.0069701 +1     2     1     3
+ 
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  135 FIRST  STRUCTURE
+ DISTANCE A - B      0.266739
+ HEAT               18.525058
+ GRADIENT NORM     198.104669
+ DIRECTION COSINE    0.999974
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80457578 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.55385472 +1  103.5773987 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53209270 +1   76.4939318 +1    0.0138552 +1     3     1     2
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  136 SECOND STRUCTURE
+ DISTANCE A - B      0.264072
+ HEAT               18.933544
+ GRADIENT NORM     221.274983
+ DIRECTION COSINE    0.999982
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.91553154 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.36955618 +1  107.5863887 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.37210760 +1  107.4708932 +1   -0.0088213 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  137 FIRST  STRUCTURE
+ DISTANCE A - B      0.261431
+ HEAT               19.049197
+ GRADIENT NORM     199.277868
+ DIRECTION COSINE    0.999995
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80459532 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.55162856 +1  103.6471837 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53446847 +1   76.4550561 +1    0.0076202 +1     3     1     2
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  138 SECOND STRUCTURE
+ DISTANCE A - B      0.258817
+ HEAT               19.510873
+ GRADIENT NORM     220.282672
+ DIRECTION COSINE    0.999985
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.91366169 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.37211435 +1  107.5917417 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.37532867 +1  107.4618964 +1   -0.0050905 +1     2     1     3
+ 
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  139 FIRST  STRUCTURE
+ DISTANCE A - B      0.256229
+ HEAT               19.566856
+ GRADIENT NORM     200.750442
+ DIRECTION COSINE    0.999959
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80568599 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.54980120 +1  103.6820796 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53653439 +1   76.4204942 +1    0.0075795 +1     3     1     2
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  140 SECOND STRUCTURE
+ DISTANCE A - B      0.253666
+ HEAT               20.075625
+ GRADIENT NORM     220.548419
+ DIRECTION COSINE    0.999894
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.91258194 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.37385556 +1  107.5476727 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.37705937 +1  107.4181244 +1   -0.0051181 +1     2     1     3
+ 
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  141 FIRST  STRUCTURE
+ DISTANCE A - B      0.251130
+ HEAT               20.076462
+ GRADIENT NORM     201.612690
+ DIRECTION COSINE    0.999942
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80541414 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.54765443 +1  103.7180544 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53831227 +1   76.3744248 +1    0.0083343 +1     3     1     2
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  142 SECOND STRUCTURE
+ DISTANCE A - B      0.248618
+ HEAT               20.625182
+ GRADIENT NORM     218.975901
+ DIRECTION COSINE    0.999924
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.90972871 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.37711601 +1  107.5625088 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.38034428 +1  107.4732054 +1   -0.0103869 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  143 FIRST  STRUCTURE
+ DISTANCE A - B      0.246132
+ HEAT               20.577768
+ GRADIENT NORM     202.793137
+ DIRECTION COSINE    0.999988
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80521282 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.54623477 +1  103.8143286 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.54152206 +1   76.3066802 +1    0.0139378 +1     3     1     2
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  144 FIRST  STRUCTURE
+ DISTANCE A - B      0.243671
+ HEAT               21.078569
+ GRADIENT NORM     204.144640
+ DIRECTION COSINE    0.999981
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80625798 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.54451430 +1  103.8477101 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.54350418 +1   76.2733175 +1    0.0138739 +1     3     1     2
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  145 SECOND STRUCTURE
+ DISTANCE A - B      0.241234
+ HEAT               21.156238
+ GRADIENT NORM     217.753828
+ DIRECTION COSINE    0.999956
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.90807816 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.37991525 +1  107.5811494 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.38357791 +1  107.4579145 +1   -0.0093839 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  146 FIRST  STRUCTURE
+ DISTANCE A - B      0.238822
+ HEAT               21.571519
+ GRADIENT NORM     205.171656
+ DIRECTION COSINE    0.999984
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80617398 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.54299564 +1  103.9247172 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.54585227 +1  103.7954728 +1   -0.0169999 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  147 SECOND STRUCTURE
+ DISTANCE A - B      0.236434
+ HEAT               21.674304
+ GRADIENT NORM     216.779486
+ DIRECTION COSINE    0.999975
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.90559569 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.38236494 +1  107.6111165 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.38644953 +1  107.4628592 +1   -0.0143260 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  148 FIRST  STRUCTURE
+ DISTANCE A - B      0.234069
+ HEAT               22.057232
+ GRADIENT NORM     206.207058
+ DIRECTION COSINE    0.999996
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80619072 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.54154468 +1  103.9986417 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.54465738 +1  103.8461314 +1   -0.0198740 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  149 SECOND STRUCTURE
+ DISTANCE A - B      0.231728
+ HEAT               22.180046
+ GRADIENT NORM     215.715780
+ DIRECTION COSINE    0.999977
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.90439038 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.38529446 +1  107.6082011 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.38921772 +1  107.4462943 +1   -0.0159439 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  150 FIRST  STRUCTURE
+ DISTANCE A - B      0.229411
+ HEAT               22.536486
+ GRADIENT NORM     207.435637
+ DIRECTION COSINE    0.999956
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80717271 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.53995493 +1  104.0310894 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.54307582 +1  103.8785233 +1   -0.0198394 +1     2     1     3
+ 
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  151 SECOND STRUCTURE
+ DISTANCE A - B      0.227117
+ HEAT               22.675276
+ GRADIENT NORM     216.039223
+ DIRECTION COSINE    0.999879
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.90341821 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.38681138 +1  107.5685044 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.39072674 +1  107.4067350 +1   -0.0159880 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  152 FIRST  STRUCTURE
+ DISTANCE A - B      0.224846
+ HEAT               23.008022
+ GRADIENT NORM     208.361218
+ DIRECTION COSINE    0.999939
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80705294 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.53873711 +1  104.0983795 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.54190556 +1  103.9406866 +1   -0.0161477 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  153 SECOND STRUCTURE
+ DISTANCE A - B      0.222597
+ HEAT               23.155191
+ GRADIENT NORM     214.249311
+ DIRECTION COSINE    0.999938
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.90083866 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.38990749 +1  107.6149519 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.39432205 +1  107.4360976 +1   -0.0140707 +1     2     1     3
+ 
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  154 FIRST  STRUCTURE
+ DISTANCE A - B      0.220371
+ HEAT               23.471607
+ GRADIENT NORM     209.259429
+ DIRECTION COSINE    0.999984
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80684191 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.53762345 +1  104.1699107 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.54107898 +1  104.0080013 +1   -0.0190596 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  155 SECOND STRUCTURE
+ DISTANCE A - B      0.218168
+ HEAT               23.624911
+ GRADIENT NORM     213.094116
+ DIRECTION COSINE    0.999960
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.89906665 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.39260576 +1  107.6225693 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.39720872 +1  107.4448886 +1   -0.0171966 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  156 FIRST  STRUCTURE
+ DISTANCE A - B      0.215986
+ HEAT               23.929337
+ GRADIENT NORM     210.368886
+ DIRECTION COSINE    0.999951
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80776416 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.53614825 +1  104.2011963 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53961535 +1  104.0391684 +1   -0.0190433 +1     2     1     3
+ 
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  157 SECOND STRUCTURE
+ DISTANCE A - B      0.213826
+ HEAT               24.085530
+ GRADIENT NORM     213.446406
+ DIRECTION COSINE    0.999854
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.89815362 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.39401414 +1  107.5848935 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.39860586 +1  107.4074158 +1   -0.0172176 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  158 FIRST  STRUCTURE
+ DISTANCE A - B      0.211688
+ HEAT               24.379010
+ GRADIENT NORM     211.148946
+ DIRECTION COSINE    0.999922
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80753040 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.53501739 +1  104.2782411 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53869143 +1  104.0933124 +1   -0.0240412 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  159 SECOND STRUCTURE
+ DISTANCE A - B      0.209571
+ HEAT               24.531816
+ GRADIENT NORM     211.615500
+ DIRECTION COSINE    0.999909
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.89627386 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.39732149 +1  107.6204561 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.40204721 +1  107.4208451 +1   -0.0201811 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  160 FIRST  STRUCTURE
+ DISTANCE A - B      0.207475
+ HEAT               24.820730
+ GRADIENT NORM     212.209467
+ DIRECTION COSINE    0.999962
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80780335 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.53481702 +1  104.3070693 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53830118 +1  104.1961613 +1   -0.0266689 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  161 SECOND STRUCTURE
+ DISTANCE A - B      0.205401
+ HEAT               24.967810
+ GRADIENT NORM     209.907021
+ DIRECTION COSINE    0.999948
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.89473977 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.40039898 +1  107.6059972 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.40550081 +1  107.4648697 +1   -0.0294722 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  162 FIRST  STRUCTURE
+ DISTANCE A - B      0.203347
+ HEAT               25.255739
+ GRADIENT NORM     213.127970
+ DIRECTION COSINE    0.999975
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80790547 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.53426710 +1  104.3518452 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53806428 +1  104.2836254 +1   -0.0322250 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  163 SECOND STRUCTURE
+ DISTANCE A - B      0.201313
+ HEAT               25.392863
+ GRADIENT NORM     208.803349
+ DIRECTION COSINE    0.999970
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.89286353 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.40285716 +1  107.6057150 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.40830088 +1  107.4919048 +1   -0.0360134 +1     2     1     3
+ 
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  164 FIRST  STRUCTURE
+ DISTANCE A - B      0.199300
+ HEAT               25.684550
+ GRADIENT NORM     213.827487
+ DIRECTION COSINE    0.999991
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80774409 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.53321428 +1  104.4308109 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53753507 +1  104.3313348 +1   -0.0355941 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  165 SECOND STRUCTURE
+ DISTANCE A - B      0.197307
+ HEAT               25.807722
+ GRADIENT NORM     208.114639
+ DIRECTION COSINE    0.999974
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.89103282 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.40486320 +1  107.6231615 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.41071191 +1  107.4869742 +1   -0.0362518 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  166 FIRST  STRUCTURE
+ DISTANCE A - B      0.195334
+ HEAT               26.107344
+ GRADIENT NORM     214.749544
+ DIRECTION COSINE    0.999964
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80857697 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.53190934 +1  104.4600949 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53624548 +1  104.3602750 +1   -0.0356006 +1     2     1     3
+ 
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  167 SECOND STRUCTURE
+ DISTANCE A - B      0.193381
+ HEAT               26.214596
+ GRADIENT NORM     208.491646
+ DIRECTION COSINE    0.999886
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.89020826 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.40611076 +1  107.5887405 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.41194445 +1  107.4529497 +1   -0.0362451 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  168 FIRST  STRUCTURE
+ DISTANCE A - B      0.191447
+ HEAT               26.522307
+ GRADIENT NORM     215.299068
+ DIRECTION COSINE    0.999932
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80826445 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.53088088 +1  104.5379443 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53544092 +1  104.4059304 +1   -0.0365966 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  169 SECOND STRUCTURE
+ DISTANCE A - B      0.189532
+ HEAT               26.609323
+ GRADIENT NORM     206.844433
+ DIRECTION COSINE    0.999912
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.88889803 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.40927521 +1  107.6101953 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.41502781 +1  107.4547113 +1   -0.0344628 +1     2     1     3
+ 
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  170 FIRST  STRUCTURE
+ DISTANCE A - B      0.187637
+ HEAT               26.929086
+ GRADIENT NORM     216.238365
+ DIRECTION COSINE    0.999944
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80879272 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.53114686 +1  104.5640432 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53513596 +1  104.4927918 +1   -0.0343019 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  171 SECOND STRUCTURE
+ DISTANCE A - B      0.185761
+ HEAT               26.994306
+ GRADIENT NORM     205.481202
+ DIRECTION COSINE    0.999926
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.88745360 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.41245104 +1  107.5893855 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.41748785 +1  107.4973465 +1   -0.0386886 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  172 FIRST  STRUCTURE
+ DISTANCE A - B      0.183903
+ HEAT               27.329724
+ GRADIENT NORM     216.737110
+ DIRECTION COSINE    0.999972
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80839931 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.53054620 +1  104.6329346 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53479264 +1  104.5610892 +1   -0.0378500 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  173 SECOND STRUCTURE
+ DISTANCE A - B      0.182064
+ HEAT               27.370136
+ GRADIENT NORM     204.386633
+ DIRECTION COSINE    0.999957
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.88554688 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.41452218 +1  107.6229536 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.42042332 +1  107.5001581 +1   -0.0397833 +1     2     1     3
+ 
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  174 FIRST  STRUCTURE
+ DISTANCE A - B      0.180243
+ HEAT               27.723503
+ GRADIENT NORM     217.461136
+ DIRECTION COSINE    0.999981
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80864561 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.53024746 +1  104.6841231 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53480962 +1  104.6254790 +1   -0.0389771 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  175 SECOND STRUCTURE
+ DISTANCE A - B      0.178441
+ HEAT               27.736833
+ GRADIENT NORM     203.112765
+ DIRECTION COSINE    0.999963
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.88451899 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.41705833 +1  107.6104351 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.42332068 +1  107.5144733 +1   -0.0428101 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  176 FIRST  STRUCTURE
+ DISTANCE A - B      0.176657
+ HEAT               28.110743
+ GRADIENT NORM     218.150469
+ DIRECTION COSINE    0.999973
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80891719 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.53002133 +1  104.7183063 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53475857 +1  104.7027150 +1   -0.0423966 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  177 SECOND STRUCTURE
+ DISTANCE A - B      0.174890
+ HEAT               28.094092
+ GRADIENT NORM     202.072323
+ DIRECTION COSINE    0.999965
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.88306740 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.41937009 +1  107.6030495 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.42588545 +1  107.5380374 +1   -0.0471865 +1     2     1     3
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  178 SECOND STRUCTURE
+ DISTANCE A - B      0.173141
+ HEAT               28.447833
+ GRADIENT NORM     202.467575
+ DIRECTION COSINE    0.999975
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.88232590 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.42045757 +1  107.5720086 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.42695544 +1  107.5075363 +1   -0.0471346 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  179 FIRST  STRUCTURE
+ DISTANCE A - B      0.171410
+ HEAT               28.487696
+ GRADIENT NORM     218.637998
+ DIRECTION COSINE    0.999934
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80881999 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.52944916 +1  104.7840824 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53460308 +1  104.7539423 +1   -0.0451902 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  180 SECOND STRUCTURE
+ DISTANCE A - B      0.169696
+ HEAT               28.791164
+ GRADIENT NORM     201.135308
+ DIRECTION COSINE    0.999914
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.88085033 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.42297977 +1  107.5886815 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.42981555 +1  107.5196253 +1   -0.0451861 +1     2     1     3
+ 
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  181 FIRST  STRUCTURE
+ DISTANCE A - B      0.167999
+ HEAT               28.857385
+ GRADIENT NORM     219.237514
+ DIRECTION COSINE    0.999948
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80903836 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.52948167 +1  104.8201051 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53468195 +1  104.8313442 +1   -0.0429718 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  182 SECOND STRUCTURE
+ DISTANCE A - B      0.166319
+ HEAT               29.126431
+ GRADIENT NORM     199.554183
+ DIRECTION COSINE    0.999932
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.87972384 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.42573163 +1  107.5837183 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.43293660 +1  107.5453605 +1   -0.0466891 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  183 FIRST  STRUCTURE
+ DISTANCE A - B      0.164655
+ HEAT               29.219985
+ GRADIENT NORM     219.794305
+ DIRECTION COSINE    0.999955
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80920860 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.52962398 +1  104.8625155 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53516657 +1  104.9100672 +1   -0.0460801 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  184 SECOND STRUCTURE
+ DISTANCE A - B      0.163009
+ HEAT               29.452865
+ GRADIENT NORM     198.324637
+ DIRECTION COSINE    0.999947
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.87831966 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.42811013 +1  107.5817064 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.43567308 +1  107.5722018 +1   -0.0509227 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  185 FIRST  STRUCTURE
+ DISTANCE A - B      0.161379
+ HEAT               29.576863
+ GRADIENT NORM     220.162054
+ DIRECTION COSINE    0.999972
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80904389 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.52931304 +1  104.9315103 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53533532 +1  104.9626459 +1   -0.0489127 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  186 SECOND STRUCTURE
+ DISTANCE A - B      0.159765
+ HEAT               29.771418
+ GRADIENT NORM     197.356164
+ DIRECTION COSINE    0.999963
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.87686967 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.43010292 +1  107.6041826 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.43824140 +1  107.5702579 +1   -0.0526108 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  187 FIRST  STRUCTURE
+ DISTANCE A - B      0.158167
+ HEAT               29.927566
+ GRADIENT NORM     220.561831
+ DIRECTION COSINE    0.999979
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80905527 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.52899118 +1  104.9954321 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53548346 +1  105.0089300 +1   -0.0501768 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  188 SECOND STRUCTURE
+ DISTANCE A - B      0.156586
+ HEAT               30.082244
+ GRADIENT NORM     196.363141
+ DIRECTION COSINE    0.999964
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.87570570 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.43215245 +1  107.6149976 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.44079142 +1  107.5684067 +1   -0.0538658 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  189 FIRST  STRUCTURE
+ DISTANCE A - B      0.155020
+ HEAT               30.271904
+ GRADIENT NORM     220.986728
+ DIRECTION COSINE    0.999975
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80920830 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.52883919 +1  105.0442158 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53566256 +1  105.0643864 +1   -0.0516367 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  190 SECOND STRUCTURE
+ DISTANCE A - B      0.153470
+ HEAT               30.385274
+ GRADIENT NORM     195.360625
+ DIRECTION COSINE    0.999962
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.87457338 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.43425677 +1  107.6160525 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.44326832 +1  107.5764699 +1   -0.0559720 +1     2     1     3
+ 
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  191 FIRST  STRUCTURE
+ DISTANCE A - B      0.151935
+ HEAT               30.609941
+ GRADIENT NORM     221.351026
+ DIRECTION COSINE    0.999974
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80928243 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.52869370 +1  105.0947819 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53584626 +1  105.1194624 +1   -0.0535535 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  192 SECOND STRUCTURE
+ DISTANCE A - B      0.150416
+ HEAT               30.680750
+ GRADIENT NORM     194.401616
+ DIRECTION COSINE    0.999962
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.87338967 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.43628726 +1  107.6213227 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.44569030 +1  107.5828664 +1   -0.0579452 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  193 FIRST  STRUCTURE
+ DISTANCE A - B      0.148911
+ HEAT               30.941752
+ GRADIENT NORM     221.675738
+ DIRECTION COSINE    0.999974
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80932873 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.52854617 +1  105.1477305 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53605524 +1  105.1714087 +1   -0.0552894 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  194 SECOND STRUCTURE
+ DISTANCE A - B      0.147422
+ HEAT               30.968916
+ GRADIENT NORM     193.450019
+ DIRECTION COSINE    0.999961
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.87224876 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.43828553 +1  107.6276653 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.44809637 +1  107.5872558 +1   -0.0596406 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  195 FIRST  STRUCTURE
+ DISTANCE A - B      0.145948
+ HEAT               31.267378
+ GRADIENT NORM     221.984152
+ DIRECTION COSINE    0.999973
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80940430 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.52845713 +1  105.1977968 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53630680 +1  105.2240621 +1   -0.0569258 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  196 SECOND STRUCTURE
+ DISTANCE A - B      0.144489
+ HEAT               31.249913
+ GRADIENT NORM     192.488864
+ DIRECTION COSINE    0.999960
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.87115141 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.44028834 +1  107.6315874 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.45048351 +1  107.5935614 +1   -0.0614332 +1     2     1     3
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  197 SECOND STRUCTURE
+ DISTANCE A - B      0.143044
+ HEAT               31.528314
+ GRADIENT NORM     192.882614
+ DIRECTION COSINE    0.999982
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.87053393 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.44115658 +1  107.6058063 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.45132854 +1  107.5684632 +1   -0.0613852 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  198 FIRST  STRUCTURE
+ DISTANCE A - B      0.141613
+ HEAT               31.583679
+ GRADIENT NORM     222.261605
+ DIRECTION COSINE    0.999921
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80947612 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.52841726 +1  105.2458629 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53659495 +1  105.2768703 +1   -0.0586220 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  199 SECOND STRUCTURE
+ DISTANCE A - B      0.140197
+ HEAT               31.798217
+ GRADIENT NORM     191.705397
+ DIRECTION COSINE    0.999900
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.86949253 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.44337937 +1  107.6035240 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.45387667 +1  107.5864275 +1   -0.0595767 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  200 FIRST  STRUCTURE
+ DISTANCE A - B      0.138795
+ HEAT               31.893415
+ GRADIENT NORM     222.549855
+ DIRECTION COSINE    0.999921
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80965158 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.52870193 +1  105.2718381 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53695973 +1  105.3506014 +1   -0.0549264 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  201 SECOND STRUCTURE
+ DISTANCE A - B      0.137407
+ HEAT               32.061708
+ GRADIENT NORM     190.234396
+ DIRECTION COSINE    0.999909
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.86846455 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.44590392 +1  107.6009796 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.45667859 +1  107.6132086 +1   -0.0594545 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  202 FIRST  STRUCTURE
+ DISTANCE A - B      0.136033
+ HEAT               32.196264
+ GRADIENT NORM     222.754193
+ DIRECTION COSINE    0.999934
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80970936 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.52920079 +1  105.3179572 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53786307 +1  105.4184559 +1   -0.0576245 +1     2     1     3
+ 
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  203 SECOND STRUCTURE
+ DISTANCE A - B      0.134673
+ HEAT               32.318091
+ GRADIENT NORM     188.957335
+ DIRECTION COSINE    0.999926
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.86733517 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.44814782 +1  107.6032351 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.45933984 +1  107.6359314 +1   -0.0628269 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  204 FIRST  STRUCTURE
+ DISTANCE A - B      0.133326
+ HEAT               32.493992
+ GRADIENT NORM     222.869224
+ DIRECTION COSINE    0.999948
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80959769 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.52941021 +1  105.3740795 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53850759 +1  105.4738630 +1   -0.0604140 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  205 SECOND STRUCTURE
+ DISTANCE A - B      0.131993
+ HEAT               32.568181
+ GRADIENT NORM     187.904922
+ DIRECTION COSINE    0.999942
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.86613560 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.45010867 +1  107.6183835 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.46179992 +1  107.6440248 +1   -0.0650452 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  206 FIRST  STRUCTURE
+ DISTANCE A - B      0.130673
+ HEAT               32.786311
+ GRADIENT NORM     222.980527
+ DIRECTION COSINE    0.999958
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80953080 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.52951192 +1  105.4315700 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53907348 +1  105.5208982 +1   -0.0621452 +1     2     1     3
+ 
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  207 SECOND STRUCTURE
+ DISTANCE A - B      0.129366
+ HEAT               32.812139
+ GRADIENT NORM     186.903912
+ DIRECTION COSINE    0.999947
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.86508218 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.45200879 +1  107.6307803 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.46419282 +1  107.6475375 +1   -0.0665211 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  208 FIRST  STRUCTURE
+ DISTANCE A - B      0.128073
+ HEAT               33.073056
+ GRADIENT NORM     223.110396
+ DIRECTION COSINE    0.999959
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80957055 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.52967054 +1  105.4804077 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.53963388 +1  105.5702272 +1   -0.0636371 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  209 SECOND STRUCTURE
+ DISTANCE A - B      0.126792
+ HEAT               33.049974
+ GRADIENT NORM     185.909429
+ DIRECTION COSINE    0.999947
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.86410550 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.45392047 +1  107.6363262 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.46653176 +1  107.6551582 +1   -0.0682454 +1     2     1     3
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  210 SECOND STRUCTURE
+ DISTANCE A - B      0.125524
+ HEAT               33.285924
+ GRADIENT NORM     186.286898
+ DIRECTION COSINE    0.999985
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.86356015 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.45466747 +1  107.6136848 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.46725249 +1  107.6332616 +1   -0.0681967 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  211 FIRST  STRUCTURE
+ DISTANCE A - B      0.124269
+ HEAT               33.351409
+ GRADIENT NORM     223.216834
+ DIRECTION COSINE    0.999907
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80960802 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.52985516 +1  105.5259257 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.54019081 +1  105.6203763 +1   -0.0652283 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  212 SECOND STRUCTURE
+ DISTANCE A - B      0.123026
+ HEAT               33.514607
+ GRADIENT NORM     184.799954
+ DIRECTION COSINE    0.999898
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.86263894 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.45701106 +1  107.6248970 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.47011663 +1  107.6473657 +1   -0.0696736 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  213 FIRST  STRUCTURE
+ DISTANCE A - B      0.121796
+ HEAT               33.622703
+ GRADIENT NORM     223.318549
+ DIRECTION COSINE    0.999917
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80977952 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.53058074 +1  105.5627938 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.54131210 +1  105.6862251 +1   -0.0672936 +1     2     1     3
+ 
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  214 SECOND STRUCTURE
+ DISTANCE A - B      0.120578
+ HEAT               33.737027
+ GRADIENT NORM     183.460792
+ DIRECTION COSINE    0.999907
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.86172095 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.45926692 +1  107.6194646 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.47274317 +1  107.6751830 +1   -0.0729155 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  215 FIRST  STRUCTURE
+ DISTANCE A - B      0.119372
+ HEAT               33.889200
+ GRADIENT NORM     223.307510
+ DIRECTION COSINE    0.999928
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80969396 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.53105464 +1  105.6082963 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.54217033 +1  105.7462111 +1   -0.0703905 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  216 SECOND STRUCTURE
+ DISTANCE A - B      0.118178
+ HEAT               33.953938
+ GRADIENT NORM     182.369314
+ DIRECTION COSINE    0.999925
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.86060579 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.46120474 +1  107.6301057 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.47514885 +1  107.6907691 +1   -0.0757037 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  217 FIRST  STRUCTURE
+ DISTANCE A - B      0.116996
+ HEAT               34.150782
+ GRADIENT NORM     223.268312
+ DIRECTION COSINE    0.999943
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80956119 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.53132897 +1  105.6624608 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.54293133 +1  105.7936548 +1   -0.0724689 +1     2     1     3
+ 
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  218 SECOND STRUCTURE
+ DISTANCE A - B      0.115826
+ HEAT               34.165565
+ GRADIENT NORM     181.368016
+ DIRECTION COSINE    0.999935
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.85959853 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.46301183 +1  107.6431488 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.47747771 +1  107.6973523 +1   -0.0772948 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  219 FIRST  STRUCTURE
+ DISTANCE A - B      0.114668
+ HEAT               34.407310
+ GRADIENT NORM     223.261902
+ DIRECTION COSINE    0.999947
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80955171 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.53162197 +1  105.7089919 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.54367112 +1  105.8410316 +1   -0.0738793 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  220 SECOND STRUCTURE
+ DISTANCE A - B      0.113522
+ HEAT               34.371892
+ GRADIENT NORM     180.376254
+ DIRECTION COSINE    0.999936
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.85870260 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.46482324 +1  107.6489182 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.47975513 +1  107.7065795 +1   -0.0787652 +1     2     1     3
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  221 SECOND STRUCTURE
+ DISTANCE A - B      0.112386
+ HEAT               34.576855
+ GRADIENT NORM     180.733755
+ DIRECTION COSINE    0.999988
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.85821109 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.46548275 +1  107.6286710 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.48038598 +1  107.6871068 +1   -0.0787140 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  222 FIRST  STRUCTURE
+ DISTANCE A - B      0.111262
+ HEAT               34.656211
+ GRADIENT NORM     223.250402
+ DIRECTION COSINE    0.999896
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80957424 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.53194402 +1  105.7500376 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.54439828 +1  105.8900023 +1   -0.0753538 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  223 SECOND STRUCTURE
+ DISTANCE A - B      0.110150
+ HEAT               34.775229
+ GRADIENT NORM     179.333388
+ DIRECTION COSINE    0.999887
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.85738417 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.46767063 +1  107.6368276 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.48309050 +1  107.7026467 +1   -0.0801368 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  224 FIRST  STRUCTURE
+ DISTANCE A - B      0.109048
+ HEAT               34.898598
+ GRADIENT NORM     223.220948
+ DIRECTION COSINE    0.999904
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80971230 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.53273326 +1  105.7837442 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.54561013 +1  105.9516447 +1   -0.0772889 +1     2     1     3
+ 
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  225 SECOND STRUCTURE
+ DISTANCE A - B      0.107958
+ HEAT               34.968129
+ GRADIENT NORM     178.040201
+ DIRECTION COSINE    0.999895
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.85655981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.46978790 +1  107.6318792 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.48562159 +1  107.7294580 +1   -0.0830431 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  226 FIRST  STRUCTURE
+ DISTANCE A - B      0.106878
+ HEAT               35.136517
+ GRADIENT NORM     223.102815
+ DIRECTION COSINE    0.999913
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80963843 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.53332198 +1  105.8233776 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.54661412 +1  106.0099997 +1   -0.0801624 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  227 SECOND STRUCTURE
+ DISTANCE A - B      0.105809
+ HEAT               35.156233
+ GRADIENT NORM     176.949683
+ DIRECTION COSINE    0.999910
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.85556831 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.47164135 +1  107.6391671 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.48796850 +1  107.7476919 +1   -0.0857095 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  228 FIRST  STRUCTURE
+ DISTANCE A - B      0.104751
+ HEAT               35.369933
+ GRADIENT NORM     222.960009
+ DIRECTION COSINE    0.999928
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80951043 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.53373050 +1  105.8701940 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.54752947 +1  106.0583819 +1   -0.0823006 +1     2     1     3
+ 
+ TIME=     0.00
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  229 SECOND STRUCTURE
+ DISTANCE A - B      0.103704
+ HEAT               35.339729
+ GRADIENT NORM     175.949532
+ DIRECTION COSINE    0.999921
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.85464637 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.47336316 +1  107.6488181 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.49023636 +1  107.7587623 +1   -0.0874505 +1     2     1     3
+ 
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  230 SECOND STRUCTURE
+ DISTANCE A - B      0.102667
+ HEAT               35.522366
+ GRADIENT NORM     176.288375
+ DIRECTION COSINE    0.999989
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.85419501 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.47395973 +1  107.6303375 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.49080234 +1  107.7410908 +1   -0.0873966 +1     2     1     3
+ 
+ TIME=     0.02
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  231 FIRST  STRUCTURE
+ DISTANCE A - B      0.101640
+ HEAT               35.596468
+ GRADIENT NORM     222.844695
+ DIRECTION COSINE    0.999883
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.80947328 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.53412020 +1  105.9111780 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.54840699 +1  106.1052020 +1   -0.0838108 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ GRADIENT CRITERION IN FLEPO =     2.000
+
+
+          FOR POINT  232 SECOND STRUCTURE
+ DISTANCE A - B      0.100624
+ HEAT               35.698827
+ GRADIENT NORM     174.941708
+ DIRECTION COSINE    0.999875
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+  H(          1          X    )   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(          2          X    )   0.85341892 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  F(          3          X    )   1.47601176 +1  107.6383613 +1    0.0000000 +0     1     2     0
+  F(          4          X    )   1.49342647 +1  107.7567793 +1   -0.0887272 +1     2     1     3
+ 
+ TIME=     0.01
+  REACTANTS AND PRODUCTS SWAPPED AROUND
+ *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+            BAR SHORTENED BY       1.000 PERCENT
+ AT END OF STEPWISE ASCENT OF REACTION BARRIER
+
+ -------------------------------------------------------------------------------
+ GEO-OK PM7 PRECISE
+ Tranzitny stav H2 + F2
+
+
+
+     TRANSITION STATE LOCATED USING THE "SADDLE" TECHNIQUE    
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC v22.1.1 Windows
+                                                       Mon Feb 19 21:08:57 2024
+
+
+
+
+          FINAL H.O.F PLUS STRESS =         35.69883 KCAL/MOL =     149.36389 KJ/MOL
+          FINAL STRESS            =          0.00000 KCAL/MOL =       0.00000 KJ/MOL
+          FINAL HEAT OF FORMATION =         35.69883 KCAL/MOL =     149.36389 KJ/MOL
+          TOTAL DISTORTION        =          0.00198 Angstroms
+          AVERAGE DISTORTION      =          0.00049 Angstroms per atom (all atoms)
+          RMS DISTORTION          =          0.00050 Angstroms per atom (all atoms)
+
+
+          COSMO AREA              =         62.27 SQUARE ANGSTROMS
+          COSMO VOLUME            =         42.59 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =         55.77189          =       27.88594 PER ATOM
+          IONIZATION POTENTIAL    =         11.680477 EV
+          HOMO LUMO ENERGIES (EV) =        -11.680 -3.408
+          NO. OF FILLED LEVELS    =          8
+          MOLECULAR WEIGHT        =         40.0126         POINT GROUP:  C2v 
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            F     4    H     1     1.93289
+            F     3    H     2     1.90945
+            H     1    F     3     0.00072
+
+
+          SCF CALCULATIONS        =       1163
+ 
+          WALL-CLOCK TIME         =      1.883 SECONDS
+          COMPUTATION TIME        =      1.859 SECONDS
+
+
+
+       FINAL  POINT  AND  DERIVATIVES
+
+   PARAMETER     ATOM    TYPE            VALUE        GRADIENT
+      1          1  H    CARTESIAN X    -5.018861     -3.109739  KCAL/ANGSTROM
+      2          1  H    CARTESIAN Y     2.146422     38.772527  KCAL/ANGSTROM
+      3          1  H    CARTESIAN Z     0.007419      2.607413  KCAL/ANGSTROM
+      4          2  H    CARTESIAN X    -4.920514      8.698570  KCAL/ANGSTROM
+      5          2  H    CARTESIAN Y     1.299142    -29.132060  KCAL/ANGSTROM
+      6          2  H    CARTESIAN Z     0.011737      4.253993  KCAL/ANGSTROM
+      7          3  F    CARTESIAN X    -3.672511      3.590330  KCAL/ANGSTROM
+      8          3  F    CARTESIAN Y     2.752614    -15.897408  KCAL/ANGSTROM
+      9          3  F    CARTESIAN Z    -0.006007     -2.970693  KCAL/ANGSTROM
+     10          4  F    CARTESIAN X    -3.454643     -6.409707  KCAL/ANGSTROM
+     11          4  F    CARTESIAN Y     1.010971     18.048495  KCAL/ANGSTROM
+     12          4  F    CARTESIAN Z     0.000552      2.647957  KCAL/ANGSTROM
+
+
+
+
+   ATOM                 CHEMICAL                   X               Y               Z
+  NUMBER                 SYMBOL               (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       H(          1          X    )   -5.01886112  *   2.14642161  *   0.00741857  *
+     2       H(          2          X    )   -4.92051389  *   1.29914177  *   0.01173655  *
+     3       F(          3          X    )   -3.67251138  *   2.75261353  *  -0.00600725  *
+     4       F(          4          X    )   -3.45464268  *   1.01097141  *   0.00055168  *
+
+                             CARTESIAN COORDINATES
+
+   1    H       -5.018861122     2.146421610     0.007418570
+   2    H       -4.920513885     1.299141767     0.011736548
+   3    F       -3.672511382     2.752613526    -0.006007249
+   4    F       -3.454642678     1.010971413     0.000551685
+
+
+           Empirical Formula: H2 F2  =     4 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C2v 
+
+
+                  EIGENVALUES  
+ -41.53941 -41.21936 -18.75169 -16.95442 -16.63482 -16.52907 -13.82671 -11.68048
+  -3.40829   6.27341
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       
+    1          H          -0.005083        1.0051     1.00508
+    2          H          -0.012572        1.0126     1.01257
+    3          F          -0.003605        7.0036     1.99913     5.00447
+    4          F           0.021260        6.9787     1.99914     4.97960
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.     0.130    -0.075    -0.001     0.151
+ HYBRID        -0.006     0.003     0.000     0.007
+ SUM            0.124    -0.072    -0.001     0.144
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+                  Atom                 s        px        py        pz   
+   H(          1          X    )   1.00508
+   H(          2          X    )   1.01257
+   F(          3          X    )   1.99913   1.96925   1.03523   1.99999
+   F(          4          X    )   1.99914   1.97126   1.00835   1.99999
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             1.89 SECONDS
+
+ == MOPAC DONE ==

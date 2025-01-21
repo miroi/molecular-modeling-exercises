@@ -1,0 +1,10 @@
+  LARGE CHARGE=0 SINGLET  PM7 PRECISE  GRAPHF ALLVEC RHF
+P4 (biely fosfor)
+
+   P       -6.19695             1        -0.13481             1        -0.17820             1 
+   P       -4.49112             1         1.25152             1        -0.04768             1 
+   P       -4.14294             1        -0.92252             1        -0.08148             1 
+   P       -4.84225             1         0.10887             1        -1.89697             1 
+
+OLDGEO PRECISE PM7 THERMO RHF
+P4 (biely fosfor)

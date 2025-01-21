@@ -1,0 +1,193 @@
+ *******************************************************************************
+ **                                                                           **
+ **                              MOPAC v22.1.0                                **
+ **                                                                           **
+ *******************************************************************************
+ **          Digital Object Identifier (DOI): 10.5281/zenodo.6511958          **
+ **    Visit the DOI location for information on how to cite this program.    **
+ *******************************************************************************
+
+                              PM6 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Mon Jan 22 08:56:31 2024  *
+ *  PM6        - The PM6 Hamiltonian to be used
+EPS=78.4       - USE ANDREAS KLAMT'S COSMO IMPLICIT SOLVATION MODEL
+ *  PRECISE    - TIGHTER CRITERIA TO BE USED
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  PKA        - PRINT pKa FOR MOST ACIDIC HYDROGEN
+ *******************************************************************************
+ PRECISE PM6 pKa
+ Kyselina octova pKa PM6
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       H          1.46495000     -0.14517000      0.76023000   
+     2       C          0.93865000     -0.20405000     -0.21519000   
+     3       H          1.26474000      0.64012000     -0.85778000   
+     4       H          1.20833000     -1.16023000     -0.71263000   
+     5       C         -0.53729000     -0.12019000      0.00815000   
+     6       O         -1.26523000     -1.03549000     -0.34601000   
+     7       O         -1.06136000      0.97177000      0.60298000   
+     8       H         -2.01278000      1.05324000      0.76025000   
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1         H          1.4649     -0.1452      0.7602
+     2         C          0.9387     -0.2041     -0.2152
+     3         H          1.2647      0.6401     -0.8578
+     4         H          1.2083     -1.1602     -0.7126
+     5         C         -0.5373     -0.1202      0.0081
+     6         O         -1.2652     -1.0355     -0.3460
+     7         O         -1.0614      0.9718      0.6030
+     8         H         -2.0128      1.0532      0.7602
+
+ General Reference for PM6:
+ "Optimization of Parameters for Semiempirical Methods V: Modification of NDDO Approximations
+ and Application to 70 Elements", J. J. P. Stewart, J. Mol. Mod., 13, 1173-1213 (2007)
+ URL: https://link.springer.com/article/10.1007/s00894-007-0233-4
+
+           Empirical Formula: C2 H4 O2  =     8 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   Cs  
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 12
+
+
+ -------------------------------------------------------------------------------
+ PRECISE PM6 pKa
+ Kyselina octova pKa PM6
+
+
+
+     NO PARAMETERS MARKED FOR OPTIMIZATION, SO 1SCF WAS USED  
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM6 CALCULATION
+                                                       MOPAC v22.1.0 Windows
+                                                       Mon Jan 22 08:56:31 2024
+
+
+
+
+          FINAL HEAT OF FORMATION =        -96.83028 KCAL/MOL =    -405.13790 KJ/MOL
+
+
+          COSMO AREA              =         92.00 SQUARE ANGSTROMS
+          COSMO VOLUME            =         73.87 CUBIC ANGSTROMS
+
+                          pKa for hydroxyl hydrogens
+
+                      Sorted by pKa       Sorted by atom
+                      Atom      pKa       Atom      pKa
+                         8      5.159        8      5.159
+ 
+
+          IONIZATION POTENTIAL    =         11.206857 EV
+          HOMO LUMO ENERGIES (EV) =        -11.207  0.558
+          NO. OF FILLED LEVELS    =         12
+          MOLECULAR WEIGHT        =         60.0524         POINT GROUP:  Cs  
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H     8    H     4     4.17665
+            O     6    H     3     2.81491
+            H     3    H     1     1.71359
+
+
+          SCF CALCULATIONS        =          3
+ 
+          WALL-CLOCK TIME         =      0.146 SECONDS
+          COMPUTATION TIME        =      0.187 SECONDS
+
+
+
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       H          1.46495000     -0.14517000      0.76023000   
+     2       C          0.93865000     -0.20405000     -0.21519000   
+     3       H          1.26474000      0.64012000     -0.85778000   
+     4       H          1.20833000     -1.16023000     -0.71263000   
+     5       C         -0.53729000     -0.12019000      0.00815000   
+     6       O         -1.26523000     -1.03549000     -0.34601000   
+     7       O         -1.06136000      0.97177000      0.60298000   
+     8       H         -2.01278000      1.05324000      0.76025000   
+
+                             CARTESIAN COORDINATES
+
+   1    H        1.464950000    -0.145170000     0.760230000
+   2    C        0.938650000    -0.204050000    -0.215190000
+   3    H        1.264740000     0.640120000    -0.857780000
+   4    H        1.208330000    -1.160230000    -0.712630000
+   5    C       -0.537290000    -0.120190000     0.008150000
+   6    O       -1.265230000    -1.035490000    -0.346010000
+   7    O       -1.061360000     0.971770000     0.602980000
+   8    H       -2.012780000     1.053240000     0.760250000
+
+
+           Empirical Formula: C2 H4 O2  =     8 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   Cs  
+
+
+                  EIGENVALUES  
+ -32.23628 -30.81604 -27.18851 -22.39735 -18.10904 -16.66963 -16.50874 -14.61420
+ -14.11284 -13.41242 -12.37864 -11.20686   0.55755   1.32623   3.25673   3.99323
+   4.71808   4.78773   5.15154   5.68592
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       
+    1          H           0.200304        0.7997     0.79970
+    2          C          -0.566592        4.5666     1.10406     3.46253
+    3          H           0.200303        0.7997     0.79970
+    4          H           0.210212        0.7898     0.78979
+    5          C           0.683233        3.3168     1.08606     2.23070
+    6          O          -0.538186        6.5382     1.85724     4.68095
+    7          O          -0.546115        6.5461     1.77082     4.77529
+    8          H           0.356840        0.6432     0.64316
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.     2.133     1.399     0.415     2.584
+ HYBRID        -0.542     0.105     0.118     0.565
+ SUM            1.591     1.503     0.533     2.253
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+     Atom    s        px        py        pz   
+    1  H   0.79970
+    2  C   1.10406   1.03825   1.21845   1.20584
+    3  H   0.79970
+    4  H   0.78979
+    5  C   1.08606   0.84938   0.71538   0.66595
+    6  O   1.85724   1.66821   1.46841   1.54433
+    7  O   1.77082   1.43983   1.57227   1.76320
+    8  H   0.64316
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.17 SECONDS
+
+ == MOPAC DONE ==
