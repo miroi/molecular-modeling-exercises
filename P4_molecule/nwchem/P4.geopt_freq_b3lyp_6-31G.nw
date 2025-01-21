@@ -4,6 +4,7 @@ start molecule
 
 title "P4"
 charge 0
+print low
 
 geometry units angstroms print xyz autosym
    P       -6.19695       -0.13481       -0.17820
@@ -21,4 +22,5 @@ dft
   mult 1
 end
 
+task dft optimize
 task dft freq
