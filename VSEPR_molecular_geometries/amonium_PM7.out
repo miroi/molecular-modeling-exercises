@@ -1,0 +1,196 @@
+ *******************************************************************************
+ **                                                                           **
+ **                              MOPAC v22.1.0                                **
+ **                                                                           **
+ *******************************************************************************
+ **          Digital Object Identifier (DOI): 10.5281/zenodo.6511958          **
+ **    Visit the DOI location for information on how to cite this program.    **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Sun Jan 28 19:09:29 2024  *
+ *  PM7        - The PM7 Hamiltonian to be used
+ *  SINGLET    - SPIN STATE DEFINED AS A SINGLET
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = +1
+ *
+ *
+ *
+ *  PRECISE    - TIGHTER CRITERIA TO BE USED
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  LARGE      - EXPANDED OUTPUT TO BE PRINTED
+ *******************************************************************************
+ PRECISE LARGE CHARGE=1 SINGLET  PM7
+ amonium(+), PM7
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       N         -6.34271000  *   0.39328000  *   0.02713000  *
+     2       H         -5.30373000  *   0.29072000  *  -0.00149000  *
+     3       H         -6.65468000  *   0.99905000  *  -0.76440000  *
+     4       H         -6.62452000  *   0.83100000  *   0.93256000  *
+     5       H         -6.78791000  *  -0.54764000  *  -0.05813000  *
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1         N         -6.3427      0.3933      0.0271
+     2         H         -5.3037      0.2907     -0.0015
+     3         H         -6.6547      0.9990     -0.7644
+     4         H         -6.6245      0.8310      0.9326
+     5         H         -6.7879     -0.5476     -0.0581
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: H4 N  =     5 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   Td  
+
+
+ SINGLET STATE CALCULATION
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 4
+
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:    18.797 HEAT:  155.0961
+ CYCLE:     2 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     6.459 HEAT:  154.8367
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.074 HEAT:  154.8218
+ CYCLE:     4 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     5.865 HEAT:  154.8198
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.337 HEAT:  154.8136
+ CYCLE:     6 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     0.958 HEAT:  154.8071
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.352 HEAT:  154.8066
+ CYCLE:     8 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     0.178 HEAT:  154.8065
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.084 HEAT:  154.8065
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.007 HEAT:  154.8065
+
+     GRADIENT =  0.00677 IS LESS THAN CUTOFF =  0.05000
+
+
+
+ -------------------------------------------------------------------------------
+ PRECISE LARGE CHARGE=1 SINGLET  PM7
+ amonium(+), PM7
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC v22.1.0 Windows
+                                                       Sun Jan 28 19:09:29 2024
+
+
+
+
+          FINAL HEAT OF FORMATION =        154.80645 KCAL/MOL =     647.71020 KJ/MOL
+
+
+          COSMO AREA              =         50.39 SQUARE ANGSTROMS
+          COSMO VOLUME            =         31.95 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          0.00677          =       0.00303 PER ATOM
+          IONIZATION POTENTIAL    =         24.654359 EV
+          HOMO LUMO ENERGIES (EV) =        -24.654 -4.363
+          NO. OF FILLED LEVELS    =          4
+          MOLECULAR WEIGHT        =         18.0383         POINT GROUP:  Td  
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H     5    H     2     1.68061
+            H     3    H     4     1.68060
+            H     3    H     2     1.18834
+
+
+          SCF CALCULATIONS        =         12
+ 
+          WALL-CLOCK TIME         =      0.086 SECONDS
+          COMPUTATION TIME        =      0.078 SECONDS
+
+
+
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       N         -6.34271195  *   0.39327945  *   0.02713222  *
+     2       H         -5.31892617  *   0.29222657  *  -0.00107614  *
+     3       H         -6.65011120  *   0.99020508  *  -0.75281967  *
+     4       H         -6.62037797  *   0.82458035  *   0.91933153  *
+     5       H         -6.78141739  *  -0.53387997  *  -0.05690399  *
+
+                             CARTESIAN COORDINATES
+
+   1    N       -6.342711948     0.393279454     0.027132219
+   2    H       -5.318926174     0.292226568    -0.001076135
+   3    H       -6.650111202     0.990205078    -0.752819673
+   4    H       -6.620377973     0.824580355     0.919331532
+   5    H       -6.781417389    -0.533879966    -0.056903995
+
+
+           Empirical Formula: H4 N  =     5 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   Td  
+
+
+                  EIGENVALUES  
+ -45.60958 -24.65460 -24.65456 -24.65436  -4.36336  -1.71147  -1.71138  -1.71136
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       
+    1          N          -0.225393        5.2254     1.44225     3.78315
+    2          H           0.306347        0.6937     0.69365
+    3          H           0.306347        0.6937     0.69365
+    4          H           0.306347        0.6937     0.69365
+    5          H           0.306351        0.6936     0.69365
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.     0.000    -0.000    -0.000     0.000
+ HYBRID         0.000     0.000     0.000     0.000
+ SUM            0.000     0.000     0.000     0.000
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+     Atom    s        px        py        pz   
+    1  N   1.44225   1.26105   1.26105   1.26105
+    2  H   0.69365
+    3  H   0.69365
+    4  H   0.69365
+    5  H   0.69365
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.09 SECONDS
+
+ == MOPAC DONE ==

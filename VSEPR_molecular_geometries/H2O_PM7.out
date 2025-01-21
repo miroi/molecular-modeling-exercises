@@ -1,0 +1,181 @@
+ *******************************************************************************
+ **                                                                           **
+ **                              MOPAC v22.1.0                                **
+ **                                                                           **
+ *******************************************************************************
+ **          Digital Object Identifier (DOI): 10.5281/zenodo.6511958          **
+ **    Visit the DOI location for information on how to cite this program.    **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Sun Jan 28 15:27:40 2024  *
+ *  PM7        - The PM7 Hamiltonian to be used
+ *  SINGLET    - SPIN STATE DEFINED AS A SINGLET
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = 0
+ *
+ *
+ *
+ *  PRECISE    - TIGHTER CRITERIA TO BE USED
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  LARGE      - EXPANDED OUTPUT TO BE PRINTED
+ *******************************************************************************
+ PRECISE LARGE CHARGE=0 SINGLET  PM7
+ H2O PM7
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       O         -2.68946000  *   1.00846000  *  -0.01714000  *
+     2       H         -1.70014000  *   0.97713000  *   0.01210000  *
+     3       H         -2.97883000  *   0.31612000  *   0.62903000  *
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1         O         -2.6895      1.0085     -0.0171
+     2         H         -1.7001      0.9771      0.0121
+     3         H         -2.9788      0.3161      0.6290
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: H2 O  =     3 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C2v 
+
+
+ SINGLET STATE CALCULATION
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 4
+
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:    38.141 HEAT: -57.05964
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    38.812 HEAT: -57.22282
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     4.026 HEAT: -57.79099
+ CYCLE:     4 TIME:   0.004 TIME LEFT:  2.00D  GRAD.:     1.084 HEAT: -57.79802
+ CYCLE:     5 TIME:   0.004 TIME LEFT:  2.00D  GRAD.:     0.620 HEAT: -57.79936
+ CYCLE:     6 TIME:   0.004 TIME LEFT:  2.00D  GRAD.:     0.081 HEAT: -57.79986
+ CYCLE:     7 TIME:   0.004 TIME LEFT:  2.00D  GRAD.:     0.013 HEAT: -57.79986
+
+     GRADIENT =  0.01257 IS LESS THAN CUTOFF =  0.05000
+
+
+
+ -------------------------------------------------------------------------------
+ PRECISE LARGE CHARGE=0 SINGLET  PM7
+ H2O PM7
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC v22.1.0 Windows
+                                                       Sun Jan 28 15:27:41 2024
+
+
+
+
+          FINAL HEAT OF FORMATION =        -57.79986 KCAL/MOL =    -241.83461 KJ/MOL
+
+
+          COSMO AREA              =         42.43 SQUARE ANGSTROMS
+          COSMO VOLUME            =         25.22 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          0.01257          =       0.00725 PER ATOM
+          IONIZATION POTENTIAL    =         12.115422 EV
+          HOMO LUMO ENERGIES (EV) =        -12.115  4.049
+          NO. OF FILLED LEVELS    =          4
+          MOLECULAR WEIGHT        =         18.0152         POINT GROUP:  C2v 
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H     3    H     2     1.51965
+            H     2    O     1     0.57905
+            O     1    H     2     0.00000
+
+
+          SCF CALCULATIONS        =          8
+ 
+          WALL-CLOCK TIME         =      0.141 SECONDS
+          COMPUTATION TIME        =      0.062 SECONDS
+
+
+
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       O         -2.68417510  *   1.00307331  *  -0.01211254  *
+     2       H         -1.72947497  *   0.97791034  *   0.01137172  *
+     3       H         -2.97055124  *   0.33680141  *   0.60972777  *
+
+                             CARTESIAN COORDINATES
+
+   1    O       -2.684175098     1.003073309    -0.012112536
+   2    H       -1.729474967     0.977910340     0.011371719
+   3    H       -2.970551237     0.336801411     0.609727768
+
+
+           Empirical Formula: H2 O  =     3 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C2v 
+
+
+                  EIGENVALUES  
+ -29.61480 -17.83931 -14.21603 -12.11542   4.04865   6.35079
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       
+    1          O          -0.649373        6.6494     1.81330     4.83607
+    2          H           0.324687        0.6753     0.67531
+    3          H           0.324685        0.6753     0.67531
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.     1.042    -1.078     1.006     1.806
+ HYBRID         0.186    -0.193     0.180     0.323
+ SUM            1.229    -1.271     1.186     2.129
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+     Atom    s        px        py        pz   
+    1  O   1.81330   1.39551   1.70101   1.73956
+    2  H   0.67531
+    3  H   0.67531
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.16 SECONDS
+
+ == MOPAC DONE ==

@@ -1,0 +1,319 @@
+ *******************************************************************************
+ **                                                                           **
+ **                              MOPAC v22.1.0                                **
+ **                                                                           **
+ *******************************************************************************
+ **          Digital Object Identifier (DOI): 10.5281/zenodo.6511958          **
+ **    Visit the DOI location for information on how to cite this program.    **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Sun Jan 28 16:00:04 2024  *
+ *  PM7        - The PM7 Hamiltonian to be used
+ *  DOUBLET    - SPIN STATE DEFINED AS A DOUBLET
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = -3
+ *
+ *
+ *
+ *  PRECISE    - TIGHTER CRITERIA TO BE USED
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  LARGE      - EXPANDED OUTPUT TO BE PRINTED
+ *******************************************************************************
+ PRECISE LARGE CHARGE=-3 DOUBLET  PM7
+ [Fe(CN)6](3-)  PM7
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1      Fe          0.05662000  *   0.17644000  *  -0.38681000  *
+     2       C         -1.37134000  *   2.29202000  *  -0.29488000  *
+     3       C         -0.32435000  *  -0.18946000  *   2.11202000  *
+     4       C          2.13910000  *   1.56100000  *   0.13229000  *
+     5       C          1.48545000  *  -1.93859000  *  -0.47756000  *
+     6       C          0.43727000  *   0.54065000  *  -2.88594000  *
+     7       C         -2.02640000  *  -1.20695000  *  -0.90681000  *
+     8       N         -1.99822000  *   3.22097000  *  -0.25437000  *
+     9       N          3.05340000  *   2.16905000  *   0.36011000  *
+    10       N          2.11291000  *  -2.86718000  *  -0.51727000  *
+    11       N         -0.49166000  *  -0.35031000  *   3.20915000  *
+    12       N         -2.94106000  *  -1.81423000  *  -1.13523000  *
+    13       N          0.60437000  *   0.70037000  *  -3.98327000  *
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1        Fe          0.0566      0.1764     -0.3868
+     2         C         -1.3713      2.2920     -0.2949
+     3         C         -0.3244     -0.1895      2.1120
+     4         C          2.1391      1.5610      0.1323
+     5         C          1.4855     -1.9386     -0.4776
+     6         C          0.4373      0.5407     -2.8859
+     7         C         -2.0264     -1.2069     -0.9068
+     8         N         -1.9982      3.2210     -0.2544
+     9         N          3.0534      2.1690      0.3601
+    10         N          2.1129     -2.8672     -0.5173
+    11         N         -0.4917     -0.3503      3.2092
+    12         N         -2.9411     -1.8142     -1.1352
+    13         N          0.6044      0.7004     -3.9833
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: C6 N6 Fe  =    13 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   Oh  
+
+
+ DOUBLET STATE CALCULATION
+
+
+          UHF CALCULATION, NO. OF ALPHA ELECTRONS =   33
+                           NO. OF BETA  ELECTRONS =   32
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   1.648 TIME LEFT:  2.00D  GRAD.:   584.353 HEAT:  334.1757
+ CYCLE:     2 TIME:   0.152 TIME LEFT:  2.00D  GRAD.:   511.791 HEAT:  329.7808
+ CYCLE:     3 TIME:   0.129 TIME LEFT:  2.00D  GRAD.:   328.216 HEAT:  288.6566
+ CYCLE:     4 TIME:   0.406 TIME LEFT:  2.00D  GRAD.:   225.540 HEAT:  275.6015
+ CYCLE:     5 TIME:   0.117 TIME LEFT:  2.00D  GRAD.:   155.669 HEAT:  259.9512
+ CYCLE:     6 TIME:   0.133 TIME LEFT:  2.00D  GRAD.:   181.278 HEAT:  241.5787
+ CYCLE:     7 TIME:   0.156 TIME LEFT:  2.00D  GRAD.:   214.400 HEAT:  205.0004
+ CYCLE:     8 TIME:   0.168 TIME LEFT:  2.00D  GRAD.:   229.821 HEAT:  146.4802
+ CYCLE:     9 TIME:   0.262 TIME LEFT:  2.00D  GRAD.:   485.598 HEAT:  129.7021
+ CYCLE:    10 TIME:   0.168 TIME LEFT:  2.00D  GRAD.:   422.656 HEAT:  111.8420
+ CYCLE:    11 TIME:   0.141 TIME LEFT:  2.00D  GRAD.:   144.653 HEAT:  96.87661
+ CYCLE:    12 TIME:   0.535 TIME LEFT:  2.00D  GRAD.:   118.745 HEAT:  95.03231
+ CYCLE:    13 TIME:   0.129 TIME LEFT:  2.00D  GRAD.:    96.297 HEAT:  93.41908
+ CYCLE:    14 TIME:   0.121 TIME LEFT:  2.00D  GRAD.:    30.602 HEAT:  91.77125
+ CYCLE:    15 TIME:   0.133 TIME LEFT:  2.00D  GRAD.:    78.147 HEAT:  91.58496
+ CYCLE:    16 TIME:   0.305 TIME LEFT:  2.00D  GRAD.:    51.831 HEAT:  91.22511
+ CYCLE:    17 TIME:   0.117 TIME LEFT:  2.00D  GRAD.:    30.664 HEAT:  91.07534
+ CYCLE:    18 TIME:   0.164 TIME LEFT:  2.00D  GRAD.:    22.524 HEAT:  91.05188
+ CYCLE:    19 TIME:   0.238 TIME LEFT:  2.00D  GRAD.:     9.503 HEAT:  90.97418
+ CYCLE:    20 TIME:   0.262 TIME LEFT:  2.00D  GRAD.:    13.297 HEAT:  90.97358
+ CYCLE:    21 TIME:   0.141 TIME LEFT:  2.00D  GRAD.:     1.846 HEAT:  90.95519
+ CYCLE:    22 TIME:   0.141 TIME LEFT:  2.00D  GRAD.:     1.470 HEAT:  90.95083
+ CYCLE:    23 TIME:   0.152 TIME LEFT:  2.00D  GRAD.:     3.516 HEAT:  90.94058
+ CYCLE:    24 TIME:   0.168 TIME LEFT:  2.00D  GRAD.:     2.636 HEAT:  90.93465
+ CYCLE:    25 TIME:   0.164 TIME LEFT:  2.00D  GRAD.:     1.707 HEAT:  90.92643
+ CYCLE:    26 TIME:   0.148 TIME LEFT:  2.00D  GRAD.:     2.081 HEAT:  90.91873
+ CYCLE:    27 TIME:   0.219 TIME LEFT:  2.00D  GRAD.:     1.579 HEAT:  90.91230
+ CYCLE:    28 TIME:   0.285 TIME LEFT:  2.00D  GRAD.:     0.501 HEAT:  90.90875
+ CYCLE:    29 TIME:   0.301 TIME LEFT:  2.00D  GRAD.:     0.484 HEAT:  90.90657
+ CYCLE:    30 TIME:   0.277 TIME LEFT:  2.00D  GRAD.:     0.595 HEAT:  90.90521
+ CYCLE:    31 TIME:   0.289 TIME LEFT:  2.00D  GRAD.:     0.354 HEAT:  90.90417
+ CYCLE:    32 TIME:   0.262 TIME LEFT:  2.00D  GRAD.:     0.237 HEAT:  90.90360
+ CYCLE:    33 TIME:   0.199 TIME LEFT:  2.00D  GRAD.:     0.768 HEAT:  90.90314
+ CYCLE:    34 TIME:   0.133 TIME LEFT:  2.00D  GRAD.:     0.788 HEAT:  90.90274
+ CYCLE:    35 TIME:   0.191 TIME LEFT:  2.00D  GRAD.:     0.269 HEAT:  90.90225
+ CYCLE:    36 TIME:   0.246 TIME LEFT:  2.00D  GRAD.:     0.190 HEAT:  90.90201
+ CYCLE:    37 TIME:   0.195 TIME LEFT:  2.00D  GRAD.:     0.181 HEAT:  90.90179
+ CYCLE:    38 TIME:   0.191 TIME LEFT:  2.00D  GRAD.:     0.100 HEAT:  90.90172
+ CYCLE:    39 TIME:   0.160 TIME LEFT:  2.00D  GRAD.:     0.077 HEAT:  90.90168
+ CYCLE:    40 TIME:   0.152 TIME LEFT:  2.00D  GRAD.:     0.053 HEAT:  90.90165
+ CYCLE:    41 TIME:   0.168 TIME LEFT:  2.00D  GRAD.:     0.066 HEAT:  90.90163
+ CYCLE:    42 TIME:   0.168 TIME LEFT:  2.00D  GRAD.:     0.033 HEAT:  90.90161
+
+     GRADIENT =  0.03302 IS LESS THAN CUTOFF =  0.05000
+
+
+
+ -------------------------------------------------------------------------------
+ PRECISE LARGE CHARGE=-3 DOUBLET  PM7
+ [Fe(CN)6](3-)  PM7
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC v22.1.0 Windows
+                                                       Sun Jan 28 16:00:14 2024
+
+
+
+
+          FINAL HEAT OF FORMATION =         90.90161 KCAL/MOL =     380.33232 KJ/MOL
+
+
+          COSMO AREA              =        216.77 SQUARE ANGSTROMS
+          COSMO VOLUME            =        220.76 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          0.03302          =       0.00916 PER ATOM
+          IONIZATION POTENTIAL    =         -1.306399 EV
+          ALPHA SOMO LUMO (EV)    =          0.869 12.098
+          BETA  SOMO LUMO (EV)    =          1.306  9.109
+          NO. OF ALPHA ELECTRONS  =         33
+          NO. OF BETA  ELECTRONS  =         32
+          MOLECULAR WEIGHT        =        211.9532         POINT GROUP:  D3d 
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            N    12    N     9     6.18829
+            N    10    N     8     6.18566
+            N    13    N    11     6.18275
+
+
+          SCF CALCULATIONS        =         52
+ 
+          WALL-CLOCK TIME         =     10.066 SECONDS
+          COMPUTATION TIME        =     13.406 SECONDS
+
+
+
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1      Fe          0.05665997  *   0.17640865  *  -0.38682149  *
+     2       C         -1.04070383  *   1.75681666  *  -0.35551462  *
+     3       C         -0.23820887  *  -0.14188209  *   1.48773469  *
+     4       C          1.64798122  *   1.19689101  *  -0.02722193  *
+     5       C          1.15400721  *  -1.40402065  *  -0.41810404  *
+     6       C          0.35146160  *   0.49477480  *  -2.26137348  *
+     7       C         -1.53471265  *  -0.84398873  *  -0.74640699  *
+     8       N         -1.70356725  *   2.72037634  *  -0.32874437  *
+     9       N          2.61090844  *   1.82180991  *   0.19817680  *
+    10       N          1.81683507  *  -2.36760705  *  -0.44484127  *
+    11       N         -0.41566659  *  -0.32621517  *   2.62924531  *
+    12       N         -2.49772675  *  -1.46877980  *  -0.97179937  *
+    13       N          0.52878958  *   0.67922153  *  -3.40288830  *
+
+                             CARTESIAN COORDINATES
+
+   1   Fe        0.056659972     0.176408652    -0.386821485
+   2    C       -1.040703825     1.756816659    -0.355514617
+   3    C       -0.238208869    -0.141882089     1.487734693
+   4    C        1.647981215     1.196891008    -0.027221926
+   5    C        1.154007214    -1.404020650    -0.418104040
+   6    C        0.351461601     0.494774802    -2.261373482
+   7    C       -1.534712648    -0.843988734    -0.746406986
+   8    N       -1.703567246     2.720376338    -0.328744372
+   9    N        2.610908436     1.821809911     0.198176805
+  10    N        1.816835069    -2.367607049    -0.444841268
+  11    N       -0.415666589    -0.326215174     2.629245306
+  12    N       -2.497726747    -1.468779799    -0.971799366
+  13    N        0.528789577     0.679221529    -3.402888297
+
+
+           Empirical Formula: C6 N6 Fe  =    13 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   D3d 
+
+
+          ALPHA EIGENVALUES  
+ -25.14949 -23.96854 -23.96383 -23.82829 -23.82244 -23.81924 -10.83646  -9.16191
+  -9.15639  -6.57062  -6.56798  -6.36598  -5.20720  -4.92419  -4.92166  -2.73852
+  -2.72891  -2.72819  -2.68962  -2.68466  -2.55279  -2.38561  -2.37339  -2.37238
+  -2.15682  -2.15308  -2.10124  -1.07619  -1.07341  -0.89908   0.16925   0.86801
+   0.86912  12.09752  12.09804  12.14396  12.28534  12.36057  12.36085  12.66965
+  12.67194  12.68879  12.80639  13.04222  13.04342  14.05678  14.47991  14.48330
+  16.90771  16.92937  16.93346  17.00382  17.31980  17.32449  18.92813  19.53867
+  19.54657
+
+
+           BETA EIGENVALUES 
+ -24.97295 -23.79053 -23.78846 -23.64800 -23.64589 -23.64165 -10.74929  -8.99773
+  -8.99146  -6.55808  -6.55575  -6.33084  -4.76192  -4.75905  -3.64029  -2.63594
+  -2.63353  -2.54409  -2.54013  -2.53637  -2.45326  -2.33606  -2.16703  -2.16570
+  -2.04435  -1.94739  -1.94678  -1.04087  -1.03900  -0.77613   1.30621   1.30640
+   9.10893  12.14395  12.14831  12.27981  12.30471  12.44999  12.45156  12.67927
+  12.73261  12.73277  13.11986  13.12075  14.20102  14.43872  14.76323  14.76875
+  16.98278  16.98648  17.00237  17.04536  17.38633  17.39072  19.79628  19.79906
+  20.01814
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       d-Pop       
+    1         Fe           0.975678        7.0243     0.53785     0.48182     6.00465
+    2          C          -0.028344        4.0283     1.32634     2.70200
+    3          C          -0.028822        4.0288     1.32624     2.70258
+    4          C          -0.028264        4.0283     1.32636     2.70190
+    5          C          -0.028343        4.0283     1.32635     2.70200
+    6          C          -0.028821        4.0288     1.32624     2.70258
+    7          C          -0.028263        4.0283     1.32636     2.70190
+    8          N          -0.634395        5.6344     1.83500     3.79940
+    9          N          -0.634566        5.6346     1.83500     3.79956
+   10          N          -0.634408        5.6344     1.83500     3.79941
+   11          N          -0.633442        5.6334     1.83497     3.79847
+   12          N          -0.634565        5.6346     1.83500     3.79956
+   13          N          -0.633446        5.6334     1.83497     3.79848
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.     0.001    -0.001    -0.000     0.001
+ HYBRID        -0.000     0.000     0.000     0.000
+ SUM            0.000    -0.000    -0.000     0.001
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+     Atom    s        px        py        pz      x^2-y^2     xz        z^2       yz        xy
+    1 Fe   0.53785   0.16232   0.15973   0.15977   1.46927   1.66491   0.85116   1.10072   0.91860
+    2  C   1.32634   0.89652   1.00100   0.80447
+    3  C   1.32624   0.79779   0.81869   1.08610
+    4  C   1.32636   1.00954   0.88135   0.81101
+    5  C   1.32635   0.89651   1.00101   0.80447
+    6  C   1.32624   0.79778   0.81870   1.08610
+    7  C   1.32636   1.00957   0.88131   0.81102
+    8  N   1.83500   1.27399   1.29235   1.23306
+    9  N   1.83500   1.28411   1.27036   1.24510
+   10  N   1.83500   1.27400   1.29235   1.23306
+   11  N   1.83497   1.27465   1.21950   1.30432
+   12  N   1.83500   1.28410   1.27036   1.24510
+   13  N   1.83497   1.27466   1.21950   1.30432
+
+
+                    (SZ)    =    0.500000
+                    (S**2)  =    0.774994
+
+
+          ATOMIC ORBITAL SPIN POPULATIONS
+
+    Atom   Total    s     px     py     pz   x^2-y^2  xz     z^2    yz     xy
+         Atomic
+    1 Fe  0.9173  0.020  0.005  0.009  0.009  0.155  0.014  0.068  0.613  0.024
+    2  C -0.0856 -0.008 -0.021 -0.013 -0.043
+    3  C -0.0873 -0.008 -0.015 -0.053 -0.010
+    4  C -0.0854 -0.008 -0.021 -0.022 -0.035
+    5  C -0.0856 -0.008 -0.021 -0.013 -0.043
+    6  C -0.0873 -0.008 -0.015 -0.053 -0.010
+    7  C -0.0854 -0.008 -0.021 -0.022 -0.035
+    8  N  0.0993  0.001  0.024  0.011  0.064
+    9  N  0.0990  0.001  0.023  0.025  0.049
+   10  N  0.0993  0.001  0.024  0.011  0.064
+   11  N  0.1014  0.001  0.014  0.082  0.004
+   12  N  0.0990  0.001  0.023  0.025  0.049
+   13  N  0.1014  0.001  0.014  0.082  0.004
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:            10.08 SECONDS
+
+ == MOPAC DONE ==
