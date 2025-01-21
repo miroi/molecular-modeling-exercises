@@ -1,0 +1,22 @@
+echo
+
+start molecule
+
+title "P atom"
+charge 0
+print low
+
+geometry units angstroms print xyz autosym
+   P        0.0            0.0            0.0 
+end
+
+basis
+  * library 6-31G*
+end
+
+dft
+  xc b3lyp
+  mult 4
+end
+
+task dft freq
