@@ -1,0 +1,10 @@
+ PRECISE LARGE CHARGE=0 SINGLET  PM7
+ozon, O3
+
+   O       -7.19858             1        -0.60057             1         0.00000             1 
+   O       -6.00862             1         0.04122             1         0.00000             1 
+   O       -4.97689             1        -0.83253             1         0.00000             1 
+
+OLDGEO CHARGE=0 SINGLET PRECISE PM7 THERMO 
+ozon, O3
+
